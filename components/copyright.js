@@ -48,7 +48,12 @@ const Copyright = (props) => {
           .copyright-text4 {
             text-decoration: underline;
           }
-
+          .copyright-root-class-name {
+            margin-top: 10px;
+            margin-left: 10px;
+            margin-right: 10px;
+            margin-bottom: 10px;
+          }
           @media (max-width: 991px) {
             .copyright-max-width {
               flex-direction: column;

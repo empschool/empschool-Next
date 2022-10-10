@@ -183,7 +183,13 @@ const Navbar = (props) => {
           .navbar-link {
             text-decoration: none;
           }
-
+          .navbar-root-class-name {
+            margin: 5px;
+            margin-top: 12px;
+            margin-left: 12px;
+            margin-right: 12px;
+            margin-bottom: 12px;
+          }
           @media (max-width: 991px) {
             .navbar-max-width {
               width: 862px;

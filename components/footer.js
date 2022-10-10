@@ -187,7 +187,12 @@ const Footer = (props) => {
           .footer-text15 {
             margin-bottom: 0px;
           }
-
+          .footer-root-class-name {
+            margin-top: 12px;
+            margin-left: 12px;
+            margin-right: 12px;
+            margin-bottom: 12px;
+          }
           @media (max-width: 991px) {
             .footer-max-width {
               flex-direction: column-reverse;

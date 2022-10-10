@@ -250,11 +250,12 @@ const Home = (props) => {
             width: 90%;
             font-size: 52px;
             font-style: normal;
+            margin-top: 12px;
             text-align: center;
             font-family: Lexend;
             font-weight: 600;
             line-height: 1.2;
-            margin-bottom: 42px;
+            margin-bottom: 12px;
             text-transform: none;
             text-decoration: none;
           }
@@ -275,8 +276,11 @@ const Home = (props) => {
             flex: 0 0 auto;
             width: 100%;
             display: flex;
+            margin-top: 12px;
             align-items: center;
-            margin-bottom: 20px;
+            margin-left: 12px;
+            margin-right: 12px;
+            margin-bottom: 12px;
             flex-direction: row;
           }
           .home-icon {
@@ -303,8 +307,12 @@ const Home = (props) => {
             border-right-width: 0px;
           }
           .home-text04 {
+            margin: 19px;
+            margin-top: 12px;
             text-align: center;
-            margin-bottom: var(--dl-space-space-fourunits);
+            margin-left: 12px;
+            margin-right: 12px;
+            margin-bottom: 12px;
           }
           .home-text06 {
             color: var(--dl-color-backgrounds-primary);
@@ -312,21 +320,25 @@ const Home = (props) => {
           .home-iframe {
             width: 714px;
             height: 440px;
-            margin-bottom: 22px;
+            margin-top: 12px;
+            margin-left: 12px;
+            margin-right: 12px;
+            margin-bottom: 12px;
           }
           .home-link {
             width: 212px;
             height: 88px;
             display: flex;
+            padding: 12p12x;
             font-size: 20px;
             transition: 0.3s;
             align-items: center;
             line-height: 1;
-            padding-top: 20px;
+            padding-top: 12px;
             white-space: nowrap;
-            padding-left: 32px;
-            padding-right: 32px;
-            padding-bottom: 20px;
+            padding-left: 12px;
+            padding-right: 12px;
+            padding-bottom: 12px;
             justify-content: center;
             text-decoration: none;
             background-color: var(--dl-color-grays-dark100);
@@ -348,8 +360,11 @@ const Home = (props) => {
             flex-direction: column;
           }
           .home-text10 {
+            margin-top: 19px;
             text-align: center;
-            margin-bottom: var(--dl-space-space-fourunits);
+            margin-left: 12px;
+            margin-right: 12px;
+            margin-bottom: 19px;
           }
           .home-text12 {
             color: var(--dl-color-backgrounds-primary);
@@ -361,6 +376,7 @@ const Home = (props) => {
           .home-text14 {
             color: var(--dl-color-grays-gray100);
             font-size: 22px;
+            text-align: center;
           }
           .home-link1 {
             height: 68px;
@@ -419,8 +435,11 @@ const Home = (props) => {
           }
           .home-text21 {
             width: 968px;
+            margin-top: 12px;
             text-align: center;
-            margin-bottom: var(--dl-space-space-halfunit);
+            margin-left: 12px;
+            margin-right: 12px;
+            margin-bottom: 12px;
           }
           .home-text23 {
             color: var(--dl-color-backgrounds-primary);
@@ -428,7 +447,11 @@ const Home = (props) => {
           .home-text24 {
             color: var(--dl-color-backgrounds-primary);
             font-size: 29px;
+            margin-top: 12px;
             font-weight: 400;
+            margin-left: 12px;
+            margin-right: 12px;
+            margin-bottom: 12px;
           }
           .home-text27 {
             font-size: 19px;
@@ -446,11 +469,11 @@ const Home = (props) => {
             transition: 0.3s;
             align-items: center;
             line-height: 1;
-            padding-top: 20px;
+            padding-top: 12px;
             white-space: nowrap;
-            padding-left: 32px;
-            padding-right: 32px;
-            padding-bottom: 20px;
+            padding-left: 12px;
+            padding-right: 12px;
+            padding-bottom: 12px;
             justify-content: center;
             text-decoration: none;
             background-color: var(--dl-color-grays-dark100);
@@ -476,22 +499,30 @@ const Home = (props) => {
             justify-content: center;
           }
           .home-text28 {
-            margin-bottom: var(--dl-space-space-halfunit);
+            margin-top: 12px;
+            margin-left: 12px;
+            margin-right: 12px;
+            margin-bottom: 12px;
           }
           .home-text30 {
             color: var(--dl-color-grays-white100);
           }
           .home-text31 {
             color: var(--dl-color-grays-white80);
-            margin-bottom: 36px;
+            margin-top: 12px;
+            margin-left: 12px;
+            margin-bottom: 12px;
           }
           .home-input-container {
             flex: 0 0 auto;
             width: 100%;
             height: 100px;
             display: flex;
+            margin-top: 12px;
             align-items: center;
-            margin-bottom: var(--dl-space-space-twounits);
+            margin-left: 12px;
+            margin-right: 12px;
+            margin-bottom: 12px;
             flex-direction: row;
             justify-content: center;
           }
@@ -518,6 +549,7 @@ const Home = (props) => {
           .home-features-container1 {
             flex: 0 0 auto;
             width: 100%;
+            margin: 12px;
             display: flex;
             align-items: flex-start;
             flex-direction: column;
@@ -595,6 +627,7 @@ const Home = (props) => {
           .home-image {
             width: 395px;
             height: 100%;
+            margin: 12px;
             object-fit: cover;
           }
           @media (max-width: 991px) {
@@ -641,6 +674,13 @@ const Home = (props) => {
             .home-icon {
               width: var(--dl-size-size-large);
               min-width: var(--dl-size-size-large);
+            }
+            .home-text03 {
+              color: var(--dl-color-grays-gray60);
+              font-size: 30px;
+              font-style: normal;
+              text-align: left;
+              font-weight: 700;
             }
             .home-text04 {
               margin-bottom: var(--dl-space-space-twounits);
@@ -707,32 +747,52 @@ const Home = (props) => {
           }
           @media (max-width: 479px) {
             .home-main {
+              height: 4949px;
               z-index: 100;
             }
             .home-hero {
               width: 308px;
             }
             .home-max-width {
-              width: 337px;
+              width: 334px;
+              height: 130px;
+            }
+            .home-content-container {
+              width: 394px;
+              height: 110px;
+              margin-top: 10px;
+              align-items: center;
+              margin-left: 0px;
+              margin-right: 10px;
+              margin-bottom: 10px;
+              justify-content: center;
             }
             .home-text {
-              width: 346px;
+              width: 455px;
+              height: 180px;
+              padding: 10px;
               font-size: 33px;
+              margin-left: 0px;
               margin-right: 0px;
-              padding-left: 0px;
-              padding-right: 0px;
+              padding-left: 114px;
             }
             .home-text02 {
               color: var(--dl-color-backgrounds-primary);
             }
+            .home-features-container {
+              width: 100%;
+              height: 96px;
+            }
             .home-feature {
               width: 258px;
+              height: 50%;
               margin-right: 136px;
               padding-left: 0px;
               padding-right: 170px;
             }
             .home-icon {
-              width: 113px;
+              width: 69px;
+              padding-left: var(--dl-space-space-unit);
               padding-right: 44px;
             }
             .home-text03 {
@@ -741,8 +801,12 @@ const Home = (props) => {
               font-style: normal;
               font-weight: 700;
             }
+            .home-section-one {
+              height: 691px;
+            }
             .home-text04 {
               width: 451px;
+              height: 177px;
               padding-right: 0px;
             }
             .home-text06 {

@@ -158,7 +158,12 @@ const Slide = (props) => {
           .slide-root-class-name1 {
             background-color: var(--dl-color-backgrounds-green);
           }
-
+          .slide-root-class-name2 {
+            margin-top: 12px;
+            margin-left: 12px;
+            margin-right: 12px;
+            margin-bottom: 12px;
+          }
           @media (max-width: 991px) {
             .slide-left-side {
               padding-right: var(--dl-space-space-oneandhalfunits);
