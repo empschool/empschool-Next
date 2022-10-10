@@ -579,6 +579,10 @@ const Home = (props) => {
             .home-text02 {
               color: var(--dl-color-backgrounds-primary);
             }
+            .home-iframe1 {
+              width: 100%;
+              height: 100%;
+            }
             .home-section-six {
               height: 848px;
             }
@@ -619,6 +623,10 @@ const Home = (props) => {
             .home-text03 {
               margin-bottom: var(--dl-space-space-twounits);
             }
+            .home-iframe {
+              width: 100%;
+              height: 100%;
+            }
             .home-section-one1 {
               height: 675px;
             }
@@ -626,8 +634,8 @@ const Home = (props) => {
               margin-bottom: var(--dl-space-space-twounits);
             }
             .home-iframe1 {
-              width: 694px;
-              height: 369px;
+              width: 100%;
+              height: 100%;
             }
             .home-section-four {
               height: 1152px;
@@ -740,8 +748,8 @@ const Home = (props) => {
               color: var(--dl-color-backgrounds-primary);
             }
             .home-iframe {
-              width: auto;
-              height: 340px;
+              width: 100%;
+              height: 100%;
             }
             .home-link {
               width: var(--dl-size-size-xlarge);
@@ -785,8 +793,8 @@ const Home = (props) => {
               text-decoration: none;
             }
             .home-iframe1 {
-              width: auto;
-              height: 323px;
+              width: 100%;
+              height: 100%;
             }
             .home-text13 {
               color: var(--dl-color-grays-gray100);

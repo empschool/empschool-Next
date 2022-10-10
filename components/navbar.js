@@ -236,7 +236,7 @@ const Navbar = (props) => {
               width: 100%;
             }
             .navbar-image {
-              width: var(--dl-size-size-large);
+              width: var(--dl-size-size-xxlarge);
               padding-top: 12px;
               padding-left: 12px;
               padding-right: 12px;
