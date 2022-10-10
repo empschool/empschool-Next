@@ -90,45 +90,44 @@ const Home = (props) => {
               <Slide rootClassName="slide-root-class-name2"></Slide>
             </div>
           </div>
-          <div className="section-container home-section-five">
-            <div className="home-heading-container">
-              <h2 className="home-text21 heading2">
-                <span>
-                  Se você também sonha em crescer sua empresa saiba que você não
-                  está 
-                </span>
-                <span className="home-text23">sozinho.</span>
-              </h2>
-              <span className="home-text24">
-                <span>Estamos disponíveis 8 horas por dia!</span>
-                <br className="content-Light"></br>
-              </span>
-              <span className="home-text27">
-                Entre em contato para solicitar uma análise detalhada do seu
-                negócio.
-              </span>
-              <a
-                href="https://empreendeschool.crisp.watch/pt-br/"
-                className="home-link2 button-primary button"
-              >
-                Chama nós
-              </a>
-            </div>
-          </div>
           <div className="home-section-six section-container">
             <div className="home-max-width2 max-content-container">
               <div className="home-content-container">
-                <h1 className="home-text28 heading2">
+                <h2 className="home-text21 heading2">
+                  <span>
+                    Se você também sonha em crescer sua empresa saiba que você
+                    não está 
+                  </span>
+                  <span className="home-text23">sozinho.</span>
+                </h2>
+                <span className="home-text24">
+                  <span>Estamos disponíveis 8 horas por dia!</span>
+                  <br className="content-Light"></br>
+                </span>
+                <div className="home-input-container">
+                  <Link href="/contratar">
+                    <a className="home-link2 button-primary button">
+                      Chamar nós
+                    </a>
+                  </Link>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div className="home-section-six1 section-container">
+            <div className="home-max-width3 max-content-container">
+              <div className="home-content-container1">
+                <h1 className="home-text27 heading2">
                   <span>Receba hoje! </span>
-                  <span className="home-text30">
+                  <span className="home-text29">
                     uma analise detalhada do negócio.
                   </span>
                 </h1>
-                <span className="home-text31 content-Light">
+                <span className="home-text30 content-Light">
                   Não importa o seu tamanho, será um prazer ter você como
                   parceiro
                 </span>
-                <div className="home-input-container">
+                <div className="home-input-container1">
                   <Link href="/contratar">
                     <a className="home-link3 button-primary button">Vamos lá</a>
                   </Link>
@@ -141,7 +140,7 @@ const Home = (props) => {
                     >
                       <path d="M733.714 419.429c0-9.714-3.429-19.429-10.286-26.286l-52-51.429c-6.857-6.857-16-10.857-25.714-10.857s-18.857 4-25.714 10.857l-233.143 232.571-129.143-129.143c-6.857-6.857-16-10.857-25.714-10.857s-18.857 4-25.714 10.857l-52 51.429c-6.857 6.857-10.286 16.571-10.286 26.286s3.429 18.857 10.286 25.714l206.857 206.857c6.857 6.857 16.571 10.857 25.714 10.857 9.714 0 19.429-4 26.286-10.857l310.286-310.286c6.857-6.857 10.286-16 10.286-25.714zM877.714 512c0 242.286-196.571 438.857-438.857 438.857s-438.857-196.571-438.857-438.857 196.571-438.857 438.857-438.857 438.857 196.571 438.857 438.857z"></path>
                     </svg>
-                    <span className="home-text32">
+                    <span className="home-text31">
                       Seus dados Protegido (LGPD). 
                     </span>
                   </div>
@@ -152,8 +151,8 @@ const Home = (props) => {
                     >
                       <path d="M733.714 419.429c0-9.714-3.429-19.429-10.286-26.286l-52-51.429c-6.857-6.857-16-10.857-25.714-10.857s-18.857 4-25.714 10.857l-233.143 232.571-129.143-129.143c-6.857-6.857-16-10.857-25.714-10.857s-18.857 4-25.714 10.857l-52 51.429c-6.857 6.857-10.286 16.571-10.286 26.286s3.429 18.857 10.286 25.714l206.857 206.857c6.857 6.857 16.571 10.857 25.714 10.857 9.714 0 19.429-4 26.286-10.857l310.286-310.286c6.857-6.857 10.286-16 10.286-25.714zM877.714 512c0 242.286-196.571 438.857-438.857 438.857s-438.857-196.571-438.857-438.857 196.571-438.857 438.857-438.857 438.857 196.571 438.857 438.857z"></path>
                     </svg>
-                    <span className="home-text33">
-                      <span className="home-text34">apenas 5 minutos</span>
+                    <span className="home-text32">
+                      <span className="home-text33">apenas 5 minutos</span>
                       <span> </span>
                     </span>
                   </div>
@@ -164,7 +163,7 @@ const Home = (props) => {
                     >
                       <path d="M733.714 419.429c0-9.714-3.429-19.429-10.286-26.286l-52-51.429c-6.857-6.857-16-10.857-25.714-10.857s-18.857 4-25.714 10.857l-233.143 232.571-129.143-129.143c-6.857-6.857-16-10.857-25.714-10.857s-18.857 4-25.714 10.857l-52 51.429c-6.857 6.857-10.286 16.571-10.286 26.286s3.429 18.857 10.286 25.714l206.857 206.857c6.857 6.857 16.571 10.857 25.714 10.857 9.714 0 19.429-4 26.286-10.857l310.286-310.286c6.857-6.857 10.286-16 10.286-25.714zM877.714 512c0 242.286-196.571 438.857-438.857 438.857s-438.857-196.571-438.857-438.857 196.571-438.857 438.857-438.857 438.857 196.571 438.857 438.857z"></path>
                     </svg>
-                    <span className="home-text36">
+                    <span className="home-text35">
                       ligamos pra vocÊ depois que Respoder tudo
                     </span>
                   </div>
@@ -373,11 +372,22 @@ const Home = (props) => {
             align-items: stretch;
             flex-direction: row;
           }
-          .home-heading-container {
+          .home-section-six {
+            padding-top: var(--dl-space-space-threeunits);
+            padding-bottom: 0px;
+            background-color: #ffffff;
+          }
+          .home-max-width2 {
+            height: 437px;
+            align-items: stretch;
+          }
+          .home-content-container {
+            flex: 1;
             display: flex;
-            align-items: center;
-            margin-bottom: var(--dl-space-space-twounits);
+            min-width: 60%;
+            align-items: flex-start;
             flex-direction: column;
+            justify-content: center;
           }
           .home-text21 {
             width: 968px;
@@ -393,26 +403,40 @@ const Home = (props) => {
           .home-text24 {
             color: var(--dl-color-backgrounds-primary);
             font-size: 29px;
+            align-self: center;
             margin-top: 12px;
+            text-align: center;
             font-weight: 400;
             margin-left: 12px;
             margin-right: 12px;
             margin-bottom: 12px;
           }
-          .home-text27 {
-            font-size: 19px;
-            font-weight: 400;
+          .home-input-container {
+            flex: 0 0 auto;
+            width: 100%;
+            height: 100px;
+            display: flex;
+            margin-top: 12px;
+            align-items: center;
+            margin-left: 12px;
+            margin-right: 12px;
+            margin-bottom: 12px;
+            flex-direction: row;
+            justify-content: center;
           }
           .home-link2 {
+            width: 191px;
+            height: 81px;
             display: flex;
+            font-size: 22px;
             transition: 0.3s;
             align-items: center;
             line-height: 1;
-            padding-top: 12px;
+            padding-top: 20px;
             white-space: nowrap;
-            padding-left: 12px;
-            padding-right: 12px;
-            padding-bottom: 12px;
+            padding-left: 32px;
+            padding-right: 32px;
+            padding-bottom: 20px;
             justify-content: center;
             text-decoration: none;
             background-color: var(--dl-color-grays-dark100);
@@ -420,16 +444,16 @@ const Home = (props) => {
           .home-link2:hover {
             background-color: var(--dl-color-grays-white100);
           }
-          .home-section-six {
+          .home-section-six1 {
             padding-top: var(--dl-space-space-threeunits);
             padding-bottom: 0px;
             background-color: var(--dl-color-backgrounds-primary);
           }
-          .home-max-width2 {
+          .home-max-width3 {
             height: 437px;
             align-items: stretch;
           }
-          .home-content-container {
+          .home-content-container1 {
             flex: 1;
             display: flex;
             min-width: 60%;
@@ -437,22 +461,22 @@ const Home = (props) => {
             flex-direction: column;
             justify-content: center;
           }
-          .home-text28 {
+          .home-text27 {
             margin-top: 12px;
             margin-left: 12px;
             margin-right: 12px;
             margin-bottom: 12px;
           }
-          .home-text30 {
+          .home-text29 {
             color: var(--dl-color-grays-white100);
           }
-          .home-text31 {
+          .home-text30 {
             color: var(--dl-color-grays-white80);
             margin-top: 12px;
             margin-left: 12px;
             margin-bottom: 12px;
           }
-          .home-input-container {
+          .home-input-container1 {
             flex: 0 0 auto;
             width: 100%;
             height: 100px;
@@ -508,7 +532,7 @@ const Home = (props) => {
             min-width: 17px;
             margin-right: 12px;
           }
-          .home-text32 {
+          .home-text31 {
             color: var(--dl-color-grays-white80);
             font-size: 14px;
             font-style: normal;
@@ -529,7 +553,7 @@ const Home = (props) => {
             min-width: 17px;
             margin-right: 12px;
           }
-          .home-text33 {
+          .home-text32 {
             color: var(--dl-color-grays-white80);
             font-size: 14px;
             font-style: normal;
@@ -549,7 +573,7 @@ const Home = (props) => {
             min-width: 17px;
             margin-right: 12px;
           }
-          .home-text36 {
+          .home-text35 {
             color: var(--dl-color-grays-white80);
             font-size: 14px;
             font-style: normal;
@@ -599,7 +623,13 @@ const Home = (props) => {
             .home-max-width2 {
               flex-direction: column;
             }
-            .home-text28 {
+            .home-section-six1 {
+              height: 848px;
+            }
+            .home-max-width3 {
+              flex-direction: column;
+            }
+            .home-text27 {
               width: 100%;
             }
             .home-image {
@@ -660,14 +690,6 @@ const Home = (props) => {
             .home-slider {
               height: 884px;
             }
-            .home-heading-container {
-              height: 466px;
-            }
-            .home-text21 {
-              width: 706px;
-              height: 156px;
-              margin-bottom: var(--dl-space-space-twounits);
-            }
             .home-section-six {
               height: 972px;
             }
@@ -675,22 +697,34 @@ const Home = (props) => {
               height: 803px;
               margin: 12px;
             }
-            .home-text32 {
+            .home-text21 {
+              width: 706px;
+              height: 156px;
+              margin-bottom: var(--dl-space-space-twounits);
+            }
+            .home-section-six1 {
+              height: 972px;
+            }
+            .home-max-width3 {
+              height: 803px;
+              margin: 12px;
+            }
+            .home-text31 {
               color: var(--dl-color-grays-white80);
               font-size: 19px;
               font-style: normal;
               font-weight: 400;
             }
-            .home-text33 {
+            .home-text32 {
               color: var(--dl-color-grays-white80);
               font-size: 14px;
               font-style: normal;
               font-weight: 400;
             }
-            .home-text34 {
+            .home-text33 {
               font-size: 19px;
             }
-            .home-text36 {
+            .home-text35 {
               color: var(--dl-color-grays-white80);
               font-size: 19px;
               font-style: normal;
@@ -842,18 +876,18 @@ const Home = (props) => {
               height: 953px;
               padding-bottom: 0px;
             }
-            .home-section-five {
+            .home-section-six {
               width: auto;
-              margin-top: 22px;
-              align-items: flex-start;
-              margin-bottom: 22px;
-              flex-direction: column;
-              padding-bottom: 0px;
-              justify-content: center;
+              height: 981px;
+              padding: 12px;
             }
-            .home-heading-container {
-              margin-top: 444px;
-              margin-bottom: 444px;
+            .home-max-width2 {
+              height: 881px;
+            }
+            .home-content-container {
+              height: 835px;
+              padding-top: 174px;
+              padding-bottom: var(--dl-space-space-halfunit);
             }
             .home-text21 {
               width: auto;
@@ -873,36 +907,27 @@ const Home = (props) => {
               font-weight: 400;
               margin-bottom: 10px;
             }
-            .home-text27 {
-              margin-top: 22px;
-              text-align: center;
-              margin-bottom: 22px;
+            .home-input-container {
+              flex-direction: column;
             }
             .home-link2 {
-              color: rgb(255, 255, 255);
-              width: auto;
-              height: auto;
-              font-size: 30px;
-              box-shadow: rgb(212, 212, 212) 5px 5px 10px 0px,
-                rgb(212, 212, 212) 5px 5px 10px 0px;
-              font-style: normal;
-              font-weight: 700;
+              font-size: 22px;
               line-height: 1;
               text-decoration: none;
-              background-color: rgb(250, 121, 48);
+              background-color: var(--dl-color-grays-dark100);
             }
-            .home-section-six {
+            .home-section-six1 {
               width: auto;
               height: 981px;
               padding: 12px;
             }
-            .home-max-width2 {
+            .home-max-width3 {
               height: 881px;
             }
-            .home-text30 {
+            .home-text29 {
               color: var(--dl-color-grays-white100);
             }
-            .home-input-container {
+            .home-input-container1 {
               flex-direction: column;
             }
             .home-link3 {
