@@ -132,7 +132,7 @@ const Home = (props) => {
                 </span>
                 <div className="home-input-container1">
                   <Link href="/contratar">
-                    <a className="home-link3 button-primary button">Vamos lá</a>
+                    <a className="home-link3 button-primary button">Começar</a>
                   </Link>
                 </div>
                 <div className="home-features-container">
