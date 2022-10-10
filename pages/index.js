@@ -712,6 +712,10 @@ const Home = (props) => {
             }
             .home-image {
               width: 100%;
+              margin-top: 12px;
+              margin-left: 12px;
+              margin-right: 12px;
+              margin-bottom: 12px;
             }
             .home-section-one {
               height: 679px;
