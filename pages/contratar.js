@@ -48,18 +48,18 @@ const Contratar = (props) => {
           }
           @media (max-width: 991px) {
             .contratar-iframe {
-              width: 976px;
+              width: 100%;
             }
           }
           @media (max-width: 767px) {
             .contratar-iframe {
-              width: 751px;
+              width: 100%;
             }
           }
           @media (max-width: 479px) {
             .contratar-iframe {
-              width: 463px;
-              height: 983px;
+              width: 100%;
+              height: var(--dl-size-size-maxwidth);
             }
           }
         `}
