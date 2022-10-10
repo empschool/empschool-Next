@@ -93,7 +93,9 @@ const Navbar = (props) => {
           .navbar-icon {
             width: var(--dl-size-size-xsmall);
             height: var(--dl-size-size-xsmall);
+            transition: 0.3s;
           }
+
           .navbar-nav1 {
             display: flex;
             align-items: flex-start;
