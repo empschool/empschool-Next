@@ -216,6 +216,7 @@ const Footer = (props) => {
           @media (max-width: 479px) {
             .footer-footer {
               height: 639px;
+              margin-top: 262px;
             }
             .footer-text01 {
               font-size: 18px;
@@ -246,8 +247,7 @@ const Footer = (props) => {
             }
             .footer-root-class-name {
               width: auto;
-              margin-top: 17px;
-              margin-bottom: 17px;
+              height: 100%;
             }
           }
         `}

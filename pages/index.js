@@ -93,7 +93,7 @@ const Home = (props) => {
           <div className="home-section-six section-container">
             <div className="home-max-width2 max-content-container">
               <div className="home-content-container">
-                <h2 className="home-text21 heading2">
+                <h2 className="home-text21">
                   <span>
                     Se você também sonha em crescer sua empresa saiba que você
                     não está 
@@ -102,7 +102,7 @@ const Home = (props) => {
                 </h2>
                 <span className="home-text24">
                   <span>Estamos disponíveis 8 horas por dia!</span>
-                  <br className="content-Light"></br>
+                  <br className="content-Light home-text26"></br>
                 </span>
                 <div className="home-input-container">
                   <Link href="/contratar">
@@ -759,8 +759,8 @@ const Home = (props) => {
               color: var(--dl-color-backgrounds-primary);
             }
             .home-feature {
-              width: 100%;
-              height: 50%;
+              width: auto;
+              height: auto;
               padding: 0px;
               position: relative;
               margin-top: 22px;
@@ -892,22 +892,39 @@ const Home = (props) => {
             .home-text21 {
               width: auto;
               height: 264px;
+              font-size: 30px;
+              font-style: normal;
               margin-top: 22px;
+              font-family: Lexend;
+              font-weight: 600;
+              line-height: 1.3;
               margin-bottom: 22px;
+              text-transform: none;
+              text-decoration: none;
             }
             .home-text23 {
               color: var(--dl-color-backgrounds-primary);
             }
             .home-text24 {
               color: var(--dl-color-backgrounds-primary);
-              font-size: 29px;
+              font-size: 21px;
               align-self: center;
               margin-top: 10px;
               text-align: center;
               font-weight: 400;
               margin-bottom: 10px;
             }
+            .home-text26 {
+              font-style: normal;
+              font-family: Lexend;
+              font-weight: 300;
+              line-height: 1.75;
+              text-transform: none;
+              text-decoration: none;
+            }
             .home-input-container {
+              width: auto;
+              align-self: center;
               flex-direction: column;
             }
             .home-link2 {
@@ -918,8 +935,8 @@ const Home = (props) => {
             }
             .home-section-six1 {
               width: auto;
-              height: 981px;
-              padding: 12px;
+              height: 100%;
+              padding: 33px;
             }
             .home-max-width3 {
               height: 881px;
@@ -934,8 +951,8 @@ const Home = (props) => {
               font-size: 25px;
             }
             .home-image {
-              width: auto;
-              height: 335px;
+              width: 100%;
+              height: auto;
               margin: 12px;
             }
           }
