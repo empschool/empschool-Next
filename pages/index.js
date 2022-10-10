@@ -50,29 +50,26 @@ const Home = (props) => {
             </div>
           </div>
           <div className="home-section-one section-container">
-            <div className="home-max-width1 max-content-container">
-              <h2 className="home-text04 heading2">
-                <span>entenda oque é </span>
-                <span className="home-text06">Marketing </span>
-                <span>full</span>
-                <br></br>
-                <span> em apenas 3 minutos</span>
-              </h2>
-            </div>
+            <h2 className="home-text04 heading2">
+              <span>entenda oque é </span>
+              <span className="home-text06">Marketing </span>
+              <span>full</span>
+              <br></br>
+              <span> em apenas 3 minutos</span>
+            </h2>
+            <iframe
+              src="https://www.youtube.com/embed/DeQkMK5LME4"
+              className="home-iframe"
+            ></iframe>
+            <a
+              href="https://frandigital2.wistia.com/medias/h509o0kknc?embed_tab=media_options_embed_modal#"
+              className="home-link button-primary button"
+            >
+              Clique aqui
+            </a>
           </div>
-          <video
-            src="alert-success"
-            poster="/playground_assets/capatrafego-700w.webp"
-            className="home-video"
-          ></video>
-          <a
-            href="https://frandigital2.wistia.com/medias/h509o0kknc?embed_tab=media_options_embed_modal#"
-            className="home-link button-primary button"
-          >
-            Clique aqui
-          </a>
           <div className="home-section-one1 section-container">
-            <div className="home-max-width2 max-content-container">
+            <div className="home-max-width1 max-content-container">
               <h2 className="home-text10">
                 <span className="heading2">Sócio e investidor para seu </span>
                 <span className="home-text12 heading2">negócio</span>
@@ -80,7 +77,7 @@ const Home = (props) => {
               </h2>
               <iframe
                 src="https://fast.wistia.com/embed/medias/h509o0kknc"
-                className="home-iframe"
+                className="home-iframe1"
               ></iframe>
             </div>
             <span className="home-text14">
@@ -99,7 +96,7 @@ const Home = (props) => {
               <span className="home-text19">sonhos.</span>
               <span className="home-text20"></span>
             </h2>
-            <div className="home-max-width3 max-content-container"></div>
+            <div className="home-max-width2 max-content-container"></div>
             <div data-type="slider" className="home-slider">
               <Slide></Slide>
               <Slide
@@ -120,7 +117,7 @@ const Home = (props) => {
             </div>
           </div>
           <div className="section-container">
-            <div className="home-max-width4 max-content-container">
+            <div className="home-max-width3 max-content-container">
               <div className="home-heading-container">
                 <h2 className="home-text21 heading2">
                   <span>
@@ -149,7 +146,7 @@ const Home = (props) => {
             </div>
           </div>
           <div className="home-section-six section-container">
-            <div className="home-max-width5 max-content-container">
+            <div className="home-max-width4 max-content-container">
               <div className="home-content-container1">
                 <h1 className="home-text28 heading2">
                   <span>Receba hoje! </span>
@@ -289,17 +286,13 @@ const Home = (props) => {
             font-weight: 700;
           }
           .home-section-one {
-            height: 260px;
+            height: 793px;
             border-color: rgba(33, 33, 33, 0.1);
             border-width: 1px;
             padding-bottom: 44px;
             border-top-width: 0px;
             border-left-width: 0px;
             border-right-width: 0px;
-          }
-          .home-max-width1 {
-            height: 572px;
-            flex-direction: column;
           }
           .home-text04 {
             text-align: center;
@@ -308,10 +301,9 @@ const Home = (props) => {
           .home-text06 {
             color: var(--dl-color-backgrounds-primary);
           }
-          .home-video {
-            width: 698px;
-            height: 327px;
-            margin-top: var(--dl-space-space-unit);
+          .home-iframe {
+            width: 714px;
+            height: 440px;
             margin-bottom: 22px;
           }
           .home-link {
@@ -335,6 +327,7 @@ const Home = (props) => {
             background-color: var(--dl-color-grays-white100);
           }
           .home-section-one1 {
+            height: 773px;
             border-color: rgba(33, 33, 33, 0.1);
             border-width: 1px;
             padding-bottom: 44px;
@@ -342,7 +335,7 @@ const Home = (props) => {
             border-left-width: 0px;
             border-right-width: 0px;
           }
-          .home-max-width2 {
+          .home-max-width1 {
             height: 572px;
             flex-direction: column;
           }
@@ -353,7 +346,7 @@ const Home = (props) => {
           .home-text12 {
             color: var(--dl-color-backgrounds-primary);
           }
-          .home-iframe {
+          .home-iframe1 {
             width: 782px;
             height: 411px;
           }
@@ -394,7 +387,7 @@ const Home = (props) => {
           .home-text20 {
             color: transparent;
           }
-          .home-max-width3 {
+          .home-max-width2 {
             border: 2px dashed rgba(120, 120, 120, 0.4);
             flex-direction: column;
           }
@@ -406,7 +399,7 @@ const Home = (props) => {
             align-items: stretch;
             flex-direction: row;
           }
-          .home-max-width4 {
+          .home-max-width3 {
             flex-direction: column;
             justify-content: center;
           }
@@ -471,7 +464,7 @@ const Home = (props) => {
             padding-bottom: 0px;
             background-color: var(--dl-color-backgrounds-primary);
           }
-          .home-max-width5 {
+          .home-max-width4 {
             height: 437px;
             align-items: stretch;
           }
@@ -616,7 +609,7 @@ const Home = (props) => {
             .home-text {
               width: 100%;
             }
-            .home-max-width5 {
+            .home-max-width4 {
               flex-direction: column;
             }
             .home-text28 {
