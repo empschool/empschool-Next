@@ -28,10 +28,10 @@ const Home = (props) => {
         </Head>
         <Navbar rootClassName="navbar-root-class-name"></Navbar>
         <main className="home-main">
-          <div className="section-container">
+          <div className="section-container home-hero">
             <div className="home-max-width max-content-container">
               <div className="home-content-container">
-                <h1 className="home-text heading1">
+                <h1 className="home-text">
                   <span>Marketing &amp; inteligência para </span>
                   <span className="home-text02">negócios</span>
                 </h1>
@@ -248,10 +248,15 @@ const Home = (props) => {
           }
           .home-text {
             width: 90%;
+            font-size: 52px;
+            font-style: normal;
             text-align: center;
-            margin-right: 170px;
-            padding-left: 179px;
+            font-family: Lexend;
+            font-weight: 600;
+            line-height: 1.2;
             margin-bottom: 42px;
+            text-transform: none;
+            text-decoration: none;
           }
           .home-text02 {
             color: var(--dl-color-backgrounds-primary);
@@ -601,10 +606,6 @@ const Home = (props) => {
               margin-bottom: 42px;
               padding-right: 312px;
             }
-            .home-text {
-              width: 914px;
-              padding-left: 0px;
-            }
             .home-text02 {
               color: var(--dl-color-backgrounds-primary);
             }
@@ -634,11 +635,6 @@ const Home = (props) => {
             }
           }
           @media (max-width: 767px) {
-            .home-text {
-              width: 766px;
-              padding-left: 0px;
-              padding-right: 91px;
-            }
             .home-feature {
               padding-left: 165px;
             }
@@ -713,23 +709,37 @@ const Home = (props) => {
             .home-main {
               z-index: 100;
             }
+            .home-hero {
+              width: 308px;
+            }
             .home-max-width {
-              width: 455px;
+              width: 337px;
             }
             .home-text {
-              width: 429px;
+              width: 346px;
+              font-size: 33px;
+              margin-right: 0px;
+              padding-left: 0px;
+              padding-right: 0px;
             }
             .home-text02 {
               color: var(--dl-color-backgrounds-primary);
             }
             .home-feature {
-              width: 479px;
+              width: 258px;
               margin-right: 136px;
               padding-left: 0px;
               padding-right: 170px;
             }
+            .home-icon {
+              width: 113px;
+              padding-right: 44px;
+            }
             .home-text03 {
               color: var(--dl-color-grays-gray60);
+              font-size: 30px;
+              font-style: normal;
+              font-weight: 700;
             }
             .home-text04 {
               width: 451px;
