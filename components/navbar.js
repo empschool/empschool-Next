@@ -197,6 +197,7 @@ const Navbar = (props) => {
             }
             .navbar-link {
               padding: 12px;
+              text-align: center;
               padding-top: 10px;
               padding-left: 10px;
               padding-right: 12px;

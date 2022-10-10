@@ -152,12 +152,6 @@ const Slide = (props) => {
             letter-spacing: 1px;
             text-transform: uppercase;
           }
-          .slide-root-class-name {
-            background-color: var(--dl-color-backgrounds-purple);
-          }
-          .slide-root-class-name1 {
-            background-color: var(--dl-color-backgrounds-green);
-          }
           .slide-root-class-name2 {
             margin-top: 12px;
             margin-left: 12px;
@@ -205,7 +199,7 @@ const Slide = (props) => {
               height: 337px;
             }
             .slide-root-class-name2 {
-              margin-bottom: 10px;
+              margin: 12px;
             }
           }
         `}
