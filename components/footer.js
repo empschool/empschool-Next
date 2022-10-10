@@ -5,12 +5,14 @@ import PropTypes from 'prop-types'
 const Footer = (props) => {
   return (
     <>
-      <footer className="footer-footer section-container">
+      <footer
+        className={`footer-footer section-container ${props.rootClassName} `}
+      >
         <div className="footer-max-width max-content-container">
           <div className="footer-container">
             <img
               alt="image"
-              src="/playground_assets/slice%202%20%5B1%5D-500h.png"
+              src="/playground_assets/slice%202%20%5B1%5D-600h.png"
               className="footer-image"
             />
             <span className="footer-text">{props.papel}</span>
@@ -185,6 +187,7 @@ const Footer = (props) => {
           .footer-text15 {
             margin-bottom: 0px;
           }
+
           @media (max-width: 991px) {
             .footer-max-width {
               flex-direction: column-reverse;
@@ -197,7 +200,18 @@ const Footer = (props) => {
               margin-bottom: var(--dl-space-space-threeunits);
             }
           }
+          @media (max-width: 767px) {
+            .footer-footer {
+              height: 622px;
+            }
+            .footer-max-width {
+              height: 581px;
+            }
+          }
           @media (max-width: 479px) {
+            .footer-footer {
+              height: 930px;
+            }
             .footer-text01 {
               font-size: 18px;
               font-style: normal;
@@ -225,6 +239,10 @@ const Footer = (props) => {
               font-weight: 600;
               margin-bottom: var(--dl-space-space-twounits);
             }
+            .footer-root-class-name {
+              margin-top: 17px;
+              margin-bottom: 17px;
+            }
           }
         `}
       </style>
@@ -233,11 +251,13 @@ const Footer = (props) => {
 }
 
 Footer.defaultProps = {
+  rootClassName: '',
   papel:
     'Nosso papel aqui é te acompanhar nessa jornada criando um mapa em direção ao sucesso',
 }
 
 Footer.propTypes = {
+  rootClassName: PropTypes.string,
   papel: PropTypes.string,
 }
 

@@ -158,6 +158,7 @@ const Slide = (props) => {
           .slide-root-class-name1 {
             background-color: var(--dl-color-backgrounds-green);
           }
+
           @media (max-width: 991px) {
             .slide-left-side {
               padding-right: var(--dl-space-space-oneandhalfunits);
@@ -179,6 +180,10 @@ const Slide = (props) => {
             }
           }
           @media (max-width: 479px) {
+            .slide-slide {
+              margin-top: 22px;
+              margin-bottom: 17px;
+            }
             .slide-dots {
               width: 60px;
               height: 60px;
@@ -190,6 +195,12 @@ const Slide = (props) => {
             .slide-orange {
               width: 75px;
               height: 75px;
+            }
+            .slide-right-side {
+              height: 337px;
+            }
+            .slide-root-class-name2 {
+              margin-bottom: 10px;
             }
           }
         `}

@@ -8,8 +8,11 @@ import NavigationLinks from './navigation-links'
 const Navbar = (props) => {
   return (
     <>
-      <div className="navbar-navbar-container">
-        <header data-role="Header" className="navigation-container">
+      <div className={`navbar-navbar-container ${props.rootClassName} `}>
+        <header
+          data-role="Header"
+          className="navigation-container navbar-max-width"
+        >
           <img
             alt={props.image_alt}
             src={props.image_src}
@@ -178,12 +181,34 @@ const Navbar = (props) => {
           .navbar-link {
             text-decoration: none;
           }
+
+          @media (max-width: 991px) {
+            .navbar-max-width {
+              width: 862px;
+              padding-right: 0px;
+            }
+            .navbar-root-class-name {
+              align-self: flex-start;
+            }
+          }
           @media (max-width: 767px) {
+            .navbar-max-width {
+              width: 744px;
+              padding-left: 21px;
+            }
+            .navbar-image {
+              padding-left: var(--dl-space-space-threeunits);
+            }
             .navbar-nav {
               display: none;
             }
             .navbar-link {
               display: none;
+            }
+          }
+          @media (max-width: 479px) {
+            .navbar-max-width {
+              width: 100%;
             }
           }
         `}
@@ -196,6 +221,7 @@ Navbar.defaultProps = {
   image_src: '/playground_assets/slice%202%20%5B1%5D-200h.png',
   image_src1: '/playground_assets/logo-1500h.png',
   image_alt: 'logo',
+  rootClassName: '',
   image_alt1: 'image',
   text: 'Follow us',
   PrimaryBtn: 'Quero Contratar',
@@ -206,6 +232,7 @@ Navbar.propTypes = {
   image_src: PropTypes.string,
   image_src1: PropTypes.string,
   image_alt: PropTypes.string,
+  rootClassName: PropTypes.string,
   image_alt1: PropTypes.string,
   text: PropTypes.string,
   PrimaryBtn: PropTypes.string,

@@ -16,9 +16,6 @@ const NavigationLinks = (props) => {
         <span className="navigation-links-text3 navbar-link">
           {props.text3}
         </span>
-        <span className="navigation-links-text4 navbar-link">
-          {props.text4}
-        </span>
       </nav>
       <style jsx>
         {`
@@ -35,9 +32,6 @@ const NavigationLinks = (props) => {
             margin-left: var(--dl-space-space-twounits);
           }
           .navigation-links-text3 {
-            margin-left: var(--dl-space-space-twounits);
-          }
-          .navigation-links-text4 {
             margin-left: var(--dl-space-space-twounits);
           }
 
@@ -58,10 +52,6 @@ const NavigationLinks = (props) => {
               margin-left: 0;
               margin-bottom: var(--dl-space-space-unit);
             }
-            .navigation-links-text4 {
-              margin-left: 0;
-              margin-bottom: var(--dl-space-space-unit);
-            }
           }
           @media (max-width: 479px) {
             .navigation-links-nav {
@@ -78,7 +68,6 @@ NavigationLinks.defaultProps = {
   text2: 'Fale conosco',
   text3: 'Blog',
   rootClassName: '',
-  text4: 'Oque fazemos',
   text: 'Home',
   text1: 'Quem somos',
 }
@@ -87,7 +76,6 @@ NavigationLinks.propTypes = {
   text2: PropTypes.string,
   text3: PropTypes.string,
   rootClassName: PropTypes.string,
-  text4: PropTypes.string,
   text: PropTypes.string,
   text1: PropTypes.string,
 }

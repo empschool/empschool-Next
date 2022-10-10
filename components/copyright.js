@@ -1,9 +1,11 @@
 import React from 'react'
 
+import PropTypes from 'prop-types'
+
 const Copyright = (props) => {
   return (
     <>
-      <div className="copyright-copyright">
+      <div className={`copyright-copyright ${props.rootClassName} `}>
         <div className="copyright-max-width max-content-container">
           <span className="copyright-text">
             <span>© todos os direitos reservados </span>
@@ -46,15 +48,30 @@ const Copyright = (props) => {
           .copyright-text4 {
             text-decoration: underline;
           }
+
           @media (max-width: 991px) {
             .copyright-max-width {
               flex-direction: column;
+            }
+          }
+          @media (max-width: 479px) {
+            .copyright-root-class-name {
+              margin-top: 18px;
+              margin-bottom: 18px;
             }
           }
         `}
       </style>
     </>
   )
+}
+
+Copyright.defaultProps = {
+  rootClassName: '',
+}
+
+Copyright.propTypes = {
+  rootClassName: PropTypes.string,
 }
 
 export default Copyright
