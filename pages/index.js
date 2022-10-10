@@ -372,7 +372,8 @@ const Home = (props) => {
             justify-content: center;
           }
           .home-text20 {
-            width: 968px;
+            width: 676px;
+            align-self: center;
             margin-top: 12px;
             text-align: center;
             margin-left: 12px;
