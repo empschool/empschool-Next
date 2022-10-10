@@ -47,6 +47,7 @@ const Home = (props) => {
             </h2>
             <iframe
               src="https://www.youtube.com/embed/DeQkMK5LME4"
+              allowFullScreen
               className="home-iframe"
             ></iframe>
             <a
@@ -67,6 +68,7 @@ const Home = (props) => {
               </h2>
               <iframe
                 src="https://fast.wistia.com/embed/medias/h509o0kknc"
+                allowFullScreen
                 className="home-iframe1"
               ></iframe>
             </div>
@@ -750,7 +752,7 @@ const Home = (props) => {
             }
             .home-iframe {
               width: 100%;
-              height: 270px;
+              height: 100%;
             }
             .home-link {
               width: var(--dl-size-size-xlarge);
@@ -761,14 +763,16 @@ const Home = (props) => {
               background-color: var(--dl-color-grays-dark100);
             }
             .home-section-one1 {
-              height: 666px;
+              height: 524px;
+              border-radius: var(--dl-radius-radius-radius4);
+              border-left-width: 0px;
             }
             .home-max-width {
-              height: 531px;
+              height: 367px;
               margin-top: 5px;
               margin-left: 5px;
               margin-right: 5px;
-              margin-bottom: 5px;
+              margin-bottom: 0px;
             }
             .home-text09 {
               width: auto;
@@ -795,8 +799,8 @@ const Home = (props) => {
             }
             .home-iframe1 {
               width: 100%;
-              height: 336px;
-              padding-top: 6px;
+              height: 100%;
+              padding-top: 5px;
             }
             .home-text13 {
               color: var(--dl-color-grays-gray100);
