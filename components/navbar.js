@@ -221,6 +221,12 @@ const Navbar = (props) => {
             .navbar-nav {
               display: none;
             }
+            .navbar-icon {
+              margin-top: 12px;
+              margin-left: 12px;
+              margin-right: 12px;
+              margin-bottom: 12px;
+            }
             .navbar-link {
               display: none;
             }
@@ -230,7 +236,7 @@ const Navbar = (props) => {
               width: 100%;
             }
             .navbar-image {
-              width: var(--dl-size-size-xxlarge);
+              width: var(--dl-size-size-large);
               padding-top: 12px;
               padding-left: 12px;
               padding-right: 12px;

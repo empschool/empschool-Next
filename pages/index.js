@@ -33,7 +33,7 @@ const Home = (props) => {
         </h1>
         <main className="home-main">
           <img
-            src="/playground_assets/logo%20%5B6%5D-200h.png"
+            src="/playground_assets/let-1500w.png"
             alt="image"
             className="home-image"
           />
@@ -81,7 +81,7 @@ const Home = (props) => {
             </a>
           </Link>
           <div className="home-section-four section-container">
-            <h2 className="home-text16">
+            <h2 className="home-text16 heading2">
               <span>Nunca desista dos seus </span>
               <span className="home-text18">sonhos.</span>
               <span className="home-text19"></span>
@@ -794,7 +794,7 @@ const Home = (props) => {
             .home-link1 {
               width: auto;
               height: 74px;
-              font-size: 25px;
+              font-size: 22px;
               margin-top: 12px;
               line-height: 1;
               margin-left: 12px;
@@ -804,7 +804,7 @@ const Home = (props) => {
               background-color: var(--dl-color-grays-dark100);
             }
             .home-section-four {
-              height: 696px;
+              height: 1244px;
             }
             .home-text16 {
               font-size: 30px;
@@ -816,32 +816,29 @@ const Home = (props) => {
               text-transform: none;
               text-decoration: none;
             }
-            .home-text18 {
-              color: var(--dl-color-backgrounds-primary);
-            }
-            .home-text19 {
-              color: transparent;
-            }
             .home-slider {
               height: 953px;
               padding-bottom: 0px;
             }
             .home-section-six {
               width: auto;
-              height: 981px;
+              height: 683px;
               padding: 12px;
+              padding-top: 0px;
             }
             .home-max-width2 {
-              height: 881px;
+              height: 659px;
+              margin-bottom: 0px;
             }
             .home-content-container {
-              height: 835px;
+              width: auto;
+              height: 568px;
               padding-top: 174px;
               padding-bottom: var(--dl-space-space-halfunit);
             }
             .home-text20 {
               width: auto;
-              height: 264px;
+              height: 100%;
               font-size: 30px;
               font-style: normal;
               margin-top: 22px;

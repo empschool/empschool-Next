@@ -180,8 +180,14 @@ const Slide = (props) => {
           }
           @media (max-width: 479px) {
             .slide-slide {
+              height: 994px;
               margin-top: 22px;
               margin-bottom: 17px;
+              padding-bottom: 46px;
+            }
+            .slide-max-width {
+              height: 915px;
+              margin-bottom: 159px;
             }
             .slide-dots {
               width: 60px;
