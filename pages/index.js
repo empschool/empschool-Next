@@ -207,7 +207,7 @@ const Home = (props) => {
             line-height: 1.2;
             margin-left: 12px;
             margin-right: 12px;
-            padding-left: 179px;
+            padding-left: 99px;
             margin-bottom: 12px;
             text-transform: none;
             text-decoration: none;
@@ -725,23 +725,23 @@ const Home = (props) => {
               color: var(--dl-color-backgrounds-primary);
             }
             .home-feature {
-              width: auto;
+              width: 100%;
               height: 50%;
+              padding: 0px;
               position: relative;
               margin-top: 22px;
-              align-items: center;
               margin-right: 12px;
-              padding-left: 0px;
-              padding-right: 156px;
+              justify-content: center;
             }
             .home-icon {
-              width: 271px;
+              width: auto;
               height: 61px;
               margin: 1px;
               min-width: var(--dl-size-size-medium);
               align-self: center;
-              padding-left: 124px;
-              padding-right: var(--dl-space-space-oneandhalfunits);
+              padding-top: var(--dl-space-space-unit);
+              padding-left: 0px;
+              padding-right: 0px;
             }
             .home-text03 {
               color: var(--dl-color-grays-gray60);
@@ -783,8 +783,9 @@ const Home = (props) => {
               height: 340px;
             }
             .home-link {
-              height: 50px;
-              font-size: 20px;
+              width: var(--dl-size-size-xlarge);
+              height: auto;
+              font-size: 30px;
               line-height: 1;
               text-decoration: none;
               background-color: var(--dl-color-grays-dark100);
@@ -816,7 +817,7 @@ const Home = (props) => {
             .home-link1 {
               width: auto;
               height: 74px;
-              font-size: 20px;
+              font-size: 25px;
               margin-top: 12px;
               line-height: 1;
               margin-left: 12px;
@@ -879,9 +880,9 @@ const Home = (props) => {
             }
             .home-link2 {
               color: rgb(255, 255, 255);
-              width: 207px;
-              height: 77px;
-              font-size: 22px;
+              width: auto;
+              height: auto;
+              font-size: 30px;
               box-shadow: rgb(212, 212, 212) 5px 5px 10px 0px,
                 rgb(212, 212, 212) 5px 5px 10px 0px;
               font-style: normal;
@@ -903,6 +904,9 @@ const Home = (props) => {
             }
             .home-input-container {
               flex-direction: column;
+            }
+            .home-link3 {
+              font-size: 25px;
             }
             .home-image {
               width: auto;
