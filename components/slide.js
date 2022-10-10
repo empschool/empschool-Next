@@ -43,7 +43,7 @@ const Slide = (props) => {
             align-items: stretch;
             flex-direction: row;
             justify-content: center;
-            background-color: var(--dl-color-backgrounds-darkblue);
+            background-color: #151618;
           }
           .slide-max-width {
             align-items: stretch;
@@ -85,7 +85,7 @@ const Slide = (props) => {
             display: flex;
             align-items: flex-start;
             flex-direction: column;
-            background-color: #191e1f;
+            background-color: #ffffff;
           }
           .slide-orange {
             flex: 0 0 auto;
