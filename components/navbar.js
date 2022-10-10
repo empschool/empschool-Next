@@ -195,6 +195,13 @@ const Navbar = (props) => {
               width: 862px;
               padding-right: 0px;
             }
+            .navbar-link {
+              padding: 12px;
+              padding-top: 10px;
+              padding-left: 10px;
+              padding-right: 12px;
+              padding-bottom: 10px;
+            }
             .navbar-root-class-name {
               align-self: flex-start;
             }
@@ -217,6 +224,19 @@ const Navbar = (props) => {
           @media (max-width: 479px) {
             .navbar-max-width {
               width: 100%;
+            }
+            .navbar-image {
+              width: var(--dl-size-size-xlarge);
+              padding-top: 12px;
+              padding-left: 12px;
+              padding-right: 12px;
+              padding-bottom: 12px;
+            }
+            .navbar-icon {
+              margin-top: 12px;
+              margin-left: 12px;
+              margin-right: 12px;
+              margin-bottom: 12px;
             }
           }
         `}
