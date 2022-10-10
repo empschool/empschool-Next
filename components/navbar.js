@@ -234,22 +234,29 @@ const Navbar = (props) => {
           @media (max-width: 479px) {
             .navbar-max-width {
               width: 100%;
+              justify-content: center;
             }
             .navbar-image {
-              width: var(--dl-size-size-xxlarge);
+              width: var(--dl-size-size-xlarge);
               padding-top: 12px;
               padding-left: 12px;
               padding-right: 12px;
               padding-bottom: 12px;
             }
             .navbar-burger-menu {
+              width: 50%;
+              height: 54px;
               margin: 12px;
             }
             .navbar-icon {
+              margin: 30px;
               margin-top: 12px;
               margin-left: 12px;
               margin-right: 12px;
               margin-bottom: 12px;
+            }
+            .navbar-root-class-name {
+              margin: 0px;
             }
           }
         `}
