@@ -28,7 +28,6 @@ const Slide = (props) => {
                 src={props.image_src}
                 className="slide-image"
               />
-              <div className="slide-slider-controls"></div>
             </div>
           </div>
           <div className="slide-right-side">
@@ -107,16 +106,6 @@ const Slide = (props) => {
             width: 100%;
             height: 485px;
             object-fit: cover;
-          }
-          .slide-slider-controls {
-            flex: 0 0 auto;
-            width: 100%;
-            border: 2px dashed rgba(120, 120, 120, 0.4);
-            height: 100px;
-            display: flex;
-            align-items: stretch;
-            flex-direction: row;
-            justify-content: flex-end;
           }
           .slide-right-side {
             flex: 0 0 auto;
@@ -200,6 +189,12 @@ const Slide = (props) => {
             .slide-orange {
               width: 75px;
               height: 75px;
+            }
+            .slide-image {
+              margin-top: 10px;
+              margin-left: 10px;
+              margin-right: 10px;
+              margin-bottom: 10px;
             }
             .slide-right-side {
               height: 337px;

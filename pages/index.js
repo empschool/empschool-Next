@@ -750,7 +750,7 @@ const Home = (props) => {
             }
             .home-iframe {
               width: 100%;
-              height: 100%;
+              height: 270px;
             }
             .home-link {
               width: var(--dl-size-size-xlarge);
@@ -795,7 +795,8 @@ const Home = (props) => {
             }
             .home-iframe1 {
               width: 100%;
-              height: 100%;
+              height: 336px;
+              padding-top: 6px;
             }
             .home-text13 {
               color: var(--dl-color-grays-gray100);
