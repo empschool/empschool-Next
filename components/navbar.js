@@ -108,10 +108,10 @@ const Navbar = (props) => {
             margin: auto;
           }
           .navbar-menu-close {
-            width: var(--dl-size-size-small);
-            height: var(--dl-size-size-small);
+            width: var(--dl-size-size-large);
+            height: var(--dl-size-size-large);
             display: none;
-            align-self: center;
+            align-self: flex-start;
             align-items: center;
             justify-content: center;
           }
@@ -222,11 +222,11 @@ const Navbar = (props) => {
               padding-right: 0px;
             }
             .navbar-menu-close {
-              width: var(--dl-size-size-small);
-              height: var(--dl-size-size-small);
+              width: var(--dl-size-size-large);
+              height: var(--dl-size-size-large);
               display: flex;
               align-items: center;
-              justify-content: center;
+              justify-content: flex-start;
             }
             .navbar-image1 {
               align-self: center;
@@ -269,11 +269,11 @@ const Navbar = (props) => {
               margin-bottom: 12px;
             }
             .navbar-menu-close {
-              width: var(--dl-size-size-small);
-              height: var(--dl-size-size-small);
+              width: var(--dl-size-size-large);
+              height: var(--dl-size-size-large);
               display: flex;
               align-items: center;
-              justify-content: center;
+              justify-content: flex-start;
             }
             .navbar-image1 {
               display: flex;
@@ -309,11 +309,11 @@ const Navbar = (props) => {
               margin-bottom: 4px;
             }
             .navbar-menu-close {
-              width: var(--dl-size-size-small);
-              height: var(--dl-size-size-small);
+              width: var(--dl-size-size-large);
+              height: var(--dl-size-size-large);
               display: flex;
               align-items: center;
-              justify-content: center;
+              justify-content: flex-start;
             }
             .navbar-image1 {
               display: flex;
