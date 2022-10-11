@@ -123,7 +123,7 @@ const Navbar = (props) => {
             justify-content: center;
           }
           .navbar-image1 {
-            width: 106px;
+            width: var(--dl-size-size-xxlarge);
             align-self: center;
           }
           .navbar-menu-close {
