@@ -118,7 +118,7 @@ const Navbar = (props) => {
             justify-content: center;
           }
           .navbar-image1 {
-            width: 100px;
+            width: var(--dl-size-size-small);
             object-fit: cover;
           }
           .navbar-nav1 {
