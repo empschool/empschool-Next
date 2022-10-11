@@ -14,7 +14,7 @@ const Navbar = (props) => {
           className="navigation-container navbar-max-width"
         >
           <img
-            src="/playground_assets/start%20%5B1%5D-1500h.png"
+            src="/playground_assets/start%20%5B1%5D-200h.png"
             alt={props.image_src}
             className="navbar-image"
           />
@@ -37,7 +37,7 @@ const Navbar = (props) => {
               <div className="navbar-container">
                 <img
                   alt="image"
-                  src="/playground_assets/start%20%5B1%5D-1500h.png"
+                  src="/playground_assets/start%20%5B2%5D-1500h.png"
                   className="navbar-image1"
                 />
                 <div data-type="CloseMobileMenu" className="navbar-menu-close">
@@ -296,7 +296,7 @@ const Navbar = (props) => {
 }
 
 Navbar.defaultProps = {
-  image_src: '/playground_assets/start%20%5B1%5D-1500h.png',
+  image_src: '/playground_assets/start%20%5B1%5D-200h.png',
   image_src1: '769fe947-8f32-4db1-86f9-a7f12826012f',
   image_alt: 'logo',
   rootClassName: '',
