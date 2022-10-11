@@ -269,7 +269,7 @@ Navbar.defaultProps = {
   image_alt: 'logo',
   rootClassName: '',
   image_alt1: 'image',
-  text: 'Follow us',
+  text: 'Segue nós',
   PrimaryBtn: 'Quero Contratar',
   PrimaryBtn1: 'Vamos conversar',
 }
