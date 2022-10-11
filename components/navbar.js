@@ -11,7 +11,7 @@ const Navbar = (props) => {
       <div className={`navbar-navbar-container ${props.rootClassName} `}>
         <header
           data-role="Header"
-          className="navigation-container navbar-max-width"
+          className="navbar-max-width navigation-container"
         >
           <img
             src="/playground_assets/start%20%5B1%5D-200h.png"
@@ -91,6 +91,12 @@ const Navbar = (props) => {
             align-items: center;
             flex-direction: column;
             justify-content: flex-start;
+          }
+          .navbar-max-width {
+            padding-top: 3px;
+            padding-left: var(--dl-space-space-halfunit);
+            padding-right: var(--dl-space-space-halfunit);
+            padding-bottom: 3px;
           }
           .navbar-image {
             width: var(--dl-size-size-xxlarge);
@@ -225,7 +231,10 @@ const Navbar = (props) => {
           @media (max-width: 991px) {
             .navbar-max-width {
               width: 862px;
-              padding-right: 0px;
+              padding-top: 3px;
+              padding-left: var(--dl-space-space-halfunit);
+              padding-right: var(--dl-space-space-halfunit);
+              padding-bottom: 3px;
             }
             .navbar-mobile-menu {
               padding-top: 5px;
@@ -261,7 +270,10 @@ const Navbar = (props) => {
           @media (max-width: 767px) {
             .navbar-max-width {
               width: 744px;
-              padding-left: 21px;
+              padding-top: 3px;
+              padding-left: var(--dl-space-space-halfunit);
+              padding-right: var(--dl-space-space-halfunit);
+              padding-bottom: 3px;
             }
             .navbar-image {
               padding-left: var(--dl-space-space-threeunits);
@@ -308,6 +320,10 @@ const Navbar = (props) => {
           @media (max-width: 479px) {
             .navbar-max-width {
               width: 100%;
+              padding-top: 3px;
+              padding-left: var(--dl-space-space-halfunit);
+              padding-right: var(--dl-space-space-halfunit);
+              padding-bottom: 3px;
               justify-content: center;
             }
             .navbar-image {
