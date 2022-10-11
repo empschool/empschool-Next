@@ -51,6 +51,11 @@ const Local = (props) => {
             margin: 100px;
             position: absolute;
           }
+          @media (max-width: 479px) {
+            .local-html-node {
+              margin: 20px;
+            }
+          }
         `}
       </style>
     </>
