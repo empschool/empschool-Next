@@ -226,6 +226,12 @@ const Navbar = (props) => {
             .navbar-nav {
               display: none;
             }
+            .navbar-burger-menu {
+              width: var(--dl-size-size-small);
+              height: 100%;
+              margin: 2px;
+              margin-top: 2px;
+            }
             .navbar-icon {
               margin-top: 12px;
               margin-left: 12px;
@@ -250,13 +256,15 @@ const Navbar = (props) => {
             }
             .navbar-burger-menu {
               width: 50%;
-              margin: 12px;
+              margin: 3px;
             }
             .navbar-icon {
-              margin-top: 12px;
-              margin-left: 12px;
-              margin-right: 12px;
-              margin-bottom: 12px;
+              width: var(--dl-size-size-small);
+              height: auto;
+              margin-top: 4px;
+              margin-left: 2px;
+              margin-right: 4px;
+              margin-bottom: 4px;
             }
           }
         `}
