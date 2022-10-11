@@ -33,13 +33,13 @@ const Navbar = (props) => {
             data-type="MobileMenu"
             className="navbar-mobile-menu navigation-mobile-menu"
           >
+            <div data-type="CloseMobileMenu" className="navbar-menu-close">
+              <svg viewBox="0 0 1024 1024" className="navbar-icon02">
+                <path d="M810 274l-238 238 238 238-60 60-238-238-238 238-60-60 238-238-238-238 60-60 238 238 238-238z"></path>
+              </svg>
+            </div>
             <div className="navbar-nav1">
               <div className="navbar-container">
-                <div data-type="CloseMobileMenu" className="navbar-menu-close">
-                  <svg viewBox="0 0 1024 1024" className="navbar-icon02">
-                    <path d="M810 274l-238 238 238 238-60 60-238-238-238 238-60-60 238-238-238-238 60-60 238 238 238-238z"></path>
-                  </svg>
-                </div>
                 <img
                   alt="image"
                   src="/playground_assets/start%20%5B2%5D-1500h.png"
@@ -107,6 +107,18 @@ const Navbar = (props) => {
             right: 0px;
             margin: auto;
           }
+          .navbar-menu-close {
+            width: var(--dl-size-size-small);
+            height: var(--dl-size-size-small);
+            display: none;
+            align-self: center;
+            align-items: center;
+            justify-content: center;
+          }
+          .navbar-icon02 {
+            width: var(--dl-size-size-xsmall);
+            height: var(--dl-size-size-xsmall);
+          }
           .navbar-nav1 {
             width: 1200px;
             display: flex;
@@ -121,18 +133,6 @@ const Navbar = (props) => {
             align-items: center;
             margin-bottom: var(--dl-space-space-threeunits);
             justify-content: center;
-          }
-          .navbar-menu-close {
-            width: var(--dl-size-size-small);
-            height: var(--dl-size-size-small);
-            display: none;
-            align-self: center;
-            align-items: center;
-            justify-content: center;
-          }
-          .navbar-icon02 {
-            width: var(--dl-size-size-xsmall);
-            height: var(--dl-size-size-xsmall);
           }
           .navbar-image1 {
             width: var(--dl-size-size-xxlarge);
@@ -225,6 +225,7 @@ const Navbar = (props) => {
               width: var(--dl-size-size-small);
               height: var(--dl-size-size-small);
               display: flex;
+              align-items: center;
               justify-content: center;
             }
             .navbar-image1 {
@@ -271,6 +272,7 @@ const Navbar = (props) => {
               width: var(--dl-size-size-small);
               height: var(--dl-size-size-small);
               display: flex;
+              align-items: center;
               justify-content: center;
             }
             .navbar-image1 {
@@ -310,6 +312,7 @@ const Navbar = (props) => {
               width: var(--dl-size-size-small);
               height: var(--dl-size-size-small);
               display: flex;
+              align-items: center;
               justify-content: center;
             }
             .navbar-image1 {
