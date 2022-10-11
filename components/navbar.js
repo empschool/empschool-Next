@@ -116,8 +116,8 @@ const Navbar = (props) => {
             justify-content: center;
           }
           .navbar-icon02 {
-            width: var(--dl-size-size-xsmall);
-            height: var(--dl-size-size-xsmall);
+            width: var(--dl-size-size-medium);
+            height: var(--dl-size-size-medium);
           }
           .navbar-nav1 {
             width: 1200px;
@@ -228,6 +228,10 @@ const Navbar = (props) => {
               align-items: center;
               justify-content: flex-start;
             }
+            .navbar-icon02 {
+              width: var(--dl-size-size-medium);
+              height: var(--dl-size-size-medium);
+            }
             .navbar-image1 {
               align-self: center;
             }
@@ -274,6 +278,10 @@ const Navbar = (props) => {
               display: flex;
               align-items: center;
               justify-content: flex-start;
+            }
+            .navbar-icon02 {
+              width: var(--dl-size-size-medium);
+              height: var(--dl-size-size-medium);
             }
             .navbar-image1 {
               display: flex;
