@@ -244,12 +244,14 @@ const Navbar = (props) => {
               display: none;
             }
             .navbar-burger-menu {
-              width: var(--dl-size-size-small);
+              width: var(--dl-size-size-xlarge);
               height: 100%;
-              margin: 2px;
-              margin-top: 2px;
+              justify-content: flex-end;
             }
             .navbar-icon {
+              width: var(--dl-size-size-small);
+              height: auto;
+              align-self: center;
               margin-top: 12px;
               margin-left: 12px;
               margin-right: 12px;
