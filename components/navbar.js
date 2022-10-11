@@ -337,6 +337,9 @@ const Navbar = (props) => {
               align-items: center;
               justify-content: flex-start;
             }
+            .navbar-icon02 {
+              height: auto;
+            }
             .navbar-image2 {
               display: flex;
             }
