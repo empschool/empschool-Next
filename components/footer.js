@@ -12,7 +12,7 @@ const Footer = (props) => {
           <div className="footer-container">
             <img
               alt="image"
-              src="/playground_assets/start%20%5B1%5D-600h.png"
+              src="/playground_assets/start%20%5B2%5D-600h.png"
               className="footer-image"
             />
             <span className="footer-text">{props.papel}</span>
