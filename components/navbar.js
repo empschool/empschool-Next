@@ -29,7 +29,10 @@ const Navbar = (props) => {
               <path d="M128 554.667h768c23.552 0 42.667-19.115 42.667-42.667s-19.115-42.667-42.667-42.667h-768c-23.552 0-42.667 19.115-42.667 42.667s19.115 42.667 42.667 42.667zM128 298.667h768c23.552 0 42.667-19.115 42.667-42.667s-19.115-42.667-42.667-42.667h-768c-23.552 0-42.667 19.115-42.667 42.667s19.115 42.667 42.667 42.667zM128 810.667h768c23.552 0 42.667-19.115 42.667-42.667s-19.115-42.667-42.667-42.667h-768c-23.552 0-42.667 19.115-42.667 42.667s19.115 42.667 42.667 42.667z"></path>
             </svg>
           </div>
-          <div data-type="MobileMenu" className="navigation-mobile-menu">
+          <div
+            data-type="MobileMenu"
+            className="navbar-mobile-menu navigation-mobile-menu"
+          >
             <div className="navbar-nav1">
               <div className="navbar-container">
                 <img
@@ -99,9 +102,15 @@ const Navbar = (props) => {
             transition: 0.3s;
           }
 
+          .navbar-mobile-menu {
+            left: 0px;
+            right: 0px;
+            margin: auto;
+          }
           .navbar-nav1 {
             width: 1200px;
             display: flex;
+            align-self: center;
             align-items: flex-start;
             flex-direction: column;
           }
@@ -131,6 +140,7 @@ const Navbar = (props) => {
           .navbar-social-media {
             flex: 0 0 auto;
             display: flex;
+            align-self: center;
             align-items: flex-start;
             flex-direction: column;
           }
@@ -188,6 +198,7 @@ const Navbar = (props) => {
             cursor: pointer;
           }
           .navbar-link {
+            align-self: center;
             text-align: center;
             text-decoration: none;
           }

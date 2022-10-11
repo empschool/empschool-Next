@@ -38,6 +38,9 @@ const NavigationLinks = (props) => {
           .navigation-links-root-class-name10 {
             align-self: center;
           }
+          .navigation-links-root-class-name11 {
+            align-self: center;
+          }
           @media (max-width: 991px) {
             .navigation-links-root-class-name10 {
               margin: 7px;
