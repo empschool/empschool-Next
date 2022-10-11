@@ -222,6 +222,10 @@ const Navbar = (props) => {
             .navbar-image1 {
               align-self: center;
             }
+            .navbar-menu-close {
+              display: flex;
+              justify-content: center;
+            }
             .navbar-link {
               padding: 12px;
               text-align: center;
@@ -263,6 +267,10 @@ const Navbar = (props) => {
               display: flex;
               justify-content: center;
             }
+            .navbar-menu-close {
+              display: flex;
+              justify-content: center;
+            }
             .navbar-link {
               display: none;
             }
@@ -294,6 +302,10 @@ const Navbar = (props) => {
             }
             .navbar-image1 {
               display: flex;
+            }
+            .navbar-menu-close {
+              display: flex;
+              justify-content: center;
             }
           }
         `}
