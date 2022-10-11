@@ -35,6 +35,9 @@ const NavigationLinks = (props) => {
             margin-left: var(--dl-space-space-twounits);
           }
 
+          .navigation-links-root-class-name10 {
+            align-self: center;
+          }
           @media (max-width: 991px) {
             .navigation-links-root-class-name10 {
               margin: 7px;

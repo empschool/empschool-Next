@@ -33,8 +33,8 @@ const Navbar = (props) => {
             <div className="navbar-nav1">
               <div className="navbar-container">
                 <img
-                  alt={props.image_alt1}
                   src={props.image_src}
+                  alt={props.image_alt1}
                   className="navbar-image1"
                 />
                 <div data-type="CloseMobileMenu" className="navbar-menu-close">
@@ -125,6 +125,7 @@ const Navbar = (props) => {
             height: var(--dl-size-size-xsmall);
           }
           .navbar-primary-btn {
+            align-self: center;
             margin-top: var(--dl-space-space-oneandhalfunits);
           }
           .navbar-social-media {
@@ -187,6 +188,7 @@ const Navbar = (props) => {
             cursor: pointer;
           }
           .navbar-link {
+            text-align: center;
             text-decoration: none;
           }
           .navbar-root-class-name {
@@ -269,7 +271,7 @@ Navbar.defaultProps = {
   image_alt: 'logo',
   rootClassName: '',
   image_alt1: 'image',
-  text: 'Segue nós',
+  text: 'Nossas redes',
   PrimaryBtn: 'Quero Contratar',
   PrimaryBtn1: 'Vamos conversar',
 }
