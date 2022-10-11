@@ -220,7 +220,7 @@ const Navbar = (props) => {
               padding-right: 0px;
             }
             .navbar-image1 {
-              display: none;
+              align-self: center;
             }
             .navbar-link {
               padding: 12px;
@@ -259,6 +259,10 @@ const Navbar = (props) => {
               margin-right: 12px;
               margin-bottom: 12px;
             }
+            .navbar-image1 {
+              display: flex;
+              justify-content: center;
+            }
             .navbar-link {
               display: none;
             }
@@ -287,6 +291,9 @@ const Navbar = (props) => {
               margin-left: 2px;
               margin-right: 4px;
               margin-bottom: 4px;
+            }
+            .navbar-image1 {
+              display: flex;
             }
           }
         `}
