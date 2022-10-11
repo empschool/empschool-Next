@@ -35,16 +35,16 @@ const Navbar = (props) => {
           >
             <div className="navbar-nav1">
               <div className="navbar-container">
-                <img
-                  alt="image"
-                  src="/playground_assets/start%20%5B2%5D-1500h.png"
-                  className="navbar-image1"
-                />
                 <div data-type="CloseMobileMenu" className="navbar-menu-close">
                   <svg viewBox="0 0 1024 1024" className="navbar-icon02">
                     <path d="M810 274l-238 238 238 238-60 60-238-238-238 238-60-60 238-238-238-238 60-60 238 238 238-238z"></path>
                   </svg>
                 </div>
+                <img
+                  alt="image"
+                  src="/playground_assets/start%20%5B2%5D-1500h.png"
+                  className="navbar-image1"
+                />
               </div>
               <NavigationLinks rootClassName="navigation-links-root-class-name11"></NavigationLinks>
               <button className="navbar-primary-btn button-primary button">
@@ -122,11 +122,9 @@ const Navbar = (props) => {
             margin-bottom: var(--dl-space-space-threeunits);
             justify-content: center;
           }
-          .navbar-image1 {
-            width: var(--dl-size-size-xxlarge);
-            align-self: center;
-          }
           .navbar-menu-close {
+            width: var(--dl-size-size-small);
+            height: var(--dl-size-size-small);
             display: none;
             align-self: center;
             align-items: center;
@@ -135,6 +133,10 @@ const Navbar = (props) => {
           .navbar-icon02 {
             width: var(--dl-size-size-xsmall);
             height: var(--dl-size-size-xsmall);
+          }
+          .navbar-image1 {
+            width: var(--dl-size-size-xxlarge);
+            align-self: center;
           }
           .navbar-primary-btn {
             align-self: center;
@@ -219,12 +221,14 @@ const Navbar = (props) => {
               width: 862px;
               padding-right: 0px;
             }
-            .navbar-image1 {
-              align-self: center;
-            }
             .navbar-menu-close {
+              width: var(--dl-size-size-small);
+              height: var(--dl-size-size-small);
               display: flex;
               justify-content: center;
+            }
+            .navbar-image1 {
+              align-self: center;
             }
             .navbar-link {
               padding: 12px;
@@ -263,11 +267,13 @@ const Navbar = (props) => {
               margin-right: 12px;
               margin-bottom: 12px;
             }
-            .navbar-image1 {
+            .navbar-menu-close {
+              width: var(--dl-size-size-small);
+              height: var(--dl-size-size-small);
               display: flex;
               justify-content: center;
             }
-            .navbar-menu-close {
+            .navbar-image1 {
               display: flex;
               justify-content: center;
             }
@@ -300,12 +306,14 @@ const Navbar = (props) => {
               margin-right: 4px;
               margin-bottom: 4px;
             }
-            .navbar-image1 {
-              display: flex;
-            }
             .navbar-menu-close {
+              width: var(--dl-size-size-small);
+              height: var(--dl-size-size-small);
               display: flex;
               justify-content: center;
+            }
+            .navbar-image1 {
+              display: flex;
             }
           }
         `}
