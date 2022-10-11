@@ -125,7 +125,8 @@ const Navbar = (props) => {
             width: 106px;
           }
           .navbar-menu-close {
-            display: flex;
+            display: none;
+            align-self: center;
             align-items: center;
             justify-content: center;
           }
@@ -145,12 +146,12 @@ const Navbar = (props) => {
             flex-direction: column;
           }
           .navbar-text {
+            margin: 12px;
             font-size: 18px;
             align-self: center;
             font-style: normal;
             text-align: center;
             font-weight: 600;
-            margin-bottom: var(--dl-space-space-oneandhalfunits);
           }
           .navbar-container1 {
             flex: 0 0 auto;
@@ -200,6 +201,8 @@ const Navbar = (props) => {
           .navbar-link {
             align-self: center;
             text-align: center;
+            padding-top: 12px;
+            padding-bottom: 12px;
             text-decoration: none;
           }
           .navbar-root-class-name {
