@@ -230,6 +230,9 @@ const Navbar = (props) => {
               align-items: center;
               justify-content: flex-start;
             }
+            .navbar-image1 {
+              width: var(--dl-size-size-small);
+            }
             .navbar-image2 {
               align-self: center;
             }
@@ -276,6 +279,9 @@ const Navbar = (props) => {
               display: flex;
               align-items: center;
               justify-content: flex-start;
+            }
+            .navbar-image1 {
+              width: var(--dl-size-size-small);
             }
             .navbar-image2 {
               display: flex;
