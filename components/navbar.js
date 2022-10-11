@@ -14,8 +14,8 @@ const Navbar = (props) => {
           className="navbar-max-width navigation-container"
         >
           <img
-            src="/playground_assets/start%20%5B1%5D-200h.png"
             alt={props.image_src}
+            src="/playground_assets/start%20%5B1%5D-200h.png"
             className="navbar-image"
           />
           <div className="navbar-nav">
@@ -35,8 +35,8 @@ const Navbar = (props) => {
           >
             <div data-type="CloseMobileMenu" className="navbar-menu-close">
               <img
-                src={props.image_src2}
                 alt={props.image_alt2}
+                src={props.image_src2}
                 className="navbar-image1"
               />
             </div>
@@ -283,7 +283,6 @@ const Navbar = (props) => {
             }
             .navbar-burger-menu {
               width: var(--dl-size-size-xlarge);
-              height: 100%;
               justify-content: center;
             }
             .navbar-icon {
@@ -379,26 +378,26 @@ Navbar.defaultProps = {
   image_src: '/playground_assets/start%20%5B1%5D-200h.png',
   image_src1: '769fe947-8f32-4db1-86f9-a7f12826012f',
   image_alt: 'logo',
+  image_src2: '/playground_assets/exit-full-screen-200h.png',
   rootClassName: '',
   image_alt1: 'image',
   text: 'Nossas redes',
+  image_alt2: 'image',
   PrimaryBtn: 'Quero Contratar',
   PrimaryBtn1: 'Vamos conversar',
-  image_src2: '/playground_assets/exit-full-screen-200h.png',
-  image_alt2: 'image',
 }
 
 Navbar.propTypes = {
   image_src: PropTypes.string,
   image_src1: PropTypes.string,
   image_alt: PropTypes.string,
+  image_src2: PropTypes.string,
   rootClassName: PropTypes.string,
   image_alt1: PropTypes.string,
   text: PropTypes.string,
+  image_alt2: PropTypes.string,
   PrimaryBtn: PropTypes.string,
   PrimaryBtn1: PropTypes.string,
-  image_src2: PropTypes.string,
-  image_alt2: PropTypes.string,
 }
 
 export default Navbar

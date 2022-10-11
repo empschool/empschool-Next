@@ -1,4 +1,5 @@
 import React from 'react'
+import Link from 'next/link'
 
 import PropTypes from 'prop-types'
 
@@ -10,10 +11,10 @@ const NavigationLinks = (props) => {
         <span className="navigation-links-text1 navbar-link">
           {props.text1}
         </span>
+        <Link href="/local">
+          <a className="navigation-links-link navbar-link">{props.text2}</a>
+        </Link>
         <span className="navigation-links-text2 navbar-link">
-          {props.text2}
-        </span>
-        <span className="navigation-links-text3 navbar-link">
           {props.text3}
         </span>
       </nav>
@@ -28,10 +29,11 @@ const NavigationLinks = (props) => {
           .navigation-links-text1 {
             margin-left: var(--dl-space-space-twounits);
           }
-          .navigation-links-text2 {
+          .navigation-links-link {
             margin-left: var(--dl-space-space-twounits);
+            text-decoration: none;
           }
-          .navigation-links-text3 {
+          .navigation-links-text2 {
             margin-left: var(--dl-space-space-twounits);
           }
 
@@ -55,11 +57,11 @@ const NavigationLinks = (props) => {
               margin-left: 0;
               margin-bottom: var(--dl-space-space-unit);
             }
-            .navigation-links-text2 {
+            .navigation-links-link {
               margin-left: 0;
               margin-bottom: var(--dl-space-space-unit);
             }
-            .navigation-links-text3 {
+            .navigation-links-text2 {
               margin-left: 0;
               margin-bottom: var(--dl-space-space-unit);
             }
