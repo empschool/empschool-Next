@@ -108,6 +108,10 @@ const Navbar = (props) => {
             left: 0px;
             right: 0px;
             margin: auto;
+            padding-top: 5px;
+            padding-left: var(--dl-space-space-unit);
+            padding-right: var(--dl-space-space-unit);
+            padding-bottom: 5px;
           }
           .navbar-menu-close {
             width: var(--dl-size-size-large);
@@ -223,6 +227,12 @@ const Navbar = (props) => {
               width: 862px;
               padding-right: 0px;
             }
+            .navbar-mobile-menu {
+              padding-top: 5px;
+              padding-left: var(--dl-space-space-unit);
+              padding-right: var(--dl-space-space-unit);
+              padding-bottom: 5px;
+            }
             .navbar-menu-close {
               width: var(--dl-size-size-large);
               height: var(--dl-size-size-large);
@@ -273,6 +283,10 @@ const Navbar = (props) => {
               margin-right: 12px;
               margin-bottom: 12px;
             }
+            .navbar-mobile-menu {
+              padding-top: 5px;
+              padding-bottom: 5px;
+            }
             .navbar-menu-close {
               width: var(--dl-size-size-large);
               height: var(--dl-size-size-large);
@@ -320,6 +334,10 @@ const Navbar = (props) => {
               left: 0px;
               right: 0px;
               margin: auto;
+              padding-top: 5px;
+              padding-left: var(--dl-space-space-unit);
+              padding-right: var(--dl-space-space-unit);
+              padding-bottom: 5px;
             }
             .navbar-menu-close {
               width: var(--dl-size-size-large);
