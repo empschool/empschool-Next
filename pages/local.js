@@ -46,9 +46,9 @@ const Local = (props) => {
             top: 230px;
             left: 0px;
             right: 0px;
-            width: 517px;
-            height: 466px;
-            margin: auto;
+            width: auto;
+            height: 500px;
+            margin: 100px;
             position: absolute;
           }
         `}
