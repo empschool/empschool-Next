@@ -246,7 +246,7 @@ const Navbar = (props) => {
             .navbar-burger-menu {
               width: var(--dl-size-size-xlarge);
               height: 100%;
-              justify-content: flex-end;
+              justify-content: center;
             }
             .navbar-icon {
               width: var(--dl-size-size-small);
@@ -276,6 +276,7 @@ const Navbar = (props) => {
             .navbar-burger-menu {
               width: 50%;
               margin: 3px;
+              justify-content: center;
             }
             .navbar-icon {
               width: var(--dl-size-size-small);
@@ -284,9 +285,6 @@ const Navbar = (props) => {
               margin-left: 2px;
               margin-right: 4px;
               margin-bottom: 4px;
-            }
-            .navbar-image1 {
-              display: none;
             }
           }
         `}
