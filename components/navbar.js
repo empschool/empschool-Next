@@ -36,8 +36,8 @@ const Navbar = (props) => {
             <div className="navbar-nav1">
               <div className="navbar-container">
                 <img
-                  src={props.image_src}
-                  alt={props.image_alt1}
+                  alt="image"
+                  src="/playground_assets/start%20%5B1%5D-1500h.png"
                   className="navbar-image1"
                 />
                 <div data-type="CloseMobileMenu" className="navbar-menu-close">
@@ -217,6 +217,9 @@ const Navbar = (props) => {
               width: 862px;
               padding-right: 0px;
             }
+            .navbar-image1 {
+              display: none;
+            }
             .navbar-link {
               padding: 12px;
               text-align: center;
@@ -279,6 +282,9 @@ const Navbar = (props) => {
               margin-left: 2px;
               margin-right: 4px;
               margin-bottom: 4px;
+            }
+            .navbar-image1 {
+              display: none;
             }
           }
         `}
