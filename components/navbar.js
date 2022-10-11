@@ -117,12 +117,14 @@ const Navbar = (props) => {
           .navbar-container {
             width: 100%;
             display: flex;
+            align-self: center;
             align-items: center;
             margin-bottom: var(--dl-space-space-threeunits);
-            justify-content: space-between;
+            justify-content: center;
           }
           .navbar-image1 {
             width: 106px;
+            align-self: center;
           }
           .navbar-menu-close {
             display: none;
