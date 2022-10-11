@@ -14,8 +14,8 @@ const Navbar = (props) => {
           className="navigation-container navbar-max-width"
         >
           <img
-            alt={props.image_alt}
-            src={props.image_src}
+            src={props.image_src1}
+            alt={props.image_src}
             className="navbar-image"
           />
           <div className="navbar-nav">
@@ -100,6 +100,7 @@ const Navbar = (props) => {
           }
 
           .navbar-nav1 {
+            width: 1200px;
             display: flex;
             align-items: flex-start;
             flex-direction: column;
@@ -245,18 +246,13 @@ const Navbar = (props) => {
             }
             .navbar-burger-menu {
               width: 50%;
-              height: 54px;
               margin: 12px;
             }
             .navbar-icon {
-              margin: 30px;
               margin-top: 12px;
               margin-left: 12px;
               margin-right: 12px;
               margin-bottom: 12px;
-            }
-            .navbar-root-class-name {
-              margin: 0px;
             }
           }
         `}
@@ -266,8 +262,8 @@ const Navbar = (props) => {
 }
 
 Navbar.defaultProps = {
-  image_src: '/playground_assets/slice%202%20%5B1%5D-200h.png',
-  image_src1: '/playground_assets/logo-1500h.png',
+  image_src: '/playground_assets/start%20%5B1%5D-1500h.png',
+  image_src1: '/playground_assets/start%20%5B1%5D-1500h.png',
   image_alt: 'logo',
   rootClassName: '',
   image_alt1: 'image',

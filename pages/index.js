@@ -33,8 +33,8 @@ const Home = (props) => {
         </h1>
         <main className="home-main">
           <img
-            src="/playground_assets/let-1500w.png"
             alt="image"
+            src="/playground_assets/let-1500w.png"
             className="home-image"
           />
           <div className="home-section-one section-container">
