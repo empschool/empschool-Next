@@ -34,7 +34,7 @@ const Navbar = (props) => {
               <div className="navbar-container">
                 <img
                   alt={props.image_alt1}
-                  src={props.image_src1}
+                  src={props.image_src}
                   className="navbar-image1"
                 />
                 <div data-type="CloseMobileMenu" className="navbar-menu-close">
@@ -135,7 +135,9 @@ const Navbar = (props) => {
           }
           .navbar-text {
             font-size: 18px;
+            align-self: center;
             font-style: normal;
+            text-align: center;
             font-weight: 600;
             margin-bottom: var(--dl-space-space-oneandhalfunits);
           }
@@ -263,13 +265,13 @@ const Navbar = (props) => {
 
 Navbar.defaultProps = {
   image_src: '/playground_assets/start%20%5B1%5D-1500h.png',
-  image_src1: '/playground_assets/start%20%5B1%5D-1500h.png',
+  image_src1: '769fe947-8f32-4db1-86f9-a7f12826012f',
   image_alt: 'logo',
   rootClassName: '',
   image_alt1: 'image',
   text: 'Follow us',
   PrimaryBtn: 'Quero Contratar',
-  PrimaryBtn1: 'Get started',
+  PrimaryBtn1: 'Vamos conversar',
 }
 
 Navbar.propTypes = {
