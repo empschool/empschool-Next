@@ -37,13 +37,18 @@ const Navbar = (props) => {
               <svg viewBox="0 0 1024 1024" className="navbar-icon02">
                 <path d="M810 274l-238 238 238 238-60 60-238-238-238 238-60-60 238-238-238-238 60-60 238 238 238-238z"></path>
               </svg>
+              <img
+                src={props.image_src2}
+                alt={props.image_alt2}
+                className="navbar-image1"
+              />
             </div>
             <div className="navbar-nav1">
               <div className="navbar-container">
                 <img
                   alt="image"
                   src="/playground_assets/start%20%5B2%5D-1500h.png"
-                  className="navbar-image1"
+                  className="navbar-image2"
                 />
               </div>
               <NavigationLinks rootClassName="navigation-links-root-class-name11"></NavigationLinks>
@@ -119,6 +124,10 @@ const Navbar = (props) => {
             width: var(--dl-size-size-medium);
             height: var(--dl-size-size-medium);
           }
+          .navbar-image1 {
+            width: 100px;
+            object-fit: cover;
+          }
           .navbar-nav1 {
             width: 1200px;
             display: flex;
@@ -134,7 +143,7 @@ const Navbar = (props) => {
             margin-bottom: var(--dl-space-space-threeunits);
             justify-content: center;
           }
-          .navbar-image1 {
+          .navbar-image2 {
             width: var(--dl-size-size-xxlarge);
             align-self: center;
           }
@@ -232,7 +241,7 @@ const Navbar = (props) => {
               width: var(--dl-size-size-medium);
               height: var(--dl-size-size-medium);
             }
-            .navbar-image1 {
+            .navbar-image2 {
               align-self: center;
             }
             .navbar-link {
@@ -283,7 +292,7 @@ const Navbar = (props) => {
               width: var(--dl-size-size-medium);
               height: var(--dl-size-size-medium);
             }
-            .navbar-image1 {
+            .navbar-image2 {
               display: flex;
               justify-content: center;
             }
@@ -316,6 +325,11 @@ const Navbar = (props) => {
               margin-right: 4px;
               margin-bottom: 4px;
             }
+            .navbar-mobile-menu {
+              left: 0px;
+              right: 0px;
+              margin: auto;
+            }
             .navbar-menu-close {
               width: var(--dl-size-size-large);
               height: var(--dl-size-size-large);
@@ -323,7 +337,7 @@ const Navbar = (props) => {
               align-items: center;
               justify-content: flex-start;
             }
-            .navbar-image1 {
+            .navbar-image2 {
               display: flex;
             }
           }
@@ -342,6 +356,8 @@ Navbar.defaultProps = {
   text: 'Nossas redes',
   PrimaryBtn: 'Quero Contratar',
   PrimaryBtn1: 'Vamos conversar',
+  image_src2: '/playground_assets/exit-full-screen-200h.png',
+  image_alt2: 'image',
 }
 
 Navbar.propTypes = {
@@ -353,6 +369,8 @@ Navbar.propTypes = {
   text: PropTypes.string,
   PrimaryBtn: PropTypes.string,
   PrimaryBtn1: PropTypes.string,
+  image_src2: PropTypes.string,
+  image_alt2: PropTypes.string,
 }
 
 export default Navbar
