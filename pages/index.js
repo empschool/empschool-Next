@@ -36,29 +36,26 @@ const Home = (props) => {
               }}
             />
           </div>
-          <div className="home-section-one section-container">
-            <div className="home-max-width max-content-container">
-              <h2 className="home-text">
-                <span className="heading2 home-text01">
-                  Sócio e investidor para seu 
-                </span>
-                <span className="home-text02 heading2">negócio</span>
-                <br></br>
-              </h2>
-              <div className="home-html-node1">
-                <span
-                  dangerouslySetInnerHTML={{
-                    __html:
-                      '<iframe width="640" height="360" src="https://www.youtube.com/embed/t0UC8PtYdjY" title="o socio para seu negócio"\r\n    frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"\r\n    allowfullscreen></iframe>',
-                  }}
-                />
-              </div>
-            </div>
-            <span className="home-text04">
-              <span>Você precisa de alguém que acredite nos seu sonhos</span>
-              <span className="content-Light">.</span>
+          <div className="home-section-one section-container"></div>
+          <h2 className="home-text">
+            <span className="heading2 home-text01">
+              Sócio e investidor para seu 
             </span>
+            <span className="home-text02 heading2">negócio</span>
+            <br></br>
+          </h2>
+          <div className="home-code-embed">
+            <span
+              dangerouslySetInnerHTML={{
+                __html:
+                  '<script src="https://fast.wistia.com/embed/medias/jlfu9fbrvf.jsonp" async></script>\r\n<script src="https://fast.wistia.com/assets/external/E-v1.js" async></script>\r\n<div class="wistia_responsive_padding" style="padding:56.25% 0 0 0;position:relative;">\r\n    <div class="wistia_responsive_wrapper" style="height:100%;left:0;position:absolute;top:0;width:100%;">\r\n        <span class="wistia_embed wistia_async_jlfu9fbrvf popover=true popoverAnimateThumbnail=true videoFoam=true" style="display:inline-block;height:100%;position:relative;width:100%">&nbsp;</span>\r\n    </div>\r\n</div>',
+              }}
+            />
           </div>
+          <span className="home-text04">
+            <span>Você precisa de alguém que acredite nos seu sonhos</span>
+            <span className="content-Light">.</span>
+          </span>
           <Link href="/contratar">
             <a className="home-link button-primary button">
               Quero ser parceiro
@@ -70,13 +67,13 @@ const Home = (props) => {
               <span className="home-text09">sonhos.</span>
               <span className="home-text10"></span>
             </h2>
-            <div className="home-max-width1 max-content-container"></div>
+            <div className="home-max-width max-content-container"></div>
             <div data-type="slider" className="home-slider">
               <Slide rootClassName="slide-root-class-name2"></Slide>
             </div>
           </div>
           <div className="home-section-six section-container">
-            <div className="home-max-width2 max-content-container">
+            <div className="home-max-width1 max-content-container">
               <div className="home-content-container">
                 <h2 className="home-text11">
                   <span>
@@ -100,7 +97,7 @@ const Home = (props) => {
             </div>
           </div>
           <div className="home-section-six1 section-container">
-            <div className="home-max-width3 max-content-container">
+            <div className="home-max-width2 max-content-container">
               <div className="home-content-container1">
                 <h1 className="home-text17 heading2">
                   <span>Receba hoje! </span>
@@ -193,19 +190,17 @@ const Home = (props) => {
           .home-html-node {
             width: 716px;
             height: 471px;
+            margin-top: 30px;
           }
           .home-section-one {
-            height: 657px;
+            border: 2px dashed rgba(120, 120, 120, 0.4);
+            height: 277px;
             border-color: rgba(33, 33, 33, 0.1);
             border-width: 1px;
             padding-bottom: 44px;
             border-top-width: 0px;
             border-left-width: 0px;
             border-right-width: 0px;
-          }
-          .home-max-width {
-            height: 572px;
-            flex-direction: column;
           }
           .home-text {
             margin-top: 19px;
@@ -217,9 +212,9 @@ const Home = (props) => {
           .home-text02 {
             color: var(--dl-color-backgrounds-primary);
           }
-          .home-html-node1 {
-            width: 645px;
-            height: 376px;
+          .home-code-embed {
+            width: 658px;
+            height: 406px;
           }
           .home-text04 {
             color: var(--dl-color-grays-gray100);
@@ -259,7 +254,7 @@ const Home = (props) => {
           .home-text10 {
             color: transparent;
           }
-          .home-max-width1 {
+          .home-max-width {
             border: 2px dashed rgba(120, 120, 120, 0.4);
             flex-direction: column;
           }
@@ -276,7 +271,7 @@ const Home = (props) => {
             padding-bottom: 0px;
             background-color: #ffffff;
           }
-          .home-max-width2 {
+          .home-max-width1 {
             height: 437px;
             align-items: stretch;
           }
@@ -349,7 +344,7 @@ const Home = (props) => {
             padding-bottom: 0px;
             background-color: var(--dl-color-backgrounds-primary);
           }
-          .home-max-width3 {
+          .home-max-width2 {
             height: 437px;
             align-items: stretch;
           }
@@ -494,19 +489,19 @@ const Home = (props) => {
             object-fit: cover;
           }
           @media (max-width: 991px) {
-            .home-html-node1 {
+            .home-code-embed {
               height: 370px;
             }
             .home-section-six {
               height: 848px;
             }
-            .home-max-width2 {
+            .home-max-width1 {
               flex-direction: column;
             }
             .home-section-six1 {
               height: 848px;
             }
-            .home-max-width3 {
+            .home-max-width2 {
               flex-direction: column;
             }
             .home-text17 {
@@ -529,8 +524,9 @@ const Home = (props) => {
             .home-text {
               margin-bottom: var(--dl-space-space-twounits);
             }
-            .home-html-node1 {
-              height: 384px;
+            .home-code-embed {
+              width: 505px;
+              height: 368px;
             }
             .home-section-four {
               height: 1152px;
@@ -544,7 +540,7 @@ const Home = (props) => {
             .home-section-six {
               height: 972px;
             }
-            .home-max-width2 {
+            .home-max-width1 {
               height: 803px;
               margin: 12px;
             }
@@ -556,7 +552,7 @@ const Home = (props) => {
             .home-section-six1 {
               height: 972px;
             }
-            .home-max-width3 {
+            .home-max-width2 {
               height: 803px;
               margin: 12px;
             }
@@ -606,14 +602,6 @@ const Home = (props) => {
               border-radius: var(--dl-radius-radius-radius4);
               border-left-width: 0px;
             }
-            .home-max-width {
-              height: 367px;
-              position: relative;
-              margin-top: 5px;
-              margin-left: 5px;
-              margin-right: 5px;
-              margin-bottom: 0px;
-            }
             .home-text {
               width: auto;
               font-size: 30px;
@@ -637,9 +625,9 @@ const Home = (props) => {
               text-transform: none;
               text-decoration: none;
             }
-            .home-html-node1 {
+            .home-code-embed {
               width: 478px;
-              height: 329px;
+              height: 376px;
             }
             .home-text04 {
               color: var(--dl-color-grays-gray100);
@@ -683,7 +671,7 @@ const Home = (props) => {
               padding: 12px;
               padding-top: 0px;
             }
-            .home-max-width2 {
+            .home-max-width1 {
               height: 659px;
               margin-bottom: 0px;
             }
@@ -742,7 +730,7 @@ const Home = (props) => {
               height: 100%;
               padding: 33px;
             }
-            .home-max-width3 {
+            .home-max-width2 {
               height: 881px;
             }
             .home-text19 {
