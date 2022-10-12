@@ -540,6 +540,9 @@ const Home = (props) => {
             }
           }
           @media (max-width: 767px) {
+            .home-html-node {
+              width: 100%;
+            }
             .home-section-one1 {
               height: 675px;
             }
@@ -617,6 +620,9 @@ const Home = (props) => {
               margin-left: 12px;
               margin-right: 12px;
               margin-bottom: 12px;
+            }
+            .home-html-node {
+              width: 100%;
             }
             .home-section-one {
               height: 679px;
