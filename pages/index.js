@@ -50,11 +50,14 @@ const Home = (props) => {
                 <span className="home-text02 heading2">negócio</span>
                 <br></br>
               </h2>
-              <iframe
-                src="https://www.youtube.com/watch?v=t0UC8PtYdjY"
-                allowFullScreen
-                className="home-iframe"
-              ></iframe>
+              <div className="home-html-node1">
+                <span
+                  dangerouslySetInnerHTML={{
+                    __html:
+                      '<iframe width="640" height="360" src="https://www.youtube.com/embed/t0UC8PtYdjY" title="o socio para seu negócio"\r\n    frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"\r\n    allowfullscreen></iframe>',
+                  }}
+                />
+              </div>
             </div>
             <span className="home-text04">
               <span>Você precisa de alguém que acredite nos seu sonhos</span>
@@ -200,11 +203,11 @@ const Home = (props) => {
             margin-bottom: 22px;
           }
           .home-html-node {
-            width: 802px;
+            width: 716px;
             height: 471px;
           }
           .home-section-one {
-            height: 773px;
+            height: 657px;
             border-color: rgba(33, 33, 33, 0.1);
             border-width: 1px;
             padding-bottom: 44px;
@@ -226,9 +229,8 @@ const Home = (props) => {
           .home-text02 {
             color: var(--dl-color-backgrounds-primary);
           }
-          .home-iframe {
-            width: 782px;
-            height: 411px;
+          .home-html-node1 {
+            width: 645px;
           }
           .home-text04 {
             color: var(--dl-color-grays-gray100);
@@ -503,10 +505,6 @@ const Home = (props) => {
             object-fit: cover;
           }
           @media (max-width: 991px) {
-            .home-iframe {
-              width: 100%;
-              height: 100%;
-            }
             .home-section-six {
               height: 848px;
             }
@@ -538,10 +536,6 @@ const Home = (props) => {
             }
             .home-text {
               margin-bottom: var(--dl-space-space-twounits);
-            }
-            .home-iframe {
-              width: 100%;
-              height: 100%;
             }
             .home-section-four {
               height: 1152px;
@@ -648,11 +642,6 @@ const Home = (props) => {
               line-height: 1.3;
               text-transform: none;
               text-decoration: none;
-            }
-            .home-iframe {
-              width: 100%;
-              height: 100%;
-              padding-top: 5px;
             }
             .home-text04 {
               color: var(--dl-color-grays-gray100);
