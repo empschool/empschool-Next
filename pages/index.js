@@ -28,11 +28,6 @@ const Home = (props) => {
         </Head>
         <Navbar rootClassName="navbar-root-class-name"></Navbar>
         <main className="home-main">
-          <img
-            alt="image"
-            src="/playground_assets/let-1500w.png"
-            className="home-image"
-          />
           <div className="home-html-node">
             <span
               dangerouslySetInnerHTML={{
@@ -163,7 +158,7 @@ const Home = (props) => {
                 <img
                   alt="image"
                   src="/playground_assets/capatrafego-500h.webp"
-                  className="home-image1"
+                  className="home-image"
                 />
               </div>
             </div>
@@ -195,13 +190,6 @@ const Home = (props) => {
             margin-right: 30px;
             flex-direction: column;
           }
-          .home-image {
-            width: auto;
-            height: 100%;
-            margin-top: 22px;
-            object-fit: cover;
-            margin-bottom: 22px;
-          }
           .home-html-node {
             width: 716px;
             height: 471px;
@@ -231,6 +219,7 @@ const Home = (props) => {
           }
           .home-html-node1 {
             width: 645px;
+            height: 376px;
           }
           .home-text04 {
             color: var(--dl-color-grays-gray100);
@@ -498,13 +487,16 @@ const Home = (props) => {
             align-items: flex-start;
             flex-direction: column;
           }
-          .home-image1 {
+          .home-image {
             width: 395px;
             height: 100%;
             margin: 12px;
             object-fit: cover;
           }
           @media (max-width: 991px) {
+            .home-html-node1 {
+              height: 370px;
+            }
             .home-section-six {
               height: 848px;
             }
@@ -520,7 +512,7 @@ const Home = (props) => {
             .home-text17 {
               width: 100%;
             }
-            .home-image1 {
+            .home-image {
               width: 410px;
               align-self: flex-start;
               margin-left: 250px;
@@ -536,6 +528,9 @@ const Home = (props) => {
             }
             .home-text {
               margin-bottom: var(--dl-space-space-twounits);
+            }
+            .home-html-node1 {
+              height: 384px;
             }
             .home-section-four {
               height: 1152px;
@@ -586,7 +581,7 @@ const Home = (props) => {
               font-style: normal;
               font-weight: 400;
             }
-            .home-image1 {
+            .home-image {
               width: auto;
               height: 413px;
               margin: 12px;
@@ -598,15 +593,13 @@ const Home = (props) => {
               height: auto;
               z-index: 100;
             }
-            .home-image {
-              width: 100%;
-              margin-top: 12px;
-              margin-left: 12px;
-              margin-right: 12px;
-              margin-bottom: 12px;
-            }
             .home-html-node {
-              width: 100%;
+              width: 395px;
+              height: 218px;
+              margin-top: 20px;
+              margin-left: 10px;
+              margin-right: 10px;
+              margin-bottom: 20px;
             }
             .home-section-one {
               height: 524px;
@@ -642,6 +635,10 @@ const Home = (props) => {
               line-height: 1.3;
               text-transform: none;
               text-decoration: none;
+            }
+            .home-html-node1 {
+              width: 478px;
+              height: 329px;
             }
             .home-text04 {
               color: var(--dl-color-grays-gray100);
@@ -756,7 +753,7 @@ const Home = (props) => {
             .home-link2 {
               font-size: 25px;
             }
-            .home-image1 {
+            .home-image {
               width: 100%;
               height: auto;
               margin: 12px;

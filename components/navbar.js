@@ -283,7 +283,7 @@ const Navbar = (props) => {
             }
             .navbar-burger-menu {
               width: var(--dl-size-size-xlarge);
-              justify-content: center;
+              justify-content: flex-end;
             }
             .navbar-icon {
               width: var(--dl-size-size-small);
@@ -334,15 +334,16 @@ const Navbar = (props) => {
             }
             .navbar-burger-menu {
               width: 50%;
-              margin: 3px;
-              justify-content: center;
+              height: 54px;
+              margin: 1px;
+              justify-content: flex-end;
             }
             .navbar-icon {
               width: var(--dl-size-size-small);
               height: auto;
               margin-top: 4px;
-              margin-left: 2px;
-              margin-right: 4px;
+              margin-left: 1px;
+              margin-right: 1px;
               margin-bottom: 4px;
             }
             .navbar-mobile-menu {
