@@ -41,8 +41,7 @@ const Home = (props) => {
               }}
             />
           </div>
-          <div className="home-section-one section-container"></div>
-          <div className="home-section-one1 section-container">
+          <div className="home-section-one section-container">
             <div className="home-max-width max-content-container">
               <h2 className="home-text">
                 <span className="heading2 home-text01">
@@ -52,7 +51,7 @@ const Home = (props) => {
                 <br></br>
               </h2>
               <iframe
-                src="https://fast.wistia.com/embed/medias/h509o0kknc"
+                src="https://www.youtube.com/watch?v=t0UC8PtYdjY"
                 allowFullScreen
                 className="home-iframe"
               ></iframe>
@@ -202,18 +201,9 @@ const Home = (props) => {
           }
           .home-html-node {
             width: 802px;
+            height: 471px;
           }
           .home-section-one {
-            border: 2px dashed rgba(120, 120, 120, 0.4);
-            height: 87px;
-            border-color: rgba(33, 33, 33, 0.1);
-            border-width: 1px;
-            padding-bottom: 44px;
-            border-top-width: 0px;
-            border-left-width: 0px;
-            border-right-width: 0px;
-          }
-          .home-section-one1 {
             height: 773px;
             border-color: rgba(33, 33, 33, 0.1);
             border-width: 1px;
@@ -543,7 +533,7 @@ const Home = (props) => {
             .home-html-node {
               width: 100%;
             }
-            .home-section-one1 {
+            .home-section-one {
               height: 675px;
             }
             .home-text {
@@ -625,13 +615,6 @@ const Home = (props) => {
               width: 100%;
             }
             .home-section-one {
-              height: 679px;
-              margin-top: 5px;
-              margin-left: 5px;
-              margin-right: 5px;
-              margin-bottom: 5px;
-            }
-            .home-section-one1 {
               height: 524px;
               border-radius: var(--dl-radius-radius-radius4);
               border-left-width: 0px;
