@@ -185,6 +185,7 @@ const Home = (props) => {
           }
           .home-html-node {
             width: 100%;
+            margin-top: 35px;
           }
           .home-section-one {
             border: 2px dashed rgba(120, 120, 120, 0.4);
