@@ -201,7 +201,7 @@ const Home = (props) => {
             margin-bottom: 22px;
           }
           .home-html-node {
-            width: 100%;
+            width: 802px;
           }
           .home-section-one {
             border: 2px dashed rgba(120, 120, 120, 0.4);
