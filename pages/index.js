@@ -189,6 +189,8 @@ const Home = (props) => {
             display: flex;
             position: relative;
             align-items: center;
+            margin-left: 30px;
+            margin-right: 30px;
             flex-direction: column;
           }
           .home-image {
