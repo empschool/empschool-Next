@@ -608,6 +608,7 @@ const Home = (props) => {
             }
             .home-max-width {
               height: 367px;
+              position: relative;
               margin-top: 5px;
               margin-left: 5px;
               margin-right: 5px;

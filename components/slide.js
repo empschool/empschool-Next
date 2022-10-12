@@ -217,7 +217,7 @@ Slide.defaultProps = {
   image_src:
     '/playground_assets/img_20221004_110625-removebg-preview%20%5B1%5D-700w.png',
   image_alt: 'image',
-  Role: 'CEO EMP+ TECNOLOGIA LTDA',
+  Role: 'CEO Startpee',
 }
 
 Slide.propTypes = {
