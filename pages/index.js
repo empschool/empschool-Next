@@ -184,9 +184,7 @@ const Home = (props) => {
             flex-direction: column;
           }
           .home-html-node {
-            width: 716px;
-            height: 471px;
-            margin-top: 30px;
+            width: 100%;
           }
           .home-section-one {
             border: 2px dashed rgba(120, 120, 120, 0.4);
@@ -509,9 +507,6 @@ const Home = (props) => {
             }
           }
           @media (max-width: 767px) {
-            .home-html-node {
-              width: 100%;
-            }
             .home-section-one {
               height: 133px;
             }
@@ -582,14 +577,6 @@ const Home = (props) => {
             .home-main {
               height: auto;
               z-index: 100;
-            }
-            .home-html-node {
-              width: 395px;
-              height: 218px;
-              margin-top: 20px;
-              margin-left: 10px;
-              margin-right: 10px;
-              margin-bottom: 20px;
             }
             .home-section-one {
               height: 91px;
