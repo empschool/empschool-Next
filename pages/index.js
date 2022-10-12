@@ -52,20 +52,16 @@ const Home = (props) => {
               }}
             />
           </div>
-          <span className="home-text04">
-            <span>Você precisa de alguém que acredite nos seu sonhos</span>
-            <span className="content-Light">.</span>
-          </span>
           <Link href="/contratar">
             <a className="home-link button-primary button">
               Quero ser parceiro
             </a>
           </Link>
           <div className="home-section-four section-container">
-            <h2 className="home-text07 heading2">
+            <h2 className="home-text04 heading2">
               <span>Nunca desista dos seus </span>
-              <span className="home-text09">sonhos.</span>
-              <span className="home-text10"></span>
+              <span className="home-text06">sonhos.</span>
+              <span className="home-text07"></span>
             </h2>
             <div className="home-max-width max-content-container"></div>
             <div data-type="slider" className="home-slider">
@@ -75,16 +71,16 @@ const Home = (props) => {
           <div className="home-section-six section-container">
             <div className="home-max-width1 max-content-container">
               <div className="home-content-container">
-                <h2 className="home-text11">
+                <h2 className="home-text08">
                   <span>
                     Se você também sonha em crescer sua empresa saiba que você
                     não está 
                   </span>
-                  <span className="home-text13">sozinho.</span>
+                  <span className="home-text10">sozinho.</span>
                 </h2>
-                <span className="home-text14">
+                <span className="home-text11">
                   <span>Estamos disponíveis 8 horas por dia!</span>
-                  <br className="content-Light home-text16"></br>
+                  <br className="content-Light home-text13"></br>
                 </span>
                 <div className="home-input-container">
                   <Link href="/contratar">
@@ -99,13 +95,13 @@ const Home = (props) => {
           <div className="home-section-six1 section-container">
             <div className="home-max-width2 max-content-container">
               <div className="home-content-container1">
-                <h1 className="home-text17 heading2">
+                <h1 className="home-text14 heading2">
                   <span>Receba hoje! </span>
-                  <span className="home-text19">
+                  <span className="home-text16">
                     uma analise detalhada do negócio.
                   </span>
                 </h1>
-                <span className="home-text20 content-Light">
+                <span className="home-text17 content-Light">
                   Não importa o seu tamanho, será um prazer ter você como
                   parceiro
                 </span>
@@ -122,7 +118,7 @@ const Home = (props) => {
                     >
                       <path d="M733.714 419.429c0-9.714-3.429-19.429-10.286-26.286l-52-51.429c-6.857-6.857-16-10.857-25.714-10.857s-18.857 4-25.714 10.857l-233.143 232.571-129.143-129.143c-6.857-6.857-16-10.857-25.714-10.857s-18.857 4-25.714 10.857l-52 51.429c-6.857 6.857-10.286 16.571-10.286 26.286s3.429 18.857 10.286 25.714l206.857 206.857c6.857 6.857 16.571 10.857 25.714 10.857 9.714 0 19.429-4 26.286-10.857l310.286-310.286c6.857-6.857 10.286-16 10.286-25.714zM877.714 512c0 242.286-196.571 438.857-438.857 438.857s-438.857-196.571-438.857-438.857 196.571-438.857 438.857-438.857 438.857 196.571 438.857 438.857z"></path>
                     </svg>
-                    <span className="home-text21">
+                    <span className="home-text18">
                       Seus dados Protegido (LGPD). 
                     </span>
                   </div>
@@ -133,8 +129,8 @@ const Home = (props) => {
                     >
                       <path d="M733.714 419.429c0-9.714-3.429-19.429-10.286-26.286l-52-51.429c-6.857-6.857-16-10.857-25.714-10.857s-18.857 4-25.714 10.857l-233.143 232.571-129.143-129.143c-6.857-6.857-16-10.857-25.714-10.857s-18.857 4-25.714 10.857l-52 51.429c-6.857 6.857-10.286 16.571-10.286 26.286s3.429 18.857 10.286 25.714l206.857 206.857c6.857 6.857 16.571 10.857 25.714 10.857 9.714 0 19.429-4 26.286-10.857l310.286-310.286c6.857-6.857 10.286-16 10.286-25.714zM877.714 512c0 242.286-196.571 438.857-438.857 438.857s-438.857-196.571-438.857-438.857 196.571-438.857 438.857-438.857 438.857 196.571 438.857 438.857z"></path>
                     </svg>
-                    <span className="home-text22">
-                      <span className="home-text23">apenas 5 minutos</span>
+                    <span className="home-text19">
+                      <span className="home-text20">apenas 5 minutos</span>
                       <span> </span>
                     </span>
                   </div>
@@ -145,7 +141,7 @@ const Home = (props) => {
                     >
                       <path d="M733.714 419.429c0-9.714-3.429-19.429-10.286-26.286l-52-51.429c-6.857-6.857-16-10.857-25.714-10.857s-18.857 4-25.714 10.857l-233.143 232.571-129.143-129.143c-6.857-6.857-16-10.857-25.714-10.857s-18.857 4-25.714 10.857l-52 51.429c-6.857 6.857-10.286 16.571-10.286 26.286s3.429 18.857 10.286 25.714l206.857 206.857c6.857 6.857 16.571 10.857 25.714 10.857 9.714 0 19.429-4 26.286-10.857l310.286-310.286c6.857-6.857 10.286-16 10.286-25.714zM877.714 512c0 242.286-196.571 438.857-438.857 438.857s-438.857-196.571-438.857-438.857 196.571-438.857 438.857-438.857 438.857 196.571 438.857 438.857z"></path>
                     </svg>
-                    <span className="home-text25">
+                    <span className="home-text22">
                       ligamos pra vocÊ depois que Respoder tudo
                     </span>
                   </div>
@@ -194,7 +190,7 @@ const Home = (props) => {
           }
           .home-section-one {
             border: 2px dashed rgba(120, 120, 120, 0.4);
-            height: 277px;
+            height: 207px;
             border-color: rgba(33, 33, 33, 0.1);
             border-width: 1px;
             padding-bottom: 44px;
@@ -215,11 +211,6 @@ const Home = (props) => {
           .home-code-embed {
             width: 658px;
             height: 406px;
-          }
-          .home-text04 {
-            color: var(--dl-color-grays-gray100);
-            font-size: 22px;
-            text-align: center;
           }
           .home-link {
             height: 68px;
@@ -244,14 +235,14 @@ const Home = (props) => {
             padding-top: 134px;
             padding-bottom: 0px;
           }
-          .home-text07 {
+          .home-text04 {
             text-align: center;
             margin-bottom: var(--dl-space-space-threeunits);
           }
-          .home-text09 {
+          .home-text06 {
             color: var(--dl-color-backgrounds-primary);
           }
-          .home-text10 {
+          .home-text07 {
             color: transparent;
           }
           .home-max-width {
@@ -283,7 +274,7 @@ const Home = (props) => {
             flex-direction: column;
             justify-content: center;
           }
-          .home-text11 {
+          .home-text08 {
             width: 676px;
             align-self: center;
             margin-top: 12px;
@@ -292,10 +283,10 @@ const Home = (props) => {
             margin-right: 12px;
             margin-bottom: 12px;
           }
-          .home-text13 {
+          .home-text10 {
             color: var(--dl-color-backgrounds-primary);
           }
-          .home-text14 {
+          .home-text11 {
             color: var(--dl-color-backgrounds-primary);
             font-size: 29px;
             align-self: center;
@@ -356,16 +347,16 @@ const Home = (props) => {
             flex-direction: column;
             justify-content: center;
           }
-          .home-text17 {
+          .home-text14 {
             margin-top: 12px;
             margin-left: 12px;
             margin-right: 12px;
             margin-bottom: 12px;
           }
-          .home-text19 {
+          .home-text16 {
             color: var(--dl-color-grays-white100);
           }
-          .home-text20 {
+          .home-text17 {
             color: var(--dl-color-grays-white80);
             margin-top: 12px;
             margin-left: 12px;
@@ -427,7 +418,7 @@ const Home = (props) => {
             min-width: 17px;
             margin-right: 12px;
           }
-          .home-text21 {
+          .home-text18 {
             color: var(--dl-color-grays-white80);
             font-size: 14px;
             font-style: normal;
@@ -448,7 +439,7 @@ const Home = (props) => {
             min-width: 17px;
             margin-right: 12px;
           }
-          .home-text22 {
+          .home-text19 {
             color: var(--dl-color-grays-white80);
             font-size: 14px;
             font-style: normal;
@@ -468,7 +459,7 @@ const Home = (props) => {
             min-width: 17px;
             margin-right: 12px;
           }
-          .home-text25 {
+          .home-text22 {
             color: var(--dl-color-grays-white80);
             font-size: 14px;
             font-style: normal;
@@ -489,6 +480,9 @@ const Home = (props) => {
             object-fit: cover;
           }
           @media (max-width: 991px) {
+            .home-section-one {
+              height: 195px;
+            }
             .home-code-embed {
               height: 370px;
             }
@@ -504,7 +498,7 @@ const Home = (props) => {
             .home-max-width2 {
               flex-direction: column;
             }
-            .home-text17 {
+            .home-text14 {
               width: 100%;
             }
             .home-image {
@@ -519,7 +513,7 @@ const Home = (props) => {
               width: 100%;
             }
             .home-section-one {
-              height: 675px;
+              height: 133px;
             }
             .home-text {
               margin-bottom: var(--dl-space-space-twounits);
@@ -531,7 +525,7 @@ const Home = (props) => {
             .home-section-four {
               height: 1152px;
             }
-            .home-text07 {
+            .home-text04 {
               margin-bottom: var(--dl-space-space-twounits);
             }
             .home-slider {
@@ -544,7 +538,7 @@ const Home = (props) => {
               height: 803px;
               margin: 12px;
             }
-            .home-text11 {
+            .home-text08 {
               width: 706px;
               height: 156px;
               margin-bottom: var(--dl-space-space-twounits);
@@ -556,22 +550,22 @@ const Home = (props) => {
               height: 803px;
               margin: 12px;
             }
-            .home-text21 {
+            .home-text18 {
               color: var(--dl-color-grays-white80);
               font-size: 19px;
               font-style: normal;
               font-weight: 400;
             }
-            .home-text22 {
+            .home-text19 {
               color: var(--dl-color-grays-white80);
               font-size: 14px;
               font-style: normal;
               font-weight: 400;
             }
-            .home-text23 {
+            .home-text20 {
               font-size: 19px;
             }
-            .home-text25 {
+            .home-text22 {
               color: var(--dl-color-grays-white80);
               font-size: 19px;
               font-style: normal;
@@ -598,7 +592,7 @@ const Home = (props) => {
               margin-bottom: 20px;
             }
             .home-section-one {
-              height: 524px;
+              height: 91px;
               border-radius: var(--dl-radius-radius-radius4);
               border-left-width: 0px;
             }
@@ -629,13 +623,6 @@ const Home = (props) => {
               width: 478px;
               height: 376px;
             }
-            .home-text04 {
-              color: var(--dl-color-grays-gray100);
-              margin-top: 12px;
-              margin-left: 12px;
-              margin-right: 12px;
-              margin-bottom: 12px;
-            }
             .home-link {
               width: auto;
               height: 74px;
@@ -651,7 +638,7 @@ const Home = (props) => {
             .home-section-four {
               height: 1244px;
             }
-            .home-text07 {
+            .home-text04 {
               font-size: 30px;
               font-style: normal;
               text-align: center;
@@ -681,7 +668,7 @@ const Home = (props) => {
               padding-top: 174px;
               padding-bottom: var(--dl-space-space-halfunit);
             }
-            .home-text11 {
+            .home-text08 {
               width: auto;
               height: 100%;
               font-size: 30px;
@@ -694,10 +681,10 @@ const Home = (props) => {
               text-transform: none;
               text-decoration: none;
             }
-            .home-text13 {
+            .home-text10 {
               color: var(--dl-color-backgrounds-primary);
             }
-            .home-text14 {
+            .home-text11 {
               color: var(--dl-color-backgrounds-primary);
               font-size: 21px;
               align-self: center;
@@ -706,7 +693,7 @@ const Home = (props) => {
               font-weight: 400;
               margin-bottom: 10px;
             }
-            .home-text16 {
+            .home-text13 {
               font-style: normal;
               font-family: Lexend;
               font-weight: 300;
@@ -733,7 +720,7 @@ const Home = (props) => {
             .home-max-width2 {
               height: 881px;
             }
-            .home-text19 {
+            .home-text16 {
               color: var(--dl-color-grays-white100);
             }
             .home-input-container1 {
