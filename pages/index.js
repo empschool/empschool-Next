@@ -184,8 +184,8 @@ const Home = (props) => {
             flex-direction: column;
           }
           .home-html-node {
-            width: 100%;
-            height: 584px;
+            width: 762px;
+            height: 388px;
             margin-top: 35px;
           }
           .home-section-one {
@@ -513,7 +513,8 @@ const Home = (props) => {
           }
           @media (max-width: 767px) {
             .home-html-node {
-              height: 411px;
+              width: 607px;
+              height: 323px;
             }
             .home-section-one {
               height: 133px;
@@ -587,6 +588,8 @@ const Home = (props) => {
               z-index: 100;
             }
             .home-html-node {
+              width: 358px;
+              height: 212px;
               margin-bottom: Infinitypx;
             }
             .home-section-one {
