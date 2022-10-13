@@ -589,7 +589,7 @@ const Home = (props) => {
             }
             .home-html-node {
               width: 358px;
-              height: 212px;
+              height: 286px;
               margin-bottom: Infinitypx;
             }
             .home-section-one {
@@ -657,6 +657,7 @@ const Home = (props) => {
               width: auto;
               height: 683px;
               padding: 12px;
+              margin-top: var(--dl-space-space-unit);
               padding-top: 0px;
             }
             .home-max-width1 {
@@ -715,11 +716,11 @@ const Home = (props) => {
             }
             .home-section-six1 {
               width: auto;
-              height: 100%;
+              height: 915px;
               padding: 33px;
             }
             .home-max-width2 {
-              height: 881px;
+              height: 804px;
             }
             .home-text16 {
               color: var(--dl-color-grays-white100);

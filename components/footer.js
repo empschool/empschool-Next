@@ -12,7 +12,7 @@ const Footer = (props) => {
           <div className="footer-container">
             <img
               alt="image"
-              src="/playground_assets/start%20%5B2%5D-600h.png"
+              src="/playground_assets/start%20%5B2%5D-1100h.png"
               className="footer-image"
             />
             <span className="footer-text">{props.papel}</span>
@@ -215,8 +215,12 @@ const Footer = (props) => {
           }
           @media (max-width: 479px) {
             .footer-footer {
-              height: 639px;
-              margin-top: 262px;
+              height: 1026px;
+              margin-top: 0px;
+            }
+            .footer-max-width {
+              height: 1052px;
+              padding-bottom: var(--dl-space-space-fiveunits);
             }
             .footer-text01 {
               font-size: 18px;
@@ -225,9 +229,13 @@ const Footer = (props) => {
             }
             .footer-links {
               flex-wrap: wrap;
+              align-items: flex-start;
+              flex-direction: column;
+              justify-content: flex-start;
             }
             .footer-container2 {
               width: 100%;
+              padding-top: 0px;
               margin-bottom: var(--dl-space-space-threeunits);
             }
             .footer-text02 {
