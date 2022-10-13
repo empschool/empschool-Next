@@ -27,28 +27,26 @@ const Home = (props) => {
           />
         </Head>
         <Navbar rootClassName="navbar-root-class-name"></Navbar>
+        <div className="home-code-embed">
+          <span
+            dangerouslySetInnerHTML={{
+              __html:
+                '<script src="https://fast.wistia.com/embed/medias/jlfu9fbrvf.jsonp" async></script>\r\n<script src="https://fast.wistia.com/assets/external/E-v1.js" async></script>\r\n<div class="wistia_responsive_padding" style="padding:56.25% 0 0 0;position:relative;">\r\n    <div class="wistia_responsive_wrapper" style="height:100%;left:0;position:absolute;top:0;width:100%;">\r\n        <span class="wistia_embed wistia_async_jlfu9fbrvf popover=true popoverAnimateThumbnail=true videoFoam=true" style="display:inline-block;height:100%;position:relative;width:100%">&nbsp;</span>\r\n    </div>\r\n</div>',
+            }}
+          />
+        </div>
+        <h2 className="home-text">
+          <span className="heading2 home-text01">
+            Sócio e investidor para seu 
+          </span>
+          <span className="home-text02 heading2">negócio</span>
+          <br></br>
+        </h2>
+        <Link href="/contratar">
+          <a className="home-link button-primary button">Quero ser parceiro</a>
+        </Link>
         <main className="home-main">
           <div className="home-section-one section-container"></div>
-          <h2 className="home-text">
-            <span className="heading2 home-text01">
-              Sócio e investidor para seu 
-            </span>
-            <span className="home-text02 heading2">negócio</span>
-            <br></br>
-          </h2>
-          <div className="home-code-embed">
-            <span
-              dangerouslySetInnerHTML={{
-                __html:
-                  '<script src="https://fast.wistia.com/embed/medias/jlfu9fbrvf.jsonp" async></script>\r\n<script src="https://fast.wistia.com/assets/external/E-v1.js" async></script>\r\n<div class="wistia_responsive_padding" style="padding:56.25% 0 0 0;position:relative;">\r\n    <div class="wistia_responsive_wrapper" style="height:100%;left:0;position:absolute;top:0;width:100%;">\r\n        <span class="wistia_embed wistia_async_jlfu9fbrvf popover=true popoverAnimateThumbnail=true videoFoam=true" style="display:inline-block;height:100%;position:relative;width:100%">&nbsp;</span>\r\n    </div>\r\n</div>',
-              }}
-            />
-          </div>
-          <Link href="/contratar">
-            <a className="home-link button-primary button">
-              Quero ser parceiro
-            </a>
-          </Link>
           <div className="home-html-node">
             <span
               dangerouslySetInnerHTML={{
@@ -181,6 +179,38 @@ const Home = (props) => {
             justify-content: flex-start;
             background-color: var(--dl-color-backgrounds-gray);
           }
+          .home-code-embed {
+            width: 658px;
+            height: 406px;
+          }
+          .home-text {
+            margin-top: 19px;
+            text-align: center;
+            margin-left: 12px;
+            margin-right: 12px;
+            margin-bottom: 19px;
+          }
+          .home-text02 {
+            color: var(--dl-color-backgrounds-primary);
+          }
+          .home-link {
+            height: 68px;
+            display: flex;
+            transition: 0.3s;
+            align-items: center;
+            line-height: 1;
+            padding-top: 20px;
+            white-space: nowrap;
+            padding-left: 32px;
+            padding-right: 32px;
+            padding-bottom: 20px;
+            justify-content: center;
+            text-decoration: none;
+            background-color: var(--dl-color-grays-dark100);
+          }
+          .home-link:hover {
+            background-color: var(--dl-color-grays-white100);
+          }
           .home-main {
             flex: 0 0 auto;
             width: 100%;
@@ -200,38 +230,6 @@ const Home = (props) => {
             border-top-width: 0px;
             border-left-width: 0px;
             border-right-width: 0px;
-          }
-          .home-text {
-            margin-top: 19px;
-            text-align: center;
-            margin-left: 12px;
-            margin-right: 12px;
-            margin-bottom: 19px;
-          }
-          .home-text02 {
-            color: var(--dl-color-backgrounds-primary);
-          }
-          .home-code-embed {
-            width: 658px;
-            height: 406px;
-          }
-          .home-link {
-            height: 68px;
-            display: flex;
-            transition: 0.3s;
-            align-items: center;
-            line-height: 1;
-            padding-top: 20px;
-            white-space: nowrap;
-            padding-left: 32px;
-            padding-right: 32px;
-            padding-bottom: 20px;
-            justify-content: center;
-            text-decoration: none;
-            background-color: var(--dl-color-grays-dark100);
-          }
-          .home-link:hover {
-            background-color: var(--dl-color-grays-white100);
           }
           .home-html-node {
             width: 643px;
@@ -493,11 +491,11 @@ const Home = (props) => {
             margin-top: var(--dl-space-space-fourunits);
           }
           @media (max-width: 991px) {
-            .home-section-one {
-              height: 195px;
-            }
             .home-code-embed {
               height: 370px;
+            }
+            .home-section-one {
+              height: 195px;
             }
             .home-html-node {
               width: 604px;
@@ -530,15 +528,15 @@ const Home = (props) => {
             }
           }
           @media (max-width: 767px) {
-            .home-section-one {
-              height: 133px;
+            .home-code-embed {
+              width: 505px;
+              height: 368px;
             }
             .home-text {
               margin-bottom: var(--dl-space-space-twounits);
             }
-            .home-code-embed {
-              width: 505px;
-              height: 368px;
+            .home-section-one {
+              height: 133px;
             }
             .home-html-node {
               width: 454px;
@@ -615,14 +613,9 @@ const Home = (props) => {
             }
           }
           @media (max-width: 479px) {
-            .home-main {
-              height: auto;
-              z-index: 100;
-            }
-            .home-section-one {
-              height: 60px;
-              border-radius: var(--dl-radius-radius-radius4);
-              border-left-width: 0px;
+            .home-code-embed {
+              width: 478px;
+              height: 376px;
             }
             .home-text {
               width: auto;
@@ -647,10 +640,6 @@ const Home = (props) => {
               text-transform: none;
               text-decoration: none;
             }
-            .home-code-embed {
-              width: 478px;
-              height: 376px;
-            }
             .home-link {
               width: auto;
               height: 74px;
@@ -662,6 +651,15 @@ const Home = (props) => {
               margin-bottom: 12px;
               text-decoration: none;
               background-color: var(--dl-color-grays-dark100);
+            }
+            .home-main {
+              height: auto;
+              z-index: 100;
+            }
+            .home-section-one {
+              height: 60px;
+              border-radius: var(--dl-radius-radius-radius4);
+              border-left-width: 0px;
             }
             .home-html-node {
               margin: var(--dl-space-space-threeunits);
