@@ -27,14 +27,6 @@ const Home = (props) => {
           />
         </Head>
         <Navbar rootClassName="navbar-root-class-name"></Navbar>
-        <div className="home-html-node">
-          <span
-            dangerouslySetInnerHTML={{
-              __html:
-                '<div style="padding-bottom: 56.25%; position: relative; height: 0; overflow: hidden; max-width: 100%;"><iframe\r\n                src="https://player.adventr.io/index.html?link=https%3A%2F%2Fd252srr1zuysk4.cloudfront.net%2Fclients%2F8041%2F9697%2Fpublished%2F8041-startpee-14280173.data&gdpr=skip"\r\n                frameborder="0" scrolling="no" allowfullscreen\r\n                allow="autoplay; fullscreen; clipboard-read; clipboard-write; encrypted-media; geolocation; microphone"\r\n                style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"></iframe></div>',
-            }}
-          />
-        </div>
         <main className="home-main">
           <div className="home-section-one section-container"></div>
           <h2 className="home-text">
@@ -52,7 +44,12 @@ const Home = (props) => {
               }}
             />
           </div>
-          <div className="home-html-node1">
+          <Link href="/contratar">
+            <a className="home-link button-primary button">
+              Quero ser parceiro
+            </a>
+          </Link>
+          <div className="home-html-node">
             <span
               dangerouslySetInnerHTML={{
                 __html:
@@ -60,11 +57,6 @@ const Home = (props) => {
               }}
             />
           </div>
-          <Link href="/contratar">
-            <a className="home-link button-primary button">
-              Quero ser parceiro
-            </a>
-          </Link>
           <div className="home-section-four section-container">
             <h2 className="home-text04 heading2">
               <span>Nunca desista dos seus </span>
@@ -164,7 +156,7 @@ const Home = (props) => {
               </div>
             </div>
           </div>
-          <div className="home-html-node2">
+          <div className="home-html-node1">
             <span
               dangerouslySetInnerHTML={{
                 __html:
@@ -188,11 +180,6 @@ const Home = (props) => {
             flex-direction: column;
             justify-content: flex-start;
             background-color: var(--dl-color-backgrounds-gray);
-          }
-          .home-html-node {
-            width: 643px;
-            height: 420px;
-            margin-top: var(--dl-space-space-fourunits);
           }
           .home-main {
             flex: 0 0 auto;
@@ -228,11 +215,6 @@ const Home = (props) => {
             width: 658px;
             height: 406px;
           }
-          .home-html-node1 {
-            width: 643px;
-            height: 420px;
-            margin-top: var(--dl-space-space-fourunits);
-          }
           .home-link {
             height: 68px;
             display: flex;
@@ -250,6 +232,11 @@ const Home = (props) => {
           }
           .home-link:hover {
             background-color: var(--dl-color-grays-white100);
+          }
+          .home-html-node {
+            width: 643px;
+            height: 420px;
+            margin-top: var(--dl-space-space-fourunits);
           }
           .home-section-four {
             height: 776px;
@@ -500,23 +487,19 @@ const Home = (props) => {
             margin: 12px;
             object-fit: cover;
           }
-          .home-html-node2 {
+          .home-html-node1 {
             width: 643px;
             height: 420px;
             margin-top: var(--dl-space-space-fourunits);
           }
           @media (max-width: 991px) {
-            .home-html-node {
-              width: 604px;
-              height: 370px;
-            }
             .home-section-one {
               height: 195px;
             }
             .home-code-embed {
               height: 370px;
             }
-            .home-html-node1 {
+            .home-html-node {
               width: 604px;
               height: 370px;
             }
@@ -541,21 +524,12 @@ const Home = (props) => {
               margin-left: 250px;
               margin-right: 250px;
             }
-            .home-html-node2 {
+            .home-html-node1 {
               width: 604px;
               height: 370px;
             }
           }
           @media (max-width: 767px) {
-            .home-html-node {
-              width: 454px;
-              height: 253px;
-              z-index: 100;
-              box-shadow: 5px 5px 10px 0px #d4d4d4;
-              border-color: var(--dl-color-grays-dark100);
-              border-width: 1px;
-              border-radius: var(--dl-radius-radius-radius4);
-            }
             .home-section-one {
               height: 133px;
             }
@@ -566,7 +540,7 @@ const Home = (props) => {
               width: 505px;
               height: 368px;
             }
-            .home-html-node1 {
+            .home-html-node {
               width: 454px;
               height: 253px;
               z-index: 100;
@@ -630,7 +604,7 @@ const Home = (props) => {
               margin: 12px;
               align-self: flex-start;
             }
-            .home-html-node2 {
+            .home-html-node1 {
               width: 454px;
               height: 253px;
               z-index: 100;
@@ -641,9 +615,6 @@ const Home = (props) => {
             }
           }
           @media (max-width: 479px) {
-            .home-html-node {
-              margin: var(--dl-space-space-threeunits);
-            }
             .home-main {
               height: auto;
               z-index: 100;
@@ -680,9 +651,6 @@ const Home = (props) => {
               width: 478px;
               height: 376px;
             }
-            .home-html-node1 {
-              margin: var(--dl-space-space-threeunits);
-            }
             .home-link {
               width: auto;
               height: 74px;
@@ -694,6 +662,9 @@ const Home = (props) => {
               margin-bottom: 12px;
               text-decoration: none;
               background-color: var(--dl-color-grays-dark100);
+            }
+            .home-html-node {
+              margin: var(--dl-space-space-threeunits);
             }
             .home-section-four {
               height: 1244px;
@@ -795,7 +766,7 @@ const Home = (props) => {
               height: auto;
               margin: 12px;
             }
-            .home-html-node2 {
+            .home-html-node1 {
               margin: var(--dl-space-space-threeunits);
             }
           }
