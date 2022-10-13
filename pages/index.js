@@ -516,6 +516,11 @@ const Home = (props) => {
             .home-html-node {
               width: 454px;
               height: 253px;
+              z-index: 100;
+              box-shadow: 5px 5px 10px 0px #d4d4d4;
+              border-color: var(--dl-color-grays-dark100);
+              border-width: 1px;
+              border-radius: var(--dl-radius-radius-radius4);
             }
             .home-section-one {
               height: 133px;

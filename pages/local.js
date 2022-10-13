@@ -28,6 +28,14 @@ const Local = (props) => {
             }}
           />
         </div>
+        <div className="local-html-node1">
+          <span
+            dangerouslySetInnerHTML={{
+              __html:
+                '<div style="padding-bottom: 56.25%; position: relative; height: 0; overflow: hidden; max-width: 100%;"><iframe\r\n                src="https://player.adventr.io/index.html?link=https%3A%2F%2Fd252srr1zuysk4.cloudfront.net%2Fclients%2F8041%2F9697%2Fpublished%2F8041-startpee-14280173.data&gdpr=skip"\r\n                frameborder="0" scrolling="no" allowfullscreen\r\n                allow="autoplay; fullscreen; clipboard-read; clipboard-write; encrypted-media; geolocation; microphone"\r\n                style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"></iframe></div>',
+            }}
+          />
+        </div>
       </div>
       <style jsx>
         {`
@@ -40,9 +48,34 @@ const Local = (props) => {
             flex-direction: column;
             justify-content: flex-start;
           }
+          .local-html-node1 {
+            width: 643px;
+            height: 420px;
+            margin-top: var(--dl-space-space-fourunits);
+          }
+          @media (max-width: 991px) {
+            .local-html-node1 {
+              width: 604px;
+              height: 370px;
+            }
+          }
+          @media (max-width: 767px) {
+            .local-html-node1 {
+              width: 454px;
+              height: 253px;
+              z-index: 100;
+              box-shadow: 5px 5px 10px 0px #d4d4d4;
+              border-color: var(--dl-color-grays-dark100);
+              border-width: 1px;
+              border-radius: var(--dl-radius-radius-radius4);
+            }
+          }
           @media (max-width: 479px) {
             .local-html-node {
               width: 100%;
+            }
+            .local-html-node1 {
+              margin: var(--dl-space-space-threeunits);
             }
           }
         `}
