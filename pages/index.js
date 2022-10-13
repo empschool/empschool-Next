@@ -52,6 +52,14 @@ const Home = (props) => {
               }}
             />
           </div>
+          <div className="home-html-node1">
+            <span
+              dangerouslySetInnerHTML={{
+                __html:
+                  '<div style="padding-bottom: 56.25%; position: relative; height: 0; overflow: hidden; max-width: 100%;"><iframe\r\n                src="https://player.adventr.io/index.html?link=https%3A%2F%2Fd252srr1zuysk4.cloudfront.net%2Fclients%2F8041%2F9697%2Fpublished%2F8041-startpee-14280173.data&gdpr=skip"\r\n                frameborder="0" scrolling="no" allowfullscreen\r\n                allow="autoplay; fullscreen; clipboard-read; clipboard-write; encrypted-media; geolocation; microphone"\r\n                style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"></iframe></div>',
+              }}
+            />
+          </div>
           <Link href="/contratar">
             <a className="home-link button-primary button">
               Quero ser parceiro
@@ -156,6 +164,14 @@ const Home = (props) => {
               </div>
             </div>
           </div>
+          <div className="home-html-node2">
+            <span
+              dangerouslySetInnerHTML={{
+                __html:
+                  '<div style="padding-bottom: 56.25%; position: relative; height: 0; overflow: hidden; max-width: 100%;"><iframe\r\n                src="https://player.adventr.io/index.html?link=https%3A%2F%2Fd252srr1zuysk4.cloudfront.net%2Fclients%2F8041%2F9697%2Fpublished%2F8041-startpee-14280173.data&gdpr=skip"\r\n                frameborder="0" scrolling="no" allowfullscreen\r\n                allow="autoplay; fullscreen; clipboard-read; clipboard-write; encrypted-media; geolocation; microphone"\r\n                style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"></iframe></div>',
+              }}
+            />
+          </div>
         </main>
         <Footer rootClassName="footer-root-class-name"></Footer>
         <Copyright rootClassName="copyright-root-class-name"></Copyright>
@@ -211,6 +227,11 @@ const Home = (props) => {
           .home-code-embed {
             width: 658px;
             height: 406px;
+          }
+          .home-html-node1 {
+            width: 643px;
+            height: 420px;
+            margin-top: var(--dl-space-space-fourunits);
           }
           .home-link {
             height: 68px;
@@ -479,6 +500,11 @@ const Home = (props) => {
             margin: 12px;
             object-fit: cover;
           }
+          .home-html-node2 {
+            width: 643px;
+            height: 420px;
+            margin-top: var(--dl-space-space-fourunits);
+          }
           @media (max-width: 991px) {
             .home-html-node {
               width: 604px;
@@ -488,6 +514,10 @@ const Home = (props) => {
               height: 195px;
             }
             .home-code-embed {
+              height: 370px;
+            }
+            .home-html-node1 {
+              width: 604px;
               height: 370px;
             }
             .home-section-six {
@@ -511,6 +541,10 @@ const Home = (props) => {
               margin-left: 250px;
               margin-right: 250px;
             }
+            .home-html-node2 {
+              width: 604px;
+              height: 370px;
+            }
           }
           @media (max-width: 767px) {
             .home-html-node {
@@ -531,6 +565,15 @@ const Home = (props) => {
             .home-code-embed {
               width: 505px;
               height: 368px;
+            }
+            .home-html-node1 {
+              width: 454px;
+              height: 253px;
+              z-index: 100;
+              box-shadow: 5px 5px 10px 0px #d4d4d4;
+              border-color: var(--dl-color-grays-dark100);
+              border-width: 1px;
+              border-radius: var(--dl-radius-radius-radius4);
             }
             .home-section-four {
               height: 1152px;
@@ -587,6 +630,15 @@ const Home = (props) => {
               margin: 12px;
               align-self: flex-start;
             }
+            .home-html-node2 {
+              width: 454px;
+              height: 253px;
+              z-index: 100;
+              box-shadow: 5px 5px 10px 0px #d4d4d4;
+              border-color: var(--dl-color-grays-dark100);
+              border-width: 1px;
+              border-radius: var(--dl-radius-radius-radius4);
+            }
           }
           @media (max-width: 479px) {
             .home-html-node {
@@ -627,6 +679,9 @@ const Home = (props) => {
             .home-code-embed {
               width: 478px;
               height: 376px;
+            }
+            .home-html-node1 {
+              margin: var(--dl-space-space-threeunits);
             }
             .home-link {
               width: auto;
@@ -739,6 +794,9 @@ const Home = (props) => {
               width: 100%;
               height: auto;
               margin: 12px;
+            }
+            .home-html-node2 {
+              margin: var(--dl-space-space-threeunits);
             }
           }
         `}
