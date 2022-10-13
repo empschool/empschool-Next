@@ -229,9 +229,6 @@ const Footer = (props) => {
             }
             .footer-links {
               flex-wrap: wrap;
-              align-items: flex-start;
-              flex-direction: column;
-              justify-content: flex-start;
             }
             .footer-container2 {
               width: 100%;

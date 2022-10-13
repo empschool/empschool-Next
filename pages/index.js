@@ -27,15 +27,13 @@ const Home = (props) => {
           />
         </Head>
         <Navbar rootClassName="navbar-root-class-name"></Navbar>
-        <div className="home-container1">
-          <div className="home-code-embed">
-            <span
-              dangerouslySetInnerHTML={{
-                __html:
-                  '<script src="https://fast.wistia.com/embed/medias/jlfu9fbrvf.jsonp" async></script>\r\n<script src="https://fast.wistia.com/assets/external/E-v1.js" async></script>\r\n<div class="wistia_responsive_padding" style="padding:56.25% 0 0 0;position:relative;">\r\n    <div class="wistia_responsive_wrapper" style="height:100%;left:0;position:absolute;top:0;width:100%;">\r\n        <span class="wistia_embed wistia_async_jlfu9fbrvf popover=true popoverAnimateThumbnail=true videoFoam=true" style="display:inline-block;height:100%;position:relative;width:100%">&nbsp;</span>\r\n    </div>\r\n</div>',
-              }}
-            />
-          </div>
+        <div className="home-html-node">
+          <span
+            dangerouslySetInnerHTML={{
+              __html:
+                '<div style="padding-bottom: 56.25%; position: relative; height: 0; overflow: hidden; max-width: 100%;"><iframe\r\n                src="https://player.adventr.io/index.html?link=https%3A%2F%2Fd252srr1zuysk4.cloudfront.net%2Fclients%2F8041%2F9697%2Fpublished%2F8041-startpee-14280173.data&gdpr=skip"\r\n                frameborder="0" scrolling="no" allowfullscreen\r\n                allow="autoplay; fullscreen; clipboard-read; clipboard-write; encrypted-media; geolocation; microphone"\r\n                style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"></iframe></div>',
+            }}
+          />
         </div>
         <h2 className="home-text">
           <span className="heading2 home-text01">
@@ -44,19 +42,16 @@ const Home = (props) => {
           <span className="home-text02 heading2">negócio</span>
           <br></br>
         </h2>
-        <Link href="/contratar">
-          <a className="home-link button-primary button">Quero ser parceiro</a>
-        </Link>
+        <div className="home-html-node1">
+          <span
+            dangerouslySetInnerHTML={{
+              __html:
+                '<script src="https://fast.wistia.com/embed/medias/jlfu9fbrvf.jsonp" async></script>\r\n<script src="https://fast.wistia.com/assets/external/E-v1.js" async></script>\r\n<div class="wistia_responsive_padding" style="padding:56.25% 0 0 0;position:relative;">\r\n    <div class="wistia_responsive_wrapper" style="height:100%;left:0;position:absolute;top:0;width:100%;">\r\n        <span class="wistia_embed wistia_async_jlfu9fbrvf popover=true popoverAnimateThumbnail=true videoFoam=true" style="display:inline-block;height:100%;position:relative;width:100%">&nbsp;</span>\r\n    </div>\r\n</div>',
+            }}
+          />
+        </div>
         <main className="home-main">
           <div className="home-section-one section-container"></div>
-          <div className="home-html-node">
-            <span
-              dangerouslySetInnerHTML={{
-                __html:
-                  '<div style="padding-bottom: 56.25%; position: relative; height: 0; overflow: hidden; max-width: 100%;"><iframe\r\n                src="https://player.adventr.io/index.html?link=https%3A%2F%2Fd252srr1zuysk4.cloudfront.net%2Fclients%2F8041%2F9697%2Fpublished%2F8041-startpee-14280173.data&gdpr=skip"\r\n                frameborder="0" scrolling="no" allowfullscreen\r\n                allow="autoplay; fullscreen; clipboard-read; clipboard-write; encrypted-media; geolocation; microphone"\r\n                style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"></iframe></div>',
-              }}
-            />
-          </div>
           <div className="home-section-four section-container">
             <h2 className="home-text04 heading2">
               <span>Nunca desista dos seus </span>
@@ -84,7 +79,7 @@ const Home = (props) => {
                 </span>
                 <div className="home-input-container">
                   <Link href="/contratar">
-                    <a className="home-link1 button-primary button">
+                    <a className="home-link button-primary button">
                       Chamar nós
                     </a>
                   </Link>
@@ -107,7 +102,7 @@ const Home = (props) => {
                 </span>
                 <div className="home-input-container1">
                   <Link href="/contratar">
-                    <a className="home-link2 button-primary button">Começar</a>
+                    <a className="home-link1 button-primary button">Começar</a>
                   </Link>
                 </div>
                 <div className="home-features-container">
@@ -156,14 +151,6 @@ const Home = (props) => {
               </div>
             </div>
           </div>
-          <div className="home-html-node1">
-            <span
-              dangerouslySetInnerHTML={{
-                __html:
-                  '<div style="padding-bottom: 56.25%; position: relative; height: 0; overflow: hidden; max-width: 100%;"><iframe\r\n                src="https://player.adventr.io/index.html?link=https%3A%2F%2Fd252srr1zuysk4.cloudfront.net%2Fclients%2F8041%2F9697%2Fpublished%2F8041-startpee-14280173.data&gdpr=skip"\r\n                frameborder="0" scrolling="no" allowfullscreen\r\n                allow="autoplay; fullscreen; clipboard-read; clipboard-write; encrypted-media; geolocation; microphone"\r\n                style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"></iframe></div>',
-              }}
-            />
-          </div>
         </main>
         <Footer rootClassName="footer-root-class-name"></Footer>
         <Copyright rootClassName="copyright-root-class-name"></Copyright>
@@ -181,15 +168,10 @@ const Home = (props) => {
             justify-content: flex-start;
             background-color: var(--dl-color-backgrounds-gray);
           }
-          .home-container1 {
-            flex: 0 0 auto;
-            width: 100%;
-            display: flex;
-            align-items: flex-start;
-          }
-          .home-code-embed {
-            width: 658px;
-            height: 406px;
+          .home-html-node {
+            width: 452px;
+            height: 230px;
+            margin-top: var(--dl-space-space-fourunits);
           }
           .home-text {
             margin-top: 19px;
@@ -201,23 +183,9 @@ const Home = (props) => {
           .home-text02 {
             color: var(--dl-color-backgrounds-primary);
           }
-          .home-link {
-            height: 68px;
-            display: flex;
-            transition: 0.3s;
-            align-items: center;
-            line-height: 1;
-            padding-top: 20px;
-            white-space: nowrap;
-            padding-left: 32px;
-            padding-right: 32px;
-            padding-bottom: 20px;
-            justify-content: center;
-            text-decoration: none;
-            background-color: var(--dl-color-grays-dark100);
-          }
-          .home-link:hover {
-            background-color: var(--dl-color-grays-white100);
+          .home-html-node1 {
+            width: 476px;
+            height: 305px;
           }
           .home-main {
             flex: 0 0 auto;
@@ -238,11 +206,6 @@ const Home = (props) => {
             border-top-width: 0px;
             border-left-width: 0px;
             border-right-width: 0px;
-          }
-          .home-html-node {
-            width: 643px;
-            height: 420px;
-            margin-top: var(--dl-space-space-fourunits);
           }
           .home-section-four {
             height: 776px;
@@ -324,7 +287,7 @@ const Home = (props) => {
             flex-direction: row;
             justify-content: center;
           }
-          .home-link1 {
+          .home-link {
             width: 191px;
             height: 81px;
             display: flex;
@@ -341,7 +304,7 @@ const Home = (props) => {
             text-decoration: none;
             background-color: var(--dl-color-grays-dark100);
           }
-          .home-link1:hover {
+          .home-link:hover {
             background-color: var(--dl-color-grays-white100);
           }
           .home-section-six1 {
@@ -389,7 +352,7 @@ const Home = (props) => {
             flex-direction: row;
             justify-content: center;
           }
-          .home-link2 {
+          .home-link1 {
             width: 191px;
             height: 81px;
             display: flex;
@@ -406,7 +369,7 @@ const Home = (props) => {
             text-decoration: none;
             background-color: var(--dl-color-grays-dark100);
           }
-          .home-link2:hover {
+          .home-link1:hover {
             background-color: var(--dl-color-grays-white100);
           }
           .home-features-container {
@@ -493,21 +456,13 @@ const Home = (props) => {
             margin: 12px;
             object-fit: cover;
           }
-          .home-html-node1 {
-            width: 643px;
-            height: 420px;
-            margin-top: var(--dl-space-space-fourunits);
-          }
           @media (max-width: 991px) {
-            .home-code-embed {
+            .home-html-node {
+              width: 604px;
               height: 370px;
             }
             .home-section-one {
               height: 195px;
-            }
-            .home-html-node {
-              width: 604px;
-              height: 370px;
             }
             .home-section-six {
               height: 848px;
@@ -530,22 +485,8 @@ const Home = (props) => {
               margin-left: 250px;
               margin-right: 250px;
             }
-            .home-html-node1 {
-              width: 604px;
-              height: 370px;
-            }
           }
           @media (max-width: 767px) {
-            .home-code-embed {
-              width: 505px;
-              height: 368px;
-            }
-            .home-text {
-              margin-bottom: var(--dl-space-space-twounits);
-            }
-            .home-section-one {
-              height: 133px;
-            }
             .home-html-node {
               width: 454px;
               height: 253px;
@@ -554,6 +495,12 @@ const Home = (props) => {
               border-color: var(--dl-color-grays-dark100);
               border-width: 1px;
               border-radius: var(--dl-radius-radius-radius4);
+            }
+            .home-text {
+              margin-bottom: var(--dl-space-space-twounits);
+            }
+            .home-section-one {
+              height: 133px;
             }
             .home-section-four {
               height: 1152px;
@@ -610,20 +557,10 @@ const Home = (props) => {
               margin: 12px;
               align-self: flex-start;
             }
-            .home-html-node1 {
-              width: 454px;
-              height: 253px;
-              z-index: 100;
-              box-shadow: 5px 5px 10px 0px #d4d4d4;
-              border-color: var(--dl-color-grays-dark100);
-              border-width: 1px;
-              border-radius: var(--dl-radius-radius-radius4);
-            }
           }
           @media (max-width: 479px) {
-            .home-code-embed {
-              width: 478px;
-              height: 376px;
+            .home-html-node {
+              margin: var(--dl-space-space-threeunits);
             }
             .home-text {
               width: auto;
@@ -648,18 +585,6 @@ const Home = (props) => {
               text-transform: none;
               text-decoration: none;
             }
-            .home-link {
-              width: auto;
-              height: 74px;
-              font-size: 22px;
-              margin-top: 12px;
-              line-height: 1;
-              margin-left: 12px;
-              margin-right: 12px;
-              margin-bottom: 12px;
-              text-decoration: none;
-              background-color: var(--dl-color-grays-dark100);
-            }
             .home-main {
               height: auto;
               z-index: 100;
@@ -668,9 +593,6 @@ const Home = (props) => {
               height: 60px;
               border-radius: var(--dl-radius-radius-radius4);
               border-left-width: 0px;
-            }
-            .home-html-node {
-              margin: var(--dl-space-space-threeunits);
             }
             .home-section-four {
               height: 1244px;
@@ -693,7 +615,6 @@ const Home = (props) => {
               width: auto;
               height: 683px;
               padding: 12px;
-              margin-top: var(--dl-space-space-unit);
               padding-top: 0px;
             }
             .home-max-width1 {
@@ -744,7 +665,7 @@ const Home = (props) => {
               align-self: center;
               flex-direction: column;
             }
-            .home-link1 {
+            .home-link {
               font-size: 22px;
               line-height: 1;
               text-decoration: none;
@@ -764,16 +685,13 @@ const Home = (props) => {
             .home-input-container1 {
               flex-direction: column;
             }
-            .home-link2 {
+            .home-link1 {
               font-size: 25px;
             }
             .home-image {
               width: 100%;
               height: auto;
               margin: 12px;
-            }
-            .home-html-node1 {
-              margin: var(--dl-space-space-threeunits);
             }
           }
         `}
