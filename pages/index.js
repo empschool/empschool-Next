@@ -35,13 +35,6 @@ const Home = (props) => {
             }}
           />
         </div>
-        <h2 className="home-text">
-          <span className="heading2 home-text01">
-            Sócio e investidor para seu 
-          </span>
-          <span className="home-text02 heading2">negócio</span>
-          <br></br>
-        </h2>
         <div className="home-html-node1">
           <span
             dangerouslySetInnerHTML={{
@@ -50,8 +43,17 @@ const Home = (props) => {
             }}
           />
         </div>
+        <h2 className="home-text">
+          <span className="heading2 home-text01">
+            Sócio e investidor para seu 
+          </span>
+          <span className="home-text02 heading2">negócio</span>
+          <br></br>
+        </h2>
+        <Link href="/contratar">
+          <a className="home-link button-primary button">tornar parceiro</a>
+        </Link>
         <main className="home-main">
-          <div className="home-section-one section-container"></div>
           <div className="home-section-four section-container">
             <h2 className="home-text04 heading2">
               <span>Nunca desista dos seus </span>
@@ -79,7 +81,7 @@ const Home = (props) => {
                 </span>
                 <div className="home-input-container">
                   <Link href="/contratar">
-                    <a className="home-link button-primary button">
+                    <a className="home-link1 button-primary button">
                       Chamar nós
                     </a>
                   </Link>
@@ -102,7 +104,7 @@ const Home = (props) => {
                 </span>
                 <div className="home-input-container1">
                   <Link href="/contratar">
-                    <a className="home-link1 button-primary button">Começar</a>
+                    <a className="home-link2 button-primary button">Começar</a>
                   </Link>
                 </div>
                 <div className="home-features-container">
@@ -172,6 +174,11 @@ const Home = (props) => {
             width: 452px;
             height: 230px;
             margin-top: var(--dl-space-space-fourunits);
+            margin-bottom: 55px;
+          }
+          .home-html-node1 {
+            width: 428px;
+            height: 269px;
           }
           .home-text {
             margin-top: 60px;
@@ -183,9 +190,25 @@ const Home = (props) => {
           .home-text02 {
             color: var(--dl-color-backgrounds-primary);
           }
-          .home-html-node1 {
-            width: 476px;
-            height: 305px;
+          .home-link {
+            width: 191px;
+            height: 81px;
+            display: flex;
+            font-size: 22px;
+            transition: 0.3s;
+            align-items: center;
+            line-height: 1;
+            padding-top: 20px;
+            white-space: nowrap;
+            padding-left: 32px;
+            padding-right: 32px;
+            padding-bottom: 20px;
+            justify-content: center;
+            text-decoration: none;
+            background-color: var(--dl-color-grays-dark100);
+          }
+          .home-link:hover {
+            background-color: var(--dl-color-grays-white100);
           }
           .home-main {
             flex: 0 0 auto;
@@ -196,16 +219,6 @@ const Home = (props) => {
             margin-left: 30px;
             margin-right: 30px;
             flex-direction: column;
-          }
-          .home-section-one {
-            border: 2px dashed rgba(120, 120, 120, 0.4);
-            height: 207px;
-            border-color: rgba(33, 33, 33, 0.1);
-            border-width: 1px;
-            padding-bottom: 44px;
-            border-top-width: 0px;
-            border-left-width: 0px;
-            border-right-width: 0px;
           }
           .home-section-four {
             height: 776px;
@@ -287,7 +300,7 @@ const Home = (props) => {
             flex-direction: row;
             justify-content: center;
           }
-          .home-link {
+          .home-link1 {
             width: 191px;
             height: 81px;
             display: flex;
@@ -304,7 +317,7 @@ const Home = (props) => {
             text-decoration: none;
             background-color: var(--dl-color-grays-dark100);
           }
-          .home-link:hover {
+          .home-link1:hover {
             background-color: var(--dl-color-grays-white100);
           }
           .home-section-six1 {
@@ -352,7 +365,7 @@ const Home = (props) => {
             flex-direction: row;
             justify-content: center;
           }
-          .home-link1 {
+          .home-link2 {
             width: 191px;
             height: 81px;
             display: flex;
@@ -369,7 +382,7 @@ const Home = (props) => {
             text-decoration: none;
             background-color: var(--dl-color-grays-dark100);
           }
-          .home-link1:hover {
+          .home-link2:hover {
             background-color: var(--dl-color-grays-white100);
           }
           .home-features-container {
@@ -461,9 +474,6 @@ const Home = (props) => {
               width: 604px;
               height: 370px;
             }
-            .home-section-one {
-              height: 195px;
-            }
             .home-section-six {
               height: 848px;
             }
@@ -498,9 +508,6 @@ const Home = (props) => {
             }
             .home-text {
               margin-bottom: var(--dl-space-space-twounits);
-            }
-            .home-section-one {
-              height: 133px;
             }
             .home-section-four {
               height: 1152px;
@@ -560,8 +567,8 @@ const Home = (props) => {
           }
           @media (max-width: 479px) {
             .home-html-node {
-              width: 370px;
-              height: 209px;
+              width: 266px;
+              height: 133px;
               margin: var(--dl-space-space-threeunits);
             }
             .home-text {
@@ -587,14 +594,15 @@ const Home = (props) => {
               text-transform: none;
               text-decoration: none;
             }
+            .home-link {
+              font-size: 22px;
+              line-height: 1;
+              text-decoration: none;
+              background-color: var(--dl-color-grays-dark100);
+            }
             .home-main {
               height: auto;
               z-index: 100;
-            }
-            .home-section-one {
-              height: 60px;
-              border-radius: var(--dl-radius-radius-radius4);
-              border-left-width: 0px;
             }
             .home-section-four {
               height: 1244px;
@@ -667,7 +675,7 @@ const Home = (props) => {
               align-self: center;
               flex-direction: column;
             }
-            .home-link {
+            .home-link1 {
               font-size: 22px;
               line-height: 1;
               text-decoration: none;
@@ -687,7 +695,7 @@ const Home = (props) => {
             .home-input-container1 {
               flex-direction: column;
             }
-            .home-link1 {
+            .home-link2 {
               font-size: 25px;
             }
             .home-image {
