@@ -27,15 +27,11 @@ const Home = (props) => {
           />
         </Head>
         <Navbar rootClassName="navbar-root-class-name"></Navbar>
+        <iframe
+          src="https://player.adventr.io/index.html?link=https%3A%2F%2Fd252srr1zuysk4.cloudfront.net%2Fclients%2F8041%2F9697%2Fpublished%2F8041-startpee-14280173.data&amp;gdpr=skip"
+          className="home-iframe"
+        ></iframe>
         <div className="home-html-node">
-          <span
-            dangerouslySetInnerHTML={{
-              __html:
-                '<div style="padding-bottom: 56.25%; position: relative; height: 0; overflow: hidden; max-width: 100%;"><iframe\r\n                src="https://player.adventr.io/index.html?link=https%3A%2F%2Fd252srr1zuysk4.cloudfront.net%2Fclients%2F8041%2F9697%2Fpublished%2F8041-startpee-14280173.data&gdpr=skip"\r\n                frameborder="0" scrolling="no" allowfullscreen\r\n                allow="autoplay; fullscreen; clipboard-read; clipboard-write; encrypted-media; geolocation; microphone"\r\n                style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"></iframe></div>',
-            }}
-          />
-        </div>
-        <div className="home-html-node1">
           <span
             dangerouslySetInnerHTML={{
               __html:
@@ -170,13 +166,11 @@ const Home = (props) => {
             justify-content: flex-start;
             background-color: var(--dl-color-backgrounds-gray);
           }
-          .home-html-node {
-            width: 452px;
-            height: 230px;
-            margin-top: var(--dl-space-space-fourunits);
-            margin-bottom: 55px;
+          .home-iframe {
+            width: 320px;
+            height: 200px;
           }
-          .home-html-node1 {
+          .home-html-node {
             width: 428px;
             height: 269px;
           }
@@ -470,10 +464,6 @@ const Home = (props) => {
             object-fit: cover;
           }
           @media (max-width: 991px) {
-            .home-html-node {
-              width: 604px;
-              height: 370px;
-            }
             .home-section-six {
               height: 848px;
             }
@@ -497,15 +487,6 @@ const Home = (props) => {
             }
           }
           @media (max-width: 767px) {
-            .home-html-node {
-              width: 454px;
-              height: 253px;
-              z-index: 100;
-              box-shadow: 5px 5px 10px 0px #d4d4d4;
-              border-color: var(--dl-color-grays-dark100);
-              border-width: 1px;
-              border-radius: var(--dl-radius-radius-radius4);
-            }
             .home-text {
               margin-bottom: var(--dl-space-space-twounits);
             }
@@ -566,11 +547,6 @@ const Home = (props) => {
             }
           }
           @media (max-width: 479px) {
-            .home-html-node {
-              width: 266px;
-              height: 133px;
-              margin: var(--dl-space-space-threeunits);
-            }
             .home-text {
               width: auto;
               font-size: 30px;
