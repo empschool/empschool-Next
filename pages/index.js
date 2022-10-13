@@ -27,15 +27,15 @@ const Home = (props) => {
           />
         </Head>
         <Navbar rootClassName="navbar-root-class-name"></Navbar>
+        <div className="home-html-node">
+          <span
+            dangerouslySetInnerHTML={{
+              __html:
+                '<div style="padding-bottom: 56.25%; position: relative; height: 0; overflow: hidden; max-width: 100%;"><iframe\r\n                src="https://player.adventr.io/index.html?link=https%3A%2F%2Fd252srr1zuysk4.cloudfront.net%2Fclients%2F8041%2F9697%2Fpublished%2F8041-startpee-14280173.data&gdpr=skip"\r\n                frameborder="0" scrolling="no" allowfullscreen\r\n                allow="autoplay; fullscreen; clipboard-read; clipboard-write; encrypted-media; geolocation; microphone"\r\n                style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"></iframe></div>',
+            }}
+          />
+        </div>
         <main className="home-main">
-          <div className="home-html-node">
-            <span
-              dangerouslySetInnerHTML={{
-                __html:
-                  '<div style="padding-bottom: 56.25%; position: relative; height: 0; overflow: hidden; max-width: 100%;"><iframe\r\n        src="https://player.adventr.io/index.html?link=https%3A%2F%2Fd252srr1zuysk4.cloudfront.net%2Fclients%2F8041%2F9697%2Fpublished%2F8041-startpee-14280173.data&gdpr=skip"\r\n        frameborder="0" scrolling="no" allowfullscreen\r\n        allow="autoplay; fullscreen; clipboard-read; clipboard-write; encrypted-media; geolocation; microphone"\r\n        style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"></iframe></div>',
-              }}
-            />
-          </div>
           <div className="home-section-one section-container"></div>
           <h2 className="home-text">
             <span className="heading2 home-text01">
@@ -173,6 +173,10 @@ const Home = (props) => {
             justify-content: flex-start;
             background-color: var(--dl-color-backgrounds-gray);
           }
+          .home-html-node {
+            width: 484px;
+            height: 231px;
+          }
           .home-main {
             flex: 0 0 auto;
             width: 100%;
@@ -182,11 +186,6 @@ const Home = (props) => {
             margin-left: 30px;
             margin-right: 30px;
             flex-direction: column;
-          }
-          .home-html-node {
-            width: 762px;
-            height: 388px;
-            margin-top: 35px;
           }
           .home-section-one {
             border: 2px dashed rgba(120, 120, 120, 0.4);
@@ -480,9 +479,6 @@ const Home = (props) => {
             object-fit: cover;
           }
           @media (max-width: 991px) {
-            .home-html-node {
-              height: 445px;
-            }
             .home-section-one {
               height: 195px;
             }
@@ -513,8 +509,8 @@ const Home = (props) => {
           }
           @media (max-width: 767px) {
             .home-html-node {
-              width: 607px;
-              height: 323px;
+              width: 420px;
+              height: 204px;
             }
             .home-section-one {
               height: 133px;
@@ -583,17 +579,15 @@ const Home = (props) => {
             }
           }
           @media (max-width: 479px) {
+            .home-html-node {
+              margin: 20px;
+            }
             .home-main {
               height: auto;
               z-index: 100;
             }
-            .home-html-node {
-              width: 358px;
-              height: 286px;
-              margin-bottom: Infinitypx;
-            }
             .home-section-one {
-              height: 91px;
+              height: 60px;
               border-radius: var(--dl-radius-radius-radius4);
               border-left-width: 0px;
             }
