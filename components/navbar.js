@@ -382,7 +382,7 @@ Navbar.defaultProps = {
   image_src: '/playground_assets/start%20%5B1%5D-200h.png',
   image_src1: '769fe947-8f32-4db1-86f9-a7f12826012f',
   image_alt: 'logo',
-  image_src2: '/playground_assets/exit-full-screen-200h.png',
+  image_src2: '/playground_assets/exit-full-screen%20%5B1%5D-200h.png',
   rootClassName: '',
   image_alt1: 'image',
   text: 'Nossas redes',
