@@ -13,11 +13,15 @@ const Navbar = (props) => {
           data-role="Header"
           className="navbar-max-width navigation-container"
         >
-          <img
-            alt={props.image_src}
-            src="/playground_assets/start%20%5B1%5D-200h.png"
-            className="navbar-image"
-          />
+          <Link href="/">
+            <a>
+              <img
+                alt={props.image_src}
+                src="/playground_assets/start%20%5B1%5D-200h.png"
+                className="navbar-image"
+              />
+            </a>
+          </Link>
           <div className="navbar-nav">
             <NavigationLinks rootClassName="navigation-links-root-class-name10"></NavigationLinks>
           </div>
@@ -76,7 +80,7 @@ const Navbar = (props) => {
             </div>
           </div>
           <Link href="/contratar">
-            <a className="navbar-link button-primary button">
+            <a className="navbar-link1 button-primary button">
               {props.PrimaryBtn}
             </a>
           </Link>
@@ -100,6 +104,7 @@ const Navbar = (props) => {
           }
           .navbar-image {
             width: var(--dl-size-size-xxlarge);
+            text-decoration: none;
           }
           .navbar-nav {
             display: flex;
@@ -216,7 +221,7 @@ const Navbar = (props) => {
             fill: var(--dl-color-backgrounds-primary);
             cursor: pointer;
           }
-          .navbar-link {
+          .navbar-link1 {
             align-self: center;
             text-align: center;
             padding-top: 12px;
@@ -262,7 +267,7 @@ const Navbar = (props) => {
               margin-top: var(--dl-space-space-halfunit);
               margin-bottom: var(--dl-space-space-halfunit);
             }
-            .navbar-link {
+            .navbar-link1 {
               padding: 12px;
               text-align: center;
               padding-top: 10px;
@@ -324,7 +329,7 @@ const Navbar = (props) => {
               margin-top: var(--dl-space-space-halfunit);
               margin-bottom: var(--dl-space-space-halfunit);
             }
-            .navbar-link {
+            .navbar-link1 {
               display: none;
             }
           }
