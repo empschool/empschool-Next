@@ -153,7 +153,8 @@ const Navbar = (props) => {
           }
           .navbar-primary-btn {
             align-self: center;
-            margin-top: var(--dl-space-space-oneandhalfunits);
+            margin-top: var(--dl-space-space-halfunit);
+            margin-bottom: var(--dl-space-space-halfunit);
           }
           .navbar-social-media {
             flex: 0 0 auto;
@@ -257,6 +258,10 @@ const Navbar = (props) => {
             .navbar-image2 {
               align-self: center;
             }
+            .navbar-primary-btn {
+              margin-top: var(--dl-space-space-halfunit);
+              margin-bottom: var(--dl-space-space-halfunit);
+            }
             .navbar-link {
               padding: 12px;
               text-align: center;
@@ -315,6 +320,10 @@ const Navbar = (props) => {
               display: flex;
               justify-content: center;
             }
+            .navbar-primary-btn {
+              margin-top: var(--dl-space-space-halfunit);
+              margin-bottom: var(--dl-space-space-halfunit);
+            }
             .navbar-link {
               display: none;
             }
@@ -371,6 +380,10 @@ const Navbar = (props) => {
             }
             .navbar-image2 {
               display: flex;
+            }
+            .navbar-primary-btn {
+              margin-top: 8px;
+              margin-bottom: 8px;
             }
           }
         `}
