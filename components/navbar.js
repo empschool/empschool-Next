@@ -334,7 +334,6 @@ const Navbar = (props) => {
             }
             .navbar-burger-menu {
               width: 50%;
-              height: 54px;
               margin: 1px;
               justify-content: flex-end;
             }

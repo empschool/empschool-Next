@@ -6,16 +6,14 @@ const Intro = (props) => {
     <>
       <div className="intro-container">
         <Head>
-          <title>
-            intro - Empreende School marketing & tecnologia para negócios
-          </title>
+          <title>intro - Startpee marketing & tecnologia para negócios</title>
           <meta
             name="description"
             content="Serviço de marketing completo para pequenos negócios, gestor de trafego profissional, social media profissional, desenvolvimento de plano de negócios "
           />
           <meta
             property="og:title"
-            content="intro - Empreende School marketing &amp; tecnologia para negócios "
+            content="intro - Startpee marketing &amp; tecnologia para negócios "
           />
           <meta
             property="og:description"

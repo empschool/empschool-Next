@@ -6,16 +6,14 @@ const Local = (props) => {
     <>
       <div className="local-container">
         <Head>
-          <title>
-            Local - Empreende School marketing & tecnologia para negócios
-          </title>
+          <title>Local - Startpee marketing & tecnologia para negócios</title>
           <meta
             name="description"
             content="Serviço de marketing completo para pequenos negócios, gestor de trafego profissional, social media profissional, desenvolvimento de plano de negócios "
           />
           <meta
             property="og:title"
-            content="Local - Empreende School marketing &amp; tecnologia para negócios "
+            content="Local - Startpee marketing &amp; tecnologia para negócios "
           />
           <meta
             property="og:description"

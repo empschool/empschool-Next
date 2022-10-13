@@ -10,7 +10,7 @@ const Contratar = (props) => {
       >
         <Head>
           <title>
-            Contratar - Empreende School marketing & tecnologia para negócios
+            Contratar - Startpee marketing & tecnologia para negócios
           </title>
           <meta
             name="description"
@@ -18,7 +18,7 @@ const Contratar = (props) => {
           />
           <meta
             property="og:title"
-            content="Contratar - Empreende School marketing &amp; tecnologia para negócios "
+            content="Contratar - Startpee marketing &amp; tecnologia para negócios "
           />
           <meta
             property="og:description"

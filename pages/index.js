@@ -12,14 +12,14 @@ const Home = (props) => {
     <>
       <div className="home-container">
         <Head>
-          <title>Empreende School marketing & tecnologia para negócios</title>
+          <title>Startpee marketing & tecnologia para negócios</title>
           <meta
             name="description"
             content="Serviço de marketing completo para pequenos negócios, gestor de trafego profissional, social media profissional, desenvolvimento de plano de negócios "
           />
           <meta
             property="og:title"
-            content="Empreende School marketing &amp; tecnologia para negócios "
+            content="Startpee marketing &amp; tecnologia para negócios "
           />
           <meta
             property="og:description"
