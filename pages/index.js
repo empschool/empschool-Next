@@ -27,13 +27,15 @@ const Home = (props) => {
           />
         </Head>
         <Navbar rootClassName="navbar-root-class-name"></Navbar>
-        <div className="home-code-embed">
-          <span
-            dangerouslySetInnerHTML={{
-              __html:
-                '<script src="https://fast.wistia.com/embed/medias/jlfu9fbrvf.jsonp" async></script>\r\n<script src="https://fast.wistia.com/assets/external/E-v1.js" async></script>\r\n<div class="wistia_responsive_padding" style="padding:56.25% 0 0 0;position:relative;">\r\n    <div class="wistia_responsive_wrapper" style="height:100%;left:0;position:absolute;top:0;width:100%;">\r\n        <span class="wistia_embed wistia_async_jlfu9fbrvf popover=true popoverAnimateThumbnail=true videoFoam=true" style="display:inline-block;height:100%;position:relative;width:100%">&nbsp;</span>\r\n    </div>\r\n</div>',
-            }}
-          />
+        <div className="home-container1">
+          <div className="home-code-embed">
+            <span
+              dangerouslySetInnerHTML={{
+                __html:
+                  '<script src="https://fast.wistia.com/embed/medias/jlfu9fbrvf.jsonp" async></script>\r\n<script src="https://fast.wistia.com/assets/external/E-v1.js" async></script>\r\n<div class="wistia_responsive_padding" style="padding:56.25% 0 0 0;position:relative;">\r\n    <div class="wistia_responsive_wrapper" style="height:100%;left:0;position:absolute;top:0;width:100%;">\r\n        <span class="wistia_embed wistia_async_jlfu9fbrvf popover=true popoverAnimateThumbnail=true videoFoam=true" style="display:inline-block;height:100%;position:relative;width:100%">&nbsp;</span>\r\n    </div>\r\n</div>',
+              }}
+            />
+          </div>
         </div>
         <h2 className="home-text">
           <span className="heading2 home-text01">
@@ -178,6 +180,12 @@ const Home = (props) => {
             flex-direction: column;
             justify-content: flex-start;
             background-color: var(--dl-color-backgrounds-gray);
+          }
+          .home-container1 {
+            flex: 0 0 auto;
+            width: 100%;
+            display: flex;
+            align-items: flex-start;
           }
           .home-code-embed {
             width: 658px;
