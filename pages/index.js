@@ -185,6 +185,7 @@ const Home = (props) => {
           }
           .home-html-node {
             width: 100%;
+            height: 584px;
             margin-top: 35px;
           }
           .home-section-one {
@@ -479,6 +480,9 @@ const Home = (props) => {
             object-fit: cover;
           }
           @media (max-width: 991px) {
+            .home-html-node {
+              height: 445px;
+            }
             .home-section-one {
               height: 195px;
             }
@@ -508,6 +512,9 @@ const Home = (props) => {
             }
           }
           @media (max-width: 767px) {
+            .home-html-node {
+              height: 411px;
+            }
             .home-section-one {
               height: 133px;
             }
@@ -578,6 +585,9 @@ const Home = (props) => {
             .home-main {
               height: auto;
               z-index: 100;
+            }
+            .home-html-node {
+              margin-bottom: Infinitypx;
             }
             .home-section-one {
               height: 91px;
