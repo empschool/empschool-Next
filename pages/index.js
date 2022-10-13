@@ -174,8 +174,8 @@ const Home = (props) => {
             background-color: var(--dl-color-backgrounds-gray);
           }
           .home-html-node {
-            width: 484px;
-            height: 231px;
+            width: 643px;
+            height: 420px;
           }
           .home-main {
             flex: 0 0 auto;
@@ -479,6 +479,10 @@ const Home = (props) => {
             object-fit: cover;
           }
           @media (max-width: 991px) {
+            .home-html-node {
+              width: 604px;
+              height: 370px;
+            }
             .home-section-one {
               height: 195px;
             }
@@ -509,8 +513,8 @@ const Home = (props) => {
           }
           @media (max-width: 767px) {
             .home-html-node {
-              width: 420px;
-              height: 204px;
+              width: 454px;
+              height: 253px;
             }
             .home-section-one {
               height: 133px;
