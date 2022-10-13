@@ -174,11 +174,11 @@ const Home = (props) => {
             margin-top: var(--dl-space-space-fourunits);
           }
           .home-text {
-            margin-top: 19px;
+            margin-top: 60px;
             text-align: center;
             margin-left: 12px;
             margin-right: 12px;
-            margin-bottom: 19px;
+            margin-bottom: 60px;
           }
           .home-text02 {
             color: var(--dl-color-backgrounds-primary);
@@ -560,6 +560,8 @@ const Home = (props) => {
           }
           @media (max-width: 479px) {
             .home-html-node {
+              width: 370px;
+              height: 209px;
               margin: var(--dl-space-space-threeunits);
             }
             .home-text {
