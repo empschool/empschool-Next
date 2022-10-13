@@ -39,7 +39,7 @@ class CustomDocument extends Document {
           <noscript
             dangerouslySetInnerHTML={{
               __html:
-                "</noscript><style>\n::placeholder{\ncolor: #63667066;\n}\n</style>\n<!-- Google Tag Manager -->\n<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':\nnew Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],\nj=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=\n'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);\n})(window,document,'script','dataLayer','GTM-5D34NB5');</script>\n<!-- End Google Tag Manager --><noscript>",
+                "</noscript><style>\n::placeholder{\ncolor: #63667066;\n}\n</style>\n<!-- Google Tag Manager -->\n<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':\nnew Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],\nj=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=\n'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);\n})(window,document,'script','dataLayer','GTM-5D34NB5');</script>\n<!-- End Google Tag Manager -->\n<script id='pixel-script-poptin' src='https://cdn.popt.in/pixel.js?id=346d7d3834629' async='true'></script><noscript>",
             }}
           ></noscript>
         </Head>
