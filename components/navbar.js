@@ -113,6 +113,7 @@ const Navbar = (props) => {
           .navbar-mobile-menu {
             left: 0px;
             right: 0px;
+            height: 600px;
             margin: auto;
             padding-top: 5px;
             padding-left: var(--dl-space-space-unit);
@@ -237,6 +238,7 @@ const Navbar = (props) => {
               padding-bottom: 3px;
             }
             .navbar-mobile-menu {
+              height: 688px;
               padding-top: 5px;
               padding-left: var(--dl-space-space-unit);
               padding-right: var(--dl-space-space-unit);
@@ -295,6 +297,7 @@ const Navbar = (props) => {
               margin-bottom: 12px;
             }
             .navbar-mobile-menu {
+              height: 504px;
               padding-top: 5px;
               padding-bottom: 5px;
             }
@@ -348,6 +351,7 @@ const Navbar = (props) => {
             .navbar-mobile-menu {
               left: 0px;
               right: 0px;
+              height: 539px;
               margin: auto;
               padding-top: 5px;
               padding-left: var(--dl-space-space-unit);
