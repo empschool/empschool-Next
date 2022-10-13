@@ -176,6 +176,7 @@ const Home = (props) => {
           .home-html-node {
             width: 643px;
             height: 420px;
+            margin-top: var(--dl-space-space-fourunits);
           }
           .home-main {
             flex: 0 0 auto;
@@ -584,7 +585,7 @@ const Home = (props) => {
           }
           @media (max-width: 479px) {
             .home-html-node {
-              margin: 20px;
+              margin: var(--dl-space-space-threeunits);
             }
             .home-main {
               height: auto;
