@@ -27,13 +27,15 @@ const Home = (props) => {
           />
         </Head>
         <Navbar rootClassName="navbar-root-class-name"></Navbar>
-        <div className="home-html-node">
-          <span
-            dangerouslySetInnerHTML={{
-              __html:
-                '<script src="https://fast.wistia.com/embed/medias/jlfu9fbrvf.jsonp" async></script>\r\n<script src="https://fast.wistia.com/assets/external/E-v1.js" async></script>\r\n<div class="wistia_responsive_padding" style="padding:56.25% 0 0 0;position:relative;">\r\n    <div class="wistia_responsive_wrapper" style="height:100%;left:0;position:absolute;top:0;width:100%;">\r\n        <span class="wistia_embed wistia_async_jlfu9fbrvf popover=true popoverAnimateThumbnail=true videoFoam=true" style="display:inline-block;height:100%;position:relative;width:100%">&nbsp;</span>\r\n    </div>\r\n</div>',
-            }}
-          />
+        <div className="home-container1">
+          <div className="home-html-node">
+            <span
+              dangerouslySetInnerHTML={{
+                __html:
+                  '<script src="https://fast.wistia.com/embed/medias/jlfu9fbrvf.jsonp" async></script>\r\n<script src="https://fast.wistia.com/assets/external/E-v1.js" async></script>\r\n<div class="wistia_responsive_padding" style="padding:56.25% 0 0 0;position:relative;">\r\n    <div class="wistia_responsive_wrapper" style="height:100%;left:0;position:absolute;top:0;width:100%;">\r\n        <span class="wistia_embed wistia_async_jlfu9fbrvf popover=true popoverAnimateThumbnail=true videoFoam=true" style="display:inline-block;height:100%;position:relative;width:100%">&nbsp;</span>\r\n    </div>\r\n</div>',
+              }}
+            />
+          </div>
         </div>
         <h2 className="home-text">
           <span className="heading2 home-text01">
@@ -162,8 +164,18 @@ const Home = (props) => {
             justify-content: flex-start;
             background-color: var(--dl-color-backgrounds-gray);
           }
-          .home-html-node {
+          .home-container1 {
             width: 100%;
+            height: 508px;
+            display: flex;
+            align-items: flex-start;
+            justify-content: center;
+          }
+          .home-html-node {
+            width: 740px;
+            height: 416px;
+            margin-top: 30px;
+            margin-bottom: 30px;
           }
           .home-text {
             margin-top: 60px;
@@ -535,6 +547,12 @@ const Home = (props) => {
             }
           }
           @media (max-width: 479px) {
+            .home-container1 {
+              height: 308px;
+            }
+            .home-html-node {
+              height: 272px;
+            }
             .home-text {
               width: auto;
               font-size: 30px;

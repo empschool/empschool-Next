@@ -141,13 +141,13 @@ const Slide = (props) => {
             letter-spacing: 1px;
             text-transform: uppercase;
           }
-          .slide-root-class-name2 {
+          .slide-root-class-name {
             margin-top: 12px;
             margin-left: 12px;
             margin-right: 12px;
             margin-bottom: 12px;
           }
-          .slide-root-class-name {
+          .slide-root-class-name2 {
             margin-top: 12px;
             margin-left: 12px;
             margin-right: 12px;
@@ -205,10 +205,10 @@ const Slide = (props) => {
             .slide-right-side {
               height: 337px;
             }
-            .slide-root-class-name2 {
+            .slide-root-class-name {
               margin: 12px;
             }
-            .slide-root-class-name {
+            .slide-root-class-name2 {
               margin: 12px;
             }
           }
