@@ -13,7 +13,7 @@ const Navbar = (props) => {
           data-role="Header"
           className="navbar-max-width navigation-container"
         >
-          <Link href="/">
+          <Link href="/home">
             <a>
               <img
                 alt={props.image_src}
@@ -235,6 +235,13 @@ const Navbar = (props) => {
             margin-right: 12px;
             margin-bottom: 12px;
           }
+          .navbar-root-class-name1 {
+            margin: 5px;
+            margin-top: 12px;
+            margin-left: 12px;
+            margin-right: 12px;
+            margin-bottom: 12px;
+          }
           @media (max-width: 991px) {
             .navbar-max-width {
               width: 862px;
@@ -276,6 +283,9 @@ const Navbar = (props) => {
               padding-bottom: 10px;
             }
             .navbar-root-class-name {
+              align-self: flex-start;
+            }
+            .navbar-root-class-name1 {
               align-self: flex-start;
             }
           }

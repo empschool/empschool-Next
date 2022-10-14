@@ -193,6 +193,12 @@ const Footer = (props) => {
             margin-right: 12px;
             margin-bottom: 12px;
           }
+          .footer-root-class-name1 {
+            margin-top: 12px;
+            margin-left: 12px;
+            margin-right: 12px;
+            margin-bottom: 12px;
+          }
           @media (max-width: 991px) {
             .footer-max-width {
               flex-direction: column-reverse;
@@ -251,6 +257,10 @@ const Footer = (props) => {
               margin-bottom: var(--dl-space-space-twounits);
             }
             .footer-root-class-name {
+              width: auto;
+              height: 100%;
+            }
+            .footer-root-class-name1 {
               width: auto;
               height: 100%;
             }

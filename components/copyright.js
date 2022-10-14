@@ -54,6 +54,12 @@ const Copyright = (props) => {
             margin-right: 10px;
             margin-bottom: 10px;
           }
+          .copyright-root-class-name1 {
+            margin-top: 10px;
+            margin-left: 10px;
+            margin-right: 10px;
+            margin-bottom: 10px;
+          }
           @media (max-width: 991px) {
             .copyright-max-width {
               flex-direction: column;
@@ -61,6 +67,10 @@ const Copyright = (props) => {
           }
           @media (max-width: 479px) {
             .copyright-root-class-name {
+              margin-top: 18px;
+              margin-bottom: 18px;
+            }
+            .copyright-root-class-name1 {
               margin-top: 18px;
               margin-bottom: 18px;
             }

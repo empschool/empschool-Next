@@ -147,6 +147,12 @@ const Slide = (props) => {
             margin-right: 12px;
             margin-bottom: 12px;
           }
+          .slide-root-class-name {
+            margin-top: 12px;
+            margin-left: 12px;
+            margin-right: 12px;
+            margin-bottom: 12px;
+          }
           @media (max-width: 991px) {
             .slide-left-side {
               padding-right: var(--dl-space-space-oneandhalfunits);
@@ -200,6 +206,9 @@ const Slide = (props) => {
               height: 337px;
             }
             .slide-root-class-name2 {
+              margin: 12px;
+            }
+            .slide-root-class-name {
               margin: 12px;
             }
           }
