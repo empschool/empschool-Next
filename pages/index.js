@@ -27,15 +27,19 @@ const Home = (props) => {
           />
         </Head>
         <Navbar rootClassName="navbar-root-class-name"></Navbar>
-        <iframe
-          src="https://player.adventr.io/index.html?link=https%3A%2F%2Fd252srr1zuysk4.cloudfront.net%2Fclients%2F8041%2F9697%2Fpublished%2F8041-startpee-14280173.data&amp;gdpr=skip"
-          className="home-iframe"
-        ></iframe>
+        <div className="home-html-node">
+          <span
+            dangerouslySetInnerHTML={{
+              __html:
+                '<script src="https://fast.wistia.com/embed/medias/jlfu9fbrvf.jsonp" async></script>\r\n<script src="https://fast.wistia.com/assets/external/E-v1.js" async></script>\r\n<div class="wistia_responsive_padding" style="padding:56.25% 0 0 0;position:relative;">\r\n    <div class="wistia_responsive_wrapper" style="height:100%;left:0;position:absolute;top:0;width:100%;">\r\n        <span class="wistia_embed wistia_async_jlfu9fbrvf popover=true popoverAnimateThumbnail=true videoFoam=true" style="display:inline-block;height:100%;position:relative;width:100%">&nbsp;</span>\r\n    </div>\r\n</div>',
+            }}
+          />
+        </div>
         <h2 className="home-text">
           <span className="heading2 home-text01">
             Sócio e investidor para seu 
           </span>
-          <span className="home-text02 heading2">negócio</span>
+          <span className="heading2 home-text02">negócio</span>
           <br></br>
         </h2>
         <Link href="/contratar">
@@ -158,9 +162,8 @@ const Home = (props) => {
             justify-content: flex-start;
             background-color: var(--dl-color-backgrounds-gray);
           }
-          .home-iframe {
-            width: 616px;
-            height: 362px;
+          .home-html-node {
+            width: 100%;
           }
           .home-text {
             margin-top: 60px;
@@ -168,9 +171,6 @@ const Home = (props) => {
             margin-left: 12px;
             margin-right: 12px;
             margin-bottom: 60px;
-          }
-          .home-text02 {
-            color: var(--dl-color-backgrounds-primary);
           }
           .home-link {
             width: 191px;
@@ -535,10 +535,6 @@ const Home = (props) => {
             }
           }
           @media (max-width: 479px) {
-            .home-iframe {
-              width: 367px;
-              height: 270px;
-            }
             .home-text {
               width: auto;
               font-size: 30px;
