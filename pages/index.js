@@ -7,10 +7,10 @@ import Slide from '../components/slide'
 import Footer from '../components/footer'
 import Copyright from '../components/copyright'
 
-const Start = (props) => {
+const Home = (props) => {
   return (
     <>
-      <div className="start-container">
+      <div className="home-container">
         <Head>
           <title>Startpee marketing & tecnologia para negócios</title>
           <meta
@@ -29,143 +29,199 @@ const Start = (props) => {
         <Navbar rootClassName="navbar-root-class-name"></Navbar>
         <iframe
           src="https://player.adventr.io/index.html?link=https%3A%2F%2Fd252srr1zuysk4.cloudfront.net%2Fclients%2F8041%2F9697%2Fpublished%2F8041-startpee-14280173.data&amp;gdpr=skip"
-          className="start-iframe"
+          className="home-iframe"
         ></iframe>
-        <div className="start-section-four section-container">
-          <h2 className="start-text heading2">
-            <span>Nunca desista dos seus </span>
-            <span className="start-text02">sonhos.</span>
-            <span className="start-text03"></span>
-          </h2>
-          <div className="start-max-width max-content-container"></div>
-          <div data-type="slider" className="start-slider">
-            <Slide rootClassName="slide-root-class-name2"></Slide>
+        <h2 className="home-text">
+          <span className="heading2 home-text01">
+            Sócio e investidor para seu 
+          </span>
+          <span className="home-text02 heading2">negócio</span>
+          <br></br>
+        </h2>
+        <Link href="/contratar">
+          <a className="home-link button-primary button">tornar parceiro</a>
+        </Link>
+        <main className="home-main">
+          <div className="home-section-four section-container">
+            <h2 className="home-text04 heading2">
+              <span>Nunca desista dos seus </span>
+              <span className="home-text06">sonhos.</span>
+              <span className="home-text07"></span>
+            </h2>
+            <div className="home-max-width max-content-container"></div>
+            <div data-type="slider" className="home-slider">
+              <Slide rootClassName="slide-root-class-name2"></Slide>
+            </div>
           </div>
-        </div>
-        <div className="start-section-six section-container">
-          <div className="start-max-width1 max-content-container">
-            <div className="start-content-container">
-              <h2 className="start-text04">
-                <span>
-                  Se você também sonha em crescer sua empresa saiba que você não
-                  está 
+          <div className="home-section-six section-container">
+            <div className="home-max-width1 max-content-container">
+              <div className="home-content-container">
+                <h2 className="home-text08">
+                  <span>
+                    Se você também sonha em crescer sua empresa saiba que você
+                    não está 
+                  </span>
+                  <span className="home-text10">sozinho.</span>
+                </h2>
+                <span className="home-text11">
+                  <span>Estamos disponíveis 8 horas por dia!</span>
+                  <br className="content-Light home-text13"></br>
                 </span>
-                <span className="start-text06">sozinho.</span>
-              </h2>
-              <span className="start-text07">
-                <span>Estamos disponíveis 8 horas por dia!</span>
-                <br className="content-Light start-text09"></br>
-              </span>
-              <div className="start-input-container">
-                <Link href="/contratar">
-                  <a className="start-link button-primary button">Chamar nós</a>
-                </Link>
+                <div className="home-input-container">
+                  <Link href="/contratar">
+                    <a className="home-link1 button-primary button">
+                      Chamar nós
+                    </a>
+                  </Link>
+                </div>
               </div>
             </div>
           </div>
-        </div>
-        <div className="start-section-six1 section-container">
-          <div className="start-max-width2 max-content-container">
-            <div className="start-content-container1">
-              <h1 className="start-text10 heading2">
-                <span>Receba hoje! </span>
-                <span className="start-text12">
-                  uma analise detalhada do negócio.
+          <div className="home-section-six1 section-container">
+            <div className="home-max-width2 max-content-container">
+              <div className="home-content-container1">
+                <h1 className="home-text14 heading2">
+                  <span>Receba hoje! </span>
+                  <span className="home-text16">
+                    uma analise detalhada do negócio.
+                  </span>
+                </h1>
+                <span className="home-text17 content-Light">
+                  Não importa o seu tamanho, será um prazer ter você como
+                  parceiro
                 </span>
-              </h1>
-              <span className="start-text13 content-Light">
-                Não importa o seu tamanho, será um prazer ter você como parceiro
-              </span>
-              <div className="start-input-container1">
-                <Link href="/contratar">
-                  <a className="start-link1 button-primary button">Começar</a>
-                </Link>
-              </div>
-              <div className="start-features-container">
-                <div className="start-feature">
-                  <svg
-                    viewBox="0 0 877.7142857142857 1024"
-                    className="start-icon"
-                  >
-                    <path d="M733.714 419.429c0-9.714-3.429-19.429-10.286-26.286l-52-51.429c-6.857-6.857-16-10.857-25.714-10.857s-18.857 4-25.714 10.857l-233.143 232.571-129.143-129.143c-6.857-6.857-16-10.857-25.714-10.857s-18.857 4-25.714 10.857l-52 51.429c-6.857 6.857-10.286 16.571-10.286 26.286s3.429 18.857 10.286 25.714l206.857 206.857c6.857 6.857 16.571 10.857 25.714 10.857 9.714 0 19.429-4 26.286-10.857l310.286-310.286c6.857-6.857 10.286-16 10.286-25.714zM877.714 512c0 242.286-196.571 438.857-438.857 438.857s-438.857-196.571-438.857-438.857 196.571-438.857 438.857-438.857 438.857 196.571 438.857 438.857z"></path>
-                  </svg>
-                  <span className="start-text14">
-                    Seus dados Protegido (LGPD). 
-                  </span>
+                <div className="home-input-container1">
+                  <Link href="/contratar">
+                    <a className="home-link2 button-primary button">Começar</a>
+                  </Link>
                 </div>
-                <div className="start-feature1">
-                  <svg
-                    viewBox="0 0 877.7142857142857 1024"
-                    className="start-icon2"
-                  >
-                    <path d="M733.714 419.429c0-9.714-3.429-19.429-10.286-26.286l-52-51.429c-6.857-6.857-16-10.857-25.714-10.857s-18.857 4-25.714 10.857l-233.143 232.571-129.143-129.143c-6.857-6.857-16-10.857-25.714-10.857s-18.857 4-25.714 10.857l-52 51.429c-6.857 6.857-10.286 16.571-10.286 26.286s3.429 18.857 10.286 25.714l206.857 206.857c6.857 6.857 16.571 10.857 25.714 10.857 9.714 0 19.429-4 26.286-10.857l310.286-310.286c6.857-6.857 10.286-16 10.286-25.714zM877.714 512c0 242.286-196.571 438.857-438.857 438.857s-438.857-196.571-438.857-438.857 196.571-438.857 438.857-438.857 438.857 196.571 438.857 438.857z"></path>
-                  </svg>
-                  <span className="start-text15">
-                    <span className="start-text16">apenas 5 minutos</span>
-                    <span> </span>
-                  </span>
-                </div>
-                <div className="start-feature2">
-                  <svg
-                    viewBox="0 0 877.7142857142857 1024"
-                    className="start-icon4"
-                  >
-                    <path d="M733.714 419.429c0-9.714-3.429-19.429-10.286-26.286l-52-51.429c-6.857-6.857-16-10.857-25.714-10.857s-18.857 4-25.714 10.857l-233.143 232.571-129.143-129.143c-6.857-6.857-16-10.857-25.714-10.857s-18.857 4-25.714 10.857l-52 51.429c-6.857 6.857-10.286 16.571-10.286 26.286s3.429 18.857 10.286 25.714l206.857 206.857c6.857 6.857 16.571 10.857 25.714 10.857 9.714 0 19.429-4 26.286-10.857l310.286-310.286c6.857-6.857 10.286-16 10.286-25.714zM877.714 512c0 242.286-196.571 438.857-438.857 438.857s-438.857-196.571-438.857-438.857 196.571-438.857 438.857-438.857 438.857 196.571 438.857 438.857z"></path>
-                  </svg>
-                  <span className="start-text18">
-                    ligamos pra vocÊ depois que Respoder tudo
-                  </span>
+                <div className="home-features-container">
+                  <div className="home-feature">
+                    <svg
+                      viewBox="0 0 877.7142857142857 1024"
+                      className="home-icon"
+                    >
+                      <path d="M733.714 419.429c0-9.714-3.429-19.429-10.286-26.286l-52-51.429c-6.857-6.857-16-10.857-25.714-10.857s-18.857 4-25.714 10.857l-233.143 232.571-129.143-129.143c-6.857-6.857-16-10.857-25.714-10.857s-18.857 4-25.714 10.857l-52 51.429c-6.857 6.857-10.286 16.571-10.286 26.286s3.429 18.857 10.286 25.714l206.857 206.857c6.857 6.857 16.571 10.857 25.714 10.857 9.714 0 19.429-4 26.286-10.857l310.286-310.286c6.857-6.857 10.286-16 10.286-25.714zM877.714 512c0 242.286-196.571 438.857-438.857 438.857s-438.857-196.571-438.857-438.857 196.571-438.857 438.857-438.857 438.857 196.571 438.857 438.857z"></path>
+                    </svg>
+                    <span className="home-text18">
+                      Seus dados Protegido (LGPD). 
+                    </span>
+                  </div>
+                  <div className="home-feature1">
+                    <svg
+                      viewBox="0 0 877.7142857142857 1024"
+                      className="home-icon2"
+                    >
+                      <path d="M733.714 419.429c0-9.714-3.429-19.429-10.286-26.286l-52-51.429c-6.857-6.857-16-10.857-25.714-10.857s-18.857 4-25.714 10.857l-233.143 232.571-129.143-129.143c-6.857-6.857-16-10.857-25.714-10.857s-18.857 4-25.714 10.857l-52 51.429c-6.857 6.857-10.286 16.571-10.286 26.286s3.429 18.857 10.286 25.714l206.857 206.857c6.857 6.857 16.571 10.857 25.714 10.857 9.714 0 19.429-4 26.286-10.857l310.286-310.286c6.857-6.857 10.286-16 10.286-25.714zM877.714 512c0 242.286-196.571 438.857-438.857 438.857s-438.857-196.571-438.857-438.857 196.571-438.857 438.857-438.857 438.857 196.571 438.857 438.857z"></path>
+                    </svg>
+                    <span className="home-text19">
+                      <span className="home-text20">apenas 5 minutos</span>
+                      <span> </span>
+                    </span>
+                  </div>
+                  <div className="home-feature2">
+                    <svg
+                      viewBox="0 0 877.7142857142857 1024"
+                      className="home-icon4"
+                    >
+                      <path d="M733.714 419.429c0-9.714-3.429-19.429-10.286-26.286l-52-51.429c-6.857-6.857-16-10.857-25.714-10.857s-18.857 4-25.714 10.857l-233.143 232.571-129.143-129.143c-6.857-6.857-16-10.857-25.714-10.857s-18.857 4-25.714 10.857l-52 51.429c-6.857 6.857-10.286 16.571-10.286 26.286s3.429 18.857 10.286 25.714l206.857 206.857c6.857 6.857 16.571 10.857 25.714 10.857 9.714 0 19.429-4 26.286-10.857l310.286-310.286c6.857-6.857 10.286-16 10.286-25.714zM877.714 512c0 242.286-196.571 438.857-438.857 438.857s-438.857-196.571-438.857-438.857 196.571-438.857 438.857-438.857 438.857 196.571 438.857 438.857z"></path>
+                    </svg>
+                    <span className="home-text22">
+                      ligamos pra vocÊ depois que Respoder tudo
+                    </span>
+                  </div>
                 </div>
               </div>
-            </div>
-            <div className="start-image-container">
-              <img
-                alt="image"
-                src="/playground_assets/capatrafego-500h.webp"
-                className="start-image"
-              />
+              <div className="home-image-container">
+                <img
+                  alt="image"
+                  src="/playground_assets/capatrafego-500h.webp"
+                  className="home-image"
+                />
+              </div>
             </div>
           </div>
-        </div>
+        </main>
         <Footer rootClassName="footer-root-class-name"></Footer>
         <Copyright rootClassName="copyright-root-class-name"></Copyright>
       </div>
       <style jsx>
         {`
-          .start-container {
+          .home-container {
             width: 100%;
             display: flex;
-            z-index: 100;
-            overflow: auto;
-            box-shadow: 5px 5px 10px 0px #d4d4d4;
+            position: relative;
             min-height: 100vh;
+            overflow-x: hidden;
             align-items: center;
             flex-direction: column;
+            justify-content: flex-start;
+            background-color: var(--dl-color-backgrounds-gray);
           }
-          .start-iframe {
-            width: 320px;
-            height: 200px;
+          .home-iframe {
+            width: 616px;
+            height: 362px;
           }
-          .start-section-four {
+          .home-text {
+            margin-top: 60px;
+            text-align: center;
+            margin-left: 12px;
+            margin-right: 12px;
+            margin-bottom: 60px;
+          }
+          .home-text02 {
+            color: var(--dl-color-backgrounds-primary);
+          }
+          .home-link {
+            width: 191px;
+            height: 81px;
+            display: flex;
+            font-size: 22px;
+            transition: 0.3s;
+            align-items: center;
+            line-height: 1;
+            padding-top: 20px;
+            white-space: nowrap;
+            padding-left: 32px;
+            padding-right: 32px;
+            padding-bottom: 20px;
+            justify-content: center;
+            text-decoration: none;
+            background-color: var(--dl-color-grays-dark100);
+          }
+          .home-link:hover {
+            background-color: var(--dl-color-grays-white100);
+          }
+          .home-main {
+            flex: 0 0 auto;
+            width: 100%;
+            display: flex;
+            position: relative;
+            align-items: center;
+            margin-left: 30px;
+            margin-right: 30px;
+            flex-direction: column;
+          }
+          .home-section-four {
             height: 776px;
             padding-top: 134px;
             padding-bottom: 0px;
           }
-          .start-text {
+          .home-text04 {
             text-align: center;
             margin-bottom: var(--dl-space-space-threeunits);
           }
-          .start-text02 {
+          .home-text06 {
             color: var(--dl-color-backgrounds-primary);
           }
-          .start-text03 {
+          .home-text07 {
             color: transparent;
           }
-          .start-max-width {
+          .home-max-width {
             border: 2px dashed rgba(120, 120, 120, 0.4);
             flex-direction: column;
           }
-          .start-slider {
+          .home-slider {
             flex: 0 0 auto;
             width: 100%;
             display: flex;
@@ -173,16 +229,16 @@ const Start = (props) => {
             align-items: stretch;
             flex-direction: row;
           }
-          .start-section-six {
+          .home-section-six {
             padding-top: var(--dl-space-space-threeunits);
             padding-bottom: 0px;
             background-color: #ffffff;
           }
-          .start-max-width1 {
+          .home-max-width1 {
             height: 437px;
             align-items: stretch;
           }
-          .start-content-container {
+          .home-content-container {
             flex: 1;
             display: flex;
             min-width: 60%;
@@ -190,7 +246,7 @@ const Start = (props) => {
             flex-direction: column;
             justify-content: center;
           }
-          .start-text04 {
+          .home-text08 {
             width: 676px;
             align-self: center;
             margin-top: 12px;
@@ -199,10 +255,10 @@ const Start = (props) => {
             margin-right: 12px;
             margin-bottom: 12px;
           }
-          .start-text06 {
+          .home-text10 {
             color: var(--dl-color-backgrounds-primary);
           }
-          .start-text07 {
+          .home-text11 {
             color: var(--dl-color-backgrounds-primary);
             font-size: 29px;
             align-self: center;
@@ -213,7 +269,7 @@ const Start = (props) => {
             margin-right: 12px;
             margin-bottom: 12px;
           }
-          .start-input-container {
+          .home-input-container {
             flex: 0 0 auto;
             width: 100%;
             height: 100px;
@@ -226,7 +282,7 @@ const Start = (props) => {
             flex-direction: row;
             justify-content: center;
           }
-          .start-link {
+          .home-link1 {
             width: 191px;
             height: 81px;
             display: flex;
@@ -243,19 +299,19 @@ const Start = (props) => {
             text-decoration: none;
             background-color: var(--dl-color-grays-dark100);
           }
-          .start-link:hover {
+          .home-link1:hover {
             background-color: var(--dl-color-grays-white100);
           }
-          .start-section-six1 {
+          .home-section-six1 {
             padding-top: var(--dl-space-space-threeunits);
             padding-bottom: 0px;
             background-color: var(--dl-color-backgrounds-primary);
           }
-          .start-max-width2 {
+          .home-max-width2 {
             height: 437px;
             align-items: stretch;
           }
-          .start-content-container1 {
+          .home-content-container1 {
             flex: 1;
             display: flex;
             min-width: 60%;
@@ -263,22 +319,22 @@ const Start = (props) => {
             flex-direction: column;
             justify-content: center;
           }
-          .start-text10 {
+          .home-text14 {
             margin-top: 12px;
             margin-left: 12px;
             margin-right: 12px;
             margin-bottom: 12px;
           }
-          .start-text12 {
+          .home-text16 {
             color: var(--dl-color-grays-white100);
           }
-          .start-text13 {
+          .home-text17 {
             color: var(--dl-color-grays-white80);
             margin-top: 12px;
             margin-left: 12px;
             margin-bottom: 12px;
           }
-          .start-input-container1 {
+          .home-input-container1 {
             flex: 0 0 auto;
             width: 100%;
             height: 100px;
@@ -291,7 +347,7 @@ const Start = (props) => {
             flex-direction: row;
             justify-content: center;
           }
-          .start-link1 {
+          .home-link2 {
             width: 191px;
             height: 81px;
             display: flex;
@@ -308,10 +364,10 @@ const Start = (props) => {
             text-decoration: none;
             background-color: var(--dl-color-grays-dark100);
           }
-          .start-link1:hover {
+          .home-link2:hover {
             background-color: var(--dl-color-grays-white100);
           }
-          .start-features-container {
+          .home-features-container {
             flex: 0 0 auto;
             width: 100%;
             margin: 12px;
@@ -319,7 +375,7 @@ const Start = (props) => {
             align-items: flex-start;
             flex-direction: column;
           }
-          .start-feature {
+          .home-feature {
             flex: 0 0 auto;
             width: 100%;
             display: flex;
@@ -327,20 +383,20 @@ const Start = (props) => {
             margin-bottom: 20px;
             flex-direction: row;
           }
-          .start-icon {
+          .home-icon {
             fill: var(--dl-color-grays-white100);
             width: 17px;
             height: 17px;
             min-width: 17px;
             margin-right: 12px;
           }
-          .start-text14 {
+          .home-text18 {
             color: var(--dl-color-grays-white80);
             font-size: 14px;
             font-style: normal;
             font-weight: 400;
           }
-          .start-feature1 {
+          .home-feature1 {
             flex: 0 0 auto;
             width: 100%;
             display: flex;
@@ -348,40 +404,40 @@ const Start = (props) => {
             margin-bottom: 20px;
             flex-direction: row;
           }
-          .start-icon2 {
+          .home-icon2 {
             fill: var(--dl-color-grays-white100);
             width: 17px;
             height: 17px;
             min-width: 17px;
             margin-right: 12px;
           }
-          .start-text15 {
+          .home-text19 {
             color: var(--dl-color-grays-white80);
             font-size: 14px;
             font-style: normal;
             font-weight: 400;
           }
-          .start-feature2 {
+          .home-feature2 {
             flex: 0 0 auto;
             width: 100%;
             display: flex;
             align-items: center;
             flex-direction: row;
           }
-          .start-icon4 {
+          .home-icon4 {
             fill: var(--dl-color-grays-white100);
             width: 17px;
             height: 17px;
             min-width: 17px;
             margin-right: 12px;
           }
-          .start-text18 {
+          .home-text22 {
             color: var(--dl-color-grays-white80);
             font-size: 14px;
             font-style: normal;
             font-weight: 400;
           }
-          .start-image-container {
+          .home-image-container {
             flex: 1;
             width: 200px;
             height: 350px;
@@ -389,29 +445,29 @@ const Start = (props) => {
             align-items: flex-start;
             flex-direction: column;
           }
-          .start-image {
+          .home-image {
             width: 395px;
             height: 100%;
             margin: 12px;
             object-fit: cover;
           }
           @media (max-width: 991px) {
-            .start-section-six {
+            .home-section-six {
               height: 848px;
             }
-            .start-max-width1 {
+            .home-max-width1 {
               flex-direction: column;
             }
-            .start-section-six1 {
+            .home-section-six1 {
               height: 848px;
             }
-            .start-max-width2 {
+            .home-max-width2 {
               flex-direction: column;
             }
-            .start-text10 {
+            .home-text14 {
               width: 100%;
             }
-            .start-image {
+            .home-image {
               width: 410px;
               align-self: flex-start;
               margin-left: 250px;
@@ -419,56 +475,59 @@ const Start = (props) => {
             }
           }
           @media (max-width: 767px) {
-            .start-section-four {
-              height: 1152px;
-            }
-            .start-text {
+            .home-text {
               margin-bottom: var(--dl-space-space-twounits);
             }
-            .start-slider {
+            .home-section-four {
+              height: 1152px;
+            }
+            .home-text04 {
+              margin-bottom: var(--dl-space-space-twounits);
+            }
+            .home-slider {
               height: 884px;
             }
-            .start-section-six {
+            .home-section-six {
               height: 972px;
             }
-            .start-max-width1 {
+            .home-max-width1 {
               height: 803px;
               margin: 12px;
             }
-            .start-text04 {
+            .home-text08 {
               width: 706px;
               height: 156px;
               margin-bottom: var(--dl-space-space-twounits);
             }
-            .start-section-six1 {
+            .home-section-six1 {
               height: 972px;
             }
-            .start-max-width2 {
+            .home-max-width2 {
               height: 803px;
               margin: 12px;
             }
-            .start-text14 {
+            .home-text18 {
               color: var(--dl-color-grays-white80);
               font-size: 19px;
               font-style: normal;
               font-weight: 400;
             }
-            .start-text15 {
+            .home-text19 {
               color: var(--dl-color-grays-white80);
               font-size: 14px;
               font-style: normal;
               font-weight: 400;
             }
-            .start-text16 {
+            .home-text20 {
               font-size: 19px;
             }
-            .start-text18 {
+            .home-text22 {
               color: var(--dl-color-grays-white80);
               font-size: 19px;
               font-style: normal;
               font-weight: 400;
             }
-            .start-image {
+            .home-image {
               width: auto;
               height: 413px;
               margin: 12px;
@@ -476,10 +535,47 @@ const Start = (props) => {
             }
           }
           @media (max-width: 479px) {
-            .start-section-four {
+            .home-iframe {
+              width: 367px;
+              height: 270px;
+            }
+            .home-text {
+              width: auto;
+              font-size: 30px;
+            }
+            .home-text01 {
+              font-size: 27px;
+              font-style: normal;
+              font-family: Lexend;
+              font-weight: 600;
+              line-height: 1.3;
+              text-transform: none;
+              text-decoration: none;
+            }
+            .home-text02 {
+              color: var(--dl-color-backgrounds-primary);
+              font-size: 27px;
+              font-style: normal;
+              font-family: Lexend;
+              font-weight: 600;
+              line-height: 1.3;
+              text-transform: none;
+              text-decoration: none;
+            }
+            .home-link {
+              font-size: 22px;
+              line-height: 1;
+              text-decoration: none;
+              background-color: var(--dl-color-grays-dark100);
+            }
+            .home-main {
+              height: auto;
+              z-index: 100;
+            }
+            .home-section-four {
               height: 1244px;
             }
-            .start-text {
+            .home-text04 {
               font-size: 30px;
               font-style: normal;
               text-align: center;
@@ -489,27 +585,27 @@ const Start = (props) => {
               text-transform: none;
               text-decoration: none;
             }
-            .start-slider {
+            .home-slider {
               height: 953px;
               padding-bottom: 0px;
             }
-            .start-section-six {
+            .home-section-six {
               width: auto;
               height: 683px;
               padding: 12px;
               padding-top: 0px;
             }
-            .start-max-width1 {
+            .home-max-width1 {
               height: 659px;
               margin-bottom: 0px;
             }
-            .start-content-container {
+            .home-content-container {
               width: auto;
               height: 568px;
               padding-top: 174px;
               padding-bottom: var(--dl-space-space-halfunit);
             }
-            .start-text04 {
+            .home-text08 {
               width: auto;
               height: 100%;
               font-size: 30px;
@@ -522,10 +618,10 @@ const Start = (props) => {
               text-transform: none;
               text-decoration: none;
             }
-            .start-text06 {
+            .home-text10 {
               color: var(--dl-color-backgrounds-primary);
             }
-            .start-text07 {
+            .home-text11 {
               color: var(--dl-color-backgrounds-primary);
               font-size: 21px;
               align-self: center;
@@ -534,7 +630,7 @@ const Start = (props) => {
               font-weight: 400;
               margin-bottom: 10px;
             }
-            .start-text09 {
+            .home-text13 {
               font-style: normal;
               font-family: Lexend;
               font-weight: 300;
@@ -542,35 +638,35 @@ const Start = (props) => {
               text-transform: none;
               text-decoration: none;
             }
-            .start-input-container {
+            .home-input-container {
               width: auto;
               align-self: center;
               flex-direction: column;
             }
-            .start-link {
+            .home-link1 {
               font-size: 22px;
               line-height: 1;
               text-decoration: none;
               background-color: var(--dl-color-grays-dark100);
             }
-            .start-section-six1 {
+            .home-section-six1 {
               width: auto;
               height: 915px;
               padding: 33px;
             }
-            .start-max-width2 {
+            .home-max-width2 {
               height: 804px;
             }
-            .start-text12 {
+            .home-text16 {
               color: var(--dl-color-grays-white100);
             }
-            .start-input-container1 {
+            .home-input-container1 {
               flex-direction: column;
             }
-            .start-link1 {
+            .home-link2 {
               font-size: 25px;
             }
-            .start-image {
+            .home-image {
               width: 100%;
               height: auto;
               margin: 12px;
@@ -582,4 +678,4 @@ const Start = (props) => {
   )
 }
 
-export default Start
+export default Home

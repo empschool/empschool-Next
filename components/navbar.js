@@ -13,7 +13,7 @@ const Navbar = (props) => {
           data-role="Header"
           className="navbar-max-width navigation-container"
         >
-          <Link href="/home">
+          <Link href="/">
             <a>
               <img
                 alt={props.image_src}
