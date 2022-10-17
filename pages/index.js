@@ -27,12 +27,20 @@ const Home = (props) => {
           />
         </Head>
         <Navbar rootClassName="navbar-root-class-name"></Navbar>
+        <div className="home-html-node">
+          <span
+            dangerouslySetInnerHTML={{
+              __html:
+                '<script async src="https://cdn.viqeo.tv/js/vq_starter.js"></script>\r\n<div style="width:100%;height:0;position:relative;padding-bottom: 56.25%;"\r\n    class="viqeo-embed viqeo-horizontal viqeo-embed--678746ce0243b4305284" data-vnd="678746ce0243b4305284"\r\n    data-profile="10527" data-aspectRatio="0.5625" data-customTag="">\r\n    <iframe src="https://cdn.viqeo.tv/embed/?vid=678746ce0243b4305284" width="100%" height="100%"\r\n        style="position:absolute;" frameBorder="0" allowFullScreen></iframe>\r\n</div>',
+            }}
+          />
+        </div>
         <div className="home-container1">
-          <div className="home-html-node">
+          <div className="home-html-node1">
             <span
               dangerouslySetInnerHTML={{
                 __html:
-                  '<script src="https://fast.wistia.com/embed/medias/jlfu9fbrvf.jsonp" async></script>\r\n<script src="https://fast.wistia.com/assets/external/E-v1.js" async></script>\r\n<div class="wistia_responsive_padding" style="padding:56.25% 0 0 0;position:relative;">\r\n    <div class="wistia_responsive_wrapper" style="height:100%;left:0;position:absolute;top:0;width:100%;">\r\n        <span class="wistia_embed wistia_async_jlfu9fbrvf popover=true popoverAnimateThumbnail=true videoFoam=true" style="display:inline-block;height:100%;position:relative;width:100%">&nbsp;</span>\r\n    </div>\r\n</div>',
+                  '<script src="https://fast.wistia.com/embed/medias/dhlouaqaol.jsonp" async></script>\r\n<script src="https://fast.wistia.com/assets/external/E-v1.js" async></script>\r\n<div class="wistia_responsive_padding" style="padding:56.25% 0 0 0;position:relative;">\r\n    <div class="wistia_responsive_wrapper" style="height:100%;left:0;position:absolute;top:0;width:100%;">\r\n        <span class="wistia_embed wistia_async_dhlouaqaol popover=true popoverAnimateThumbnail=true videoFoam=true" style="display:inline-block;height:100%;position:relative;width:100%">&nbsp;</span>\r\n    </div>\r\n</div>',
               }}
             />
           </div>
@@ -49,11 +57,6 @@ const Home = (props) => {
         </Link>
         <main className="home-main">
           <div className="home-section-four section-container">
-            <h2 className="home-text04 heading2">
-              <span>Nunca desista dos seus </span>
-              <span className="home-text06">sonhos.</span>
-              <span className="home-text07"></span>
-            </h2>
             <div className="home-max-width max-content-container"></div>
             <div data-type="slider" className="home-slider">
               <Slide rootClassName="slide-root-class-name2"></Slide>
@@ -62,16 +65,16 @@ const Home = (props) => {
           <div className="home-section-six section-container">
             <div className="home-max-width1 max-content-container">
               <div className="home-content-container">
-                <h2 className="home-text08">
+                <h2 className="home-text04">
                   <span>
                     Se você também sonha em crescer sua empresa saiba que você
                     não está 
                   </span>
-                  <span className="home-text10">sozinho.</span>
+                  <span className="home-text06">sozinho.</span>
                 </h2>
-                <span className="home-text11">
+                <span className="home-text07">
                   <span>Estamos disponíveis 8 horas por dia!</span>
-                  <br className="content-Light home-text13"></br>
+                  <br className="content-Light home-text09"></br>
                 </span>
                 <div className="home-input-container">
                   <Link href="/contratar">
@@ -86,13 +89,13 @@ const Home = (props) => {
           <div className="home-section-six1 section-container">
             <div className="home-max-width2 max-content-container">
               <div className="home-content-container1">
-                <h1 className="home-text14 heading2">
+                <h1 className="home-text10 heading2">
                   <span>Receba hoje! </span>
-                  <span className="home-text16">
+                  <span className="home-text12">
                     uma analise detalhada do negócio.
                   </span>
                 </h1>
-                <span className="home-text17 content-Light">
+                <span className="home-text13 content-Light">
                   Não importa o seu tamanho, será um prazer ter você como
                   parceiro
                 </span>
@@ -109,7 +112,7 @@ const Home = (props) => {
                     >
                       <path d="M733.714 419.429c0-9.714-3.429-19.429-10.286-26.286l-52-51.429c-6.857-6.857-16-10.857-25.714-10.857s-18.857 4-25.714 10.857l-233.143 232.571-129.143-129.143c-6.857-6.857-16-10.857-25.714-10.857s-18.857 4-25.714 10.857l-52 51.429c-6.857 6.857-10.286 16.571-10.286 26.286s3.429 18.857 10.286 25.714l206.857 206.857c6.857 6.857 16.571 10.857 25.714 10.857 9.714 0 19.429-4 26.286-10.857l310.286-310.286c6.857-6.857 10.286-16 10.286-25.714zM877.714 512c0 242.286-196.571 438.857-438.857 438.857s-438.857-196.571-438.857-438.857 196.571-438.857 438.857-438.857 438.857 196.571 438.857 438.857z"></path>
                     </svg>
-                    <span className="home-text18">
+                    <span className="home-text14">
                       Seus dados Protegido (LGPD). 
                     </span>
                   </div>
@@ -120,8 +123,8 @@ const Home = (props) => {
                     >
                       <path d="M733.714 419.429c0-9.714-3.429-19.429-10.286-26.286l-52-51.429c-6.857-6.857-16-10.857-25.714-10.857s-18.857 4-25.714 10.857l-233.143 232.571-129.143-129.143c-6.857-6.857-16-10.857-25.714-10.857s-18.857 4-25.714 10.857l-52 51.429c-6.857 6.857-10.286 16.571-10.286 26.286s3.429 18.857 10.286 25.714l206.857 206.857c6.857 6.857 16.571 10.857 25.714 10.857 9.714 0 19.429-4 26.286-10.857l310.286-310.286c6.857-6.857 10.286-16 10.286-25.714zM877.714 512c0 242.286-196.571 438.857-438.857 438.857s-438.857-196.571-438.857-438.857 196.571-438.857 438.857-438.857 438.857 196.571 438.857 438.857z"></path>
                     </svg>
-                    <span className="home-text19">
-                      <span className="home-text20">apenas 5 minutos</span>
+                    <span className="home-text15">
+                      <span className="home-text16">apenas 5 minutos</span>
                       <span> </span>
                     </span>
                   </div>
@@ -132,7 +135,7 @@ const Home = (props) => {
                     >
                       <path d="M733.714 419.429c0-9.714-3.429-19.429-10.286-26.286l-52-51.429c-6.857-6.857-16-10.857-25.714-10.857s-18.857 4-25.714 10.857l-233.143 232.571-129.143-129.143c-6.857-6.857-16-10.857-25.714-10.857s-18.857 4-25.714 10.857l-52 51.429c-6.857 6.857-10.286 16.571-10.286 26.286s3.429 18.857 10.286 25.714l206.857 206.857c6.857 6.857 16.571 10.857 25.714 10.857 9.714 0 19.429-4 26.286-10.857l310.286-310.286c6.857-6.857 10.286-16 10.286-25.714zM877.714 512c0 242.286-196.571 438.857-438.857 438.857s-438.857-196.571-438.857-438.857 196.571-438.857 438.857-438.857 438.857 196.571 438.857 438.857z"></path>
                     </svg>
-                    <span className="home-text22">
+                    <span className="home-text18">
                       ligamos pra vocÊ depois que Respoder tudo
                     </span>
                   </div>
@@ -164,14 +167,18 @@ const Home = (props) => {
             justify-content: flex-start;
             background-color: var(--dl-color-backgrounds-gray);
           }
+          .home-html-node {
+            width: 1146px;
+            height: 394px;
+          }
           .home-container1 {
             width: 100%;
-            height: 508px;
+            height: 100%;
             display: flex;
             align-items: flex-start;
             justify-content: center;
           }
-          .home-html-node {
+          .home-html-node1 {
             width: 740px;
             height: 416px;
             margin-top: 30px;
@@ -219,16 +226,6 @@ const Home = (props) => {
             padding-top: 134px;
             padding-bottom: 0px;
           }
-          .home-text04 {
-            text-align: center;
-            margin-bottom: var(--dl-space-space-threeunits);
-          }
-          .home-text06 {
-            color: var(--dl-color-backgrounds-primary);
-          }
-          .home-text07 {
-            color: transparent;
-          }
           .home-max-width {
             border: 2px dashed rgba(120, 120, 120, 0.4);
             flex-direction: column;
@@ -258,7 +255,7 @@ const Home = (props) => {
             flex-direction: column;
             justify-content: center;
           }
-          .home-text08 {
+          .home-text04 {
             width: 676px;
             align-self: center;
             margin-top: 12px;
@@ -267,10 +264,10 @@ const Home = (props) => {
             margin-right: 12px;
             margin-bottom: 12px;
           }
-          .home-text10 {
+          .home-text06 {
             color: var(--dl-color-backgrounds-primary);
           }
-          .home-text11 {
+          .home-text07 {
             color: var(--dl-color-backgrounds-primary);
             font-size: 29px;
             align-self: center;
@@ -331,16 +328,16 @@ const Home = (props) => {
             flex-direction: column;
             justify-content: center;
           }
-          .home-text14 {
+          .home-text10 {
             margin-top: 12px;
             margin-left: 12px;
             margin-right: 12px;
             margin-bottom: 12px;
           }
-          .home-text16 {
+          .home-text12 {
             color: var(--dl-color-grays-white100);
           }
-          .home-text17 {
+          .home-text13 {
             color: var(--dl-color-grays-white80);
             margin-top: 12px;
             margin-left: 12px;
@@ -402,7 +399,7 @@ const Home = (props) => {
             min-width: 17px;
             margin-right: 12px;
           }
-          .home-text18 {
+          .home-text14 {
             color: var(--dl-color-grays-white80);
             font-size: 14px;
             font-style: normal;
@@ -423,7 +420,7 @@ const Home = (props) => {
             min-width: 17px;
             margin-right: 12px;
           }
-          .home-text19 {
+          .home-text15 {
             color: var(--dl-color-grays-white80);
             font-size: 14px;
             font-style: normal;
@@ -443,7 +440,7 @@ const Home = (props) => {
             min-width: 17px;
             margin-right: 12px;
           }
-          .home-text22 {
+          .home-text18 {
             color: var(--dl-color-grays-white80);
             font-size: 14px;
             font-style: normal;
@@ -464,6 +461,10 @@ const Home = (props) => {
             object-fit: cover;
           }
           @media (max-width: 991px) {
+            .home-html-node {
+              width: 991px;
+              height: 337px;
+            }
             .home-section-six {
               height: 848px;
             }
@@ -476,7 +477,7 @@ const Home = (props) => {
             .home-max-width2 {
               flex-direction: column;
             }
-            .home-text14 {
+            .home-text10 {
               width: 100%;
             }
             .home-image {
@@ -487,14 +488,15 @@ const Home = (props) => {
             }
           }
           @media (max-width: 767px) {
+            .home-html-node {
+              width: 767px;
+              height: 328px;
+            }
             .home-text {
               margin-bottom: var(--dl-space-space-twounits);
             }
             .home-section-four {
               height: 1152px;
-            }
-            .home-text04 {
-              margin-bottom: var(--dl-space-space-twounits);
             }
             .home-slider {
               height: 884px;
@@ -506,7 +508,7 @@ const Home = (props) => {
               height: 803px;
               margin: 12px;
             }
-            .home-text08 {
+            .home-text04 {
               width: 706px;
               height: 156px;
               margin-bottom: var(--dl-space-space-twounits);
@@ -518,22 +520,22 @@ const Home = (props) => {
               height: 803px;
               margin: 12px;
             }
-            .home-text18 {
+            .home-text14 {
               color: var(--dl-color-grays-white80);
               font-size: 19px;
               font-style: normal;
               font-weight: 400;
             }
-            .home-text19 {
+            .home-text15 {
               color: var(--dl-color-grays-white80);
               font-size: 14px;
               font-style: normal;
               font-weight: 400;
             }
-            .home-text20 {
+            .home-text16 {
               font-size: 19px;
             }
-            .home-text22 {
+            .home-text18 {
               color: var(--dl-color-grays-white80);
               font-size: 19px;
               font-style: normal;
@@ -547,10 +549,14 @@ const Home = (props) => {
             }
           }
           @media (max-width: 479px) {
+            .home-html-node {
+              width: 479px;
+              height: 242px;
+            }
             .home-container1 {
               height: 308px;
             }
-            .home-html-node {
+            .home-html-node1 {
               height: 272px;
             }
             .home-text {
@@ -589,16 +595,6 @@ const Home = (props) => {
             .home-section-four {
               height: 1244px;
             }
-            .home-text04 {
-              font-size: 30px;
-              font-style: normal;
-              text-align: center;
-              font-family: Lexend;
-              font-weight: 600;
-              line-height: 1.3;
-              text-transform: none;
-              text-decoration: none;
-            }
             .home-slider {
               height: 953px;
               padding-bottom: 0px;
@@ -619,7 +615,7 @@ const Home = (props) => {
               padding-top: 174px;
               padding-bottom: var(--dl-space-space-halfunit);
             }
-            .home-text08 {
+            .home-text04 {
               width: auto;
               height: 100%;
               font-size: 30px;
@@ -632,10 +628,10 @@ const Home = (props) => {
               text-transform: none;
               text-decoration: none;
             }
-            .home-text10 {
+            .home-text06 {
               color: var(--dl-color-backgrounds-primary);
             }
-            .home-text11 {
+            .home-text07 {
               color: var(--dl-color-backgrounds-primary);
               font-size: 21px;
               align-self: center;
@@ -644,7 +640,7 @@ const Home = (props) => {
               font-weight: 400;
               margin-bottom: 10px;
             }
-            .home-text13 {
+            .home-text09 {
               font-style: normal;
               font-family: Lexend;
               font-weight: 300;
@@ -671,7 +667,7 @@ const Home = (props) => {
             .home-max-width2 {
               height: 804px;
             }
-            .home-text16 {
+            .home-text12 {
               color: var(--dl-color-grays-white100);
             }
             .home-input-container1 {
